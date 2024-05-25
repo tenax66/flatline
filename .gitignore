@@ -1,0 +1,10 @@
+# jekyll
+*.gem
+.bundle
+.jekyll-cache
+.sass-cache
+_site
+Gemfile.lock
+
+# Mac
+.DS_Store
