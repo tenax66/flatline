@@ -99,11 +99,6 @@ pre.highlight {
 
 .tanka-area {
   text-align: center;
-}
-
-.tanka {
-
-
   /* 縦書き */
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -111,7 +106,9 @@ pre.highlight {
 
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
     "YuMincho", "HGS明朝E", "メイリオ", "Meiryo", serif;
+}
 
+.tanka {
   display: inline-block;
   text-align: left;
   font-feature-settings: "pkna" 0;
