@@ -124,3 +124,15 @@ pre.highlight {
 .tate-chu-yoko {
   text-combine-upright: all;
 }
+
+@media (max-width: 768px) {
+  .tanka p:nth-child(n + 2) {
+    padding-right: 10vw !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .tanka p:nth-child(n + 2) {
+    padding-right: 5vw !important;
+  }
+}

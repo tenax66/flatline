@@ -10,12 +10,6 @@ title: 犬神通信
 
 <p>大審院判決昭和 <span class="tate-chu-yoko">15</span> 年 <span class="tate-chu-yoko">8</span> 月 <span class="tate-chu-yoko">3</span> 日——犬神事件</p>
 
-</div></div>
-
----
-
-<div class="tanka-area"><div class="tanka">
-
 <p>葬列はひと巡りして町を出た　墓掘り人の横に犬神</p>
 
 <p>犬神のいない道路で手をつなぐふたりはおとぎ話になった</p>
