@@ -92,6 +92,7 @@ pre.highlight {
   .light-avatar {
     display: none !important;
   }
+
   .dark-avatar {
     display: inline-block !important;
   }
@@ -99,16 +100,16 @@ pre.highlight {
 
 .tanka-area {
   text-align: center;
-  /* 縦書き */
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
     "YuMincho", "HGS明朝E", "メイリオ", "Meiryo", serif;
 }
 
 .tanka {
+  /* 縦書き */
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+
   display: inline-block;
   text-align: left;
   font-feature-settings: "pkna" 0;
