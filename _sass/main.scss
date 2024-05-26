@@ -96,3 +96,31 @@ pre.highlight {
     display: inline-block !important;
   }
 }
+
+.tanka-area {
+  text-align: center;
+}
+
+.tanka {
+
+
+  /* 縦書き */
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+
+  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
+    "YuMincho", "HGS明朝E", "メイリオ", "Meiryo", serif;
+
+  display: inline-block;
+  text-align: left;
+  font-feature-settings: "pkna" 0;
+}
+
+.tanka p:nth-child(n + 2) {
+  padding-right: 100px;
+}
+
+.tate-chu-yoko {
+  text-combine-upright: all;
+}
