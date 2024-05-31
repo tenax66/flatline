@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Member
 
-----
+---
 
 **名前**
 
