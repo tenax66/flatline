@@ -42,9 +42,9 @@ permalink: /:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: tenax66/flatline
-  rss: # just type anything here for a working RSS icon
-  twitter: aonoyuragi
+  github:
+  rss: rss # just type anything here for a working RSS icon
+  twitter:
 
 plugins:
   - jekyll-seo-tag
