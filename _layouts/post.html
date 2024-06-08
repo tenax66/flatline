@@ -7,8 +7,7 @@ layout: default
   <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %y" }}</span>
   <div class="mt-4">{{ content }}</div>
   <div>
-    <a href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}&text={{page.title}}%0A"
-      data-show-count="false">
+    <a href="https://twitter.com/intent/tweet?text={{page.title}}%0A{{site.url}}{{page.url}}" data-show-count="false">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
         class="bi bi-twitter footer-icons" viewBox="0 0 16 16">
         <path
