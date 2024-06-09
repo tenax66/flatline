@@ -5,6 +5,7 @@ on: [push]
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: github-pages
     permissions:
       contents: read
       deployments: write
