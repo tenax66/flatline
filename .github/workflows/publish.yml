@@ -20,9 +20,19 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
 
+      # Only used for pagefind
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Run pagefind command
+        # Run after Jekyll build to avoid _site getting overwritten
+        run: npx -y pagefind
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
