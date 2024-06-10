@@ -17,6 +17,37 @@
           </li>
         {% endfor %}
       </ul>
+      <ul class="navbar-nav mr-auto align-items-center">
+        <!-- Search button -->
+        <li class="nav-item">
+          <button type="button" class="btn bg-graylight border-0 font-weight-bold text-muted" data-bs-toggle="modal" data-bs-target="#searchModal">
+            Search
+          </button>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
+
+<!-- Search Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="searchModalLabel">Search</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- pagefind -->
+        <link href="{{site.baseurl}}/pagefind/pagefind-ui.css" rel="stylesheet">
+        <script src="{{site.baseurl}}/pagefind/pagefind-ui.js"></script>
+        <div id="search"></div>
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search", showSubResults: true });
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
