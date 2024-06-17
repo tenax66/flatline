@@ -2,6 +2,8 @@
 layout: post
 title: 犬神通信
 image: /assets/images/flatline.png
+author: 青野ゆらぎ
+category: 青野ゆらぎ
 ---
 
 <div class="tanka-area"><div class="tanka">
