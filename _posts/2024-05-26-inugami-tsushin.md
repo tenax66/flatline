@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 犬神通信
+image: /assets/images/flatline.png
 ---
 
 <div class="tanka-area"><div class="tanka">
