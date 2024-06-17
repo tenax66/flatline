@@ -15,10 +15,10 @@ lightavatar: /assets/images/light_flatline_logo.png
 darkavatar: /assets/images/dark_flatline_logo.png
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: FLATLINE is a tanka cluster.
+tagline: FLATLINE 短歌
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: FLATLINE is a tanka cluster.
+description: FLATLINE 短歌
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: "https://flatline.pages.dev"
