@@ -1,6 +1,10 @@
 name: Deploy to Cloudflare Pages
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - preview/**
 
 jobs:
   publish:
@@ -9,9 +13,6 @@ jobs:
     permissions:
       contents: read
       deployments: write
-
-    # Only run on the default branch
-    if: github.ref_name == github.event.repository.default_branch
 
     steps:
       - name: Checkout
