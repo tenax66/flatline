@@ -31,9 +31,15 @@ jobs:
         with:
           node-version: "20"
 
-      - run: bundle exec jekyll build
+      - name: Build Jekyll Site
         env:
           JEKYLL_ENV: production
+        run: |
+          if [[ "${{ github.ref }}" == refs/heads/main ]]; then
+            bundle exec jekyll build
+          else
+            bundle exec jekyll build --future
+          fi
 
       - name: Run pagefind command
         # Run after Jekyll build to avoid _site getting overwritten
