@@ -42,7 +42,7 @@ permalink: /:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github:
+  github: https://github.com/tenax66/flatline
   rss: rss # just type anything here for a working RSS icon
   twitter:
 
