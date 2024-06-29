@@ -112,7 +112,9 @@ pre.highlight {
 
   display: inline-block;
   text-align: left;
-  font-feature-settings: "pkna" 0;
+  font-feature-settings: "pkna";
+
+  letter-spacing: 0.05em;
 }
 
 .tanka p:nth-child(n + 2) {
