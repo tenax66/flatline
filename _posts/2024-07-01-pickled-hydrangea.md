@@ -1,4 +1,5 @@
 ---
+date: '2024-07-01 00:00:00'
 layout: post
 title: "紫陽花のピクルス"
 image: /assets/images/flatline.png

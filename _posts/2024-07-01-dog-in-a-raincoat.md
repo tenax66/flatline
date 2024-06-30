@@ -1,4 +1,5 @@
 ---
+date: '2024-07-01 00:00:00'
 layout: post
 title: "かっぱを着た犬"
 image: /assets/images/flatline.png
