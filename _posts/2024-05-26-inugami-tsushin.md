@@ -11,7 +11,7 @@ category: 青野ゆらぎ
 
 <p>明け方のテレビはとてもおもしろい　寝椅子に沈む横に犬神</p>
 
-<p>大審院判決昭和 <span class="tate-chu-yoko">15</span> 年 <span class="tate-chu-yoko">8</span> 月 <span class="tate-chu-yoko">3</span> 日——犬神事件</p>
+<p>大審院判決昭和 <span class="tate-chu-yoko">15</span> 年 <span class="tate-chu-yoko">8</span> 月 <span class="tate-chu-yoko">3</span> 日<span class="dash">—</span>—犬神事件</p>
 
 <p>葬列はひと巡りして町を出た　墓掘り人の横に犬神</p>
 
