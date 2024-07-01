@@ -101,7 +101,7 @@ pre.highlight {
 .tanka-area {
   text-align: center;
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
-    "YuMincho", "HGS明朝E", "メイリオ", "Meiryo", serif;
+    "YuMincho", "HGS明朝E", serif;
 }
 
 .tanka {
@@ -112,7 +112,9 @@ pre.highlight {
 
   display: inline-block;
   text-align: left;
-  font-feature-settings: "pkna" 0;
+  font-feature-settings: "pkna";
+
+  letter-spacing: 0.05em;
 }
 
 .tanka p:nth-child(n + 2) {
@@ -133,4 +135,8 @@ pre.highlight {
   .tanka p:nth-child(n + 2) {
     padding-right: 5vw !important;
   }
+}
+
+.dash {
+    letter-spacing: -0.05em;
 }
