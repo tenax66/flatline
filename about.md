@@ -21,6 +21,21 @@ image: /assets/images/flatline.png
 1. バナナ
 2. そのまま持っても手が汚れず、栄養価が高い。
 
+**[犬の注射](https://x.com/kanetomo_seihyo)**
+
+1. 梨
+2. 上品だから
+
+**[オルター堂](https://x.com/_reijio)**
+
+1. スイカ
+2. デカくてつよそう
+
+**[サラリーマン予想](https://x.com/4sigong)**
+
+1. 柿
+2. 高確率でまた日本に生まれられそうだから
+
 **[domeki](https://x.com/d0030m)**
 
 1. ライチ
