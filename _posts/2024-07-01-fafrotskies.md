@@ -1,8 +1,8 @@
 ---
-date: '2024-07-01 00:00:00'
+date: "2024-07-01 00:00:00"
 layout: post
 title: "ファフロツキーズ"
-image: /assets/images/flatline.png
+image: /assets/images/ogp_default.jpg
 author: 青野ゆらぎ
 category: 青野ゆらぎ
 ---
