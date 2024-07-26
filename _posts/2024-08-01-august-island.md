@@ -1,7 +1,7 @@
 ---
 date: "2024-08-01 12:00:00"
 layout: post
-title: "[8月: 島]"
+title: "【8月: 島】"
 image: /assets/images/ogp_default.jpg
 author: flatline
 category: flatline
