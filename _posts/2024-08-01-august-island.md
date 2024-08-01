@@ -13,6 +13,8 @@ category: flatline
 
 [変なポーズ]({{ site.baseurl }}/funny-pose/) - オルター堂
 
+[おざなり！ 黄金伝説。]({{ site.baseurl }}/legenda-aurea/) - サラリーマン予想
+
 [見たこともない魚]({{ site.baseurl }}/never-before-seen-fish/) - domeki
 
 [心臓の王国]({{ site.baseurl }}/cardiac-kingdom/) - 東川夢物語
