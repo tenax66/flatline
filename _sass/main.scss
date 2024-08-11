@@ -125,6 +125,11 @@ pre.highlight {
   text-combine-upright: all;
 }
 
+.sans {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Helvetica Neue",
+    "Helvetica", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
 @media (max-width: 768px) {
   .tanka p:nth-child(n + 2) {
     padding-right: 10vw !important;
@@ -138,5 +143,5 @@ pre.highlight {
 }
 
 .dash {
-    letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 }
