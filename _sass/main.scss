@@ -125,9 +125,11 @@ pre.highlight {
   text-combine-upright: all;
 }
 
-.sans {
+.tanka-sans {
   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Helvetica Neue",
     "Helvetica", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-feature-settings: "pkna";
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 768px) {
