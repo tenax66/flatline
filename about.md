@@ -26,6 +26,16 @@ image: /assets/images/ogp_default.jpg
 1. 梨
 2. 上品だから
 
+**[江間あやせ](https://x.com/emma_sama_sama)**
+
+1. パイナップル
+2. 派手で攻撃力が高そうだから
+
+**[おざわ](https://www.instagram.com/gay.tanka/)**
+
+1. パイナップル
+2. 見た目ゴツゴツして強そうなのに、中身甘くて美味しくてギャップがあってセクシーだから
+
 **[オルター堂](https://x.com/_reijio)**
 
 1. スイカ
