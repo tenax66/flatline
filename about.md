@@ -46,6 +46,11 @@ image: /assets/images/ogp_default.jpg
 1. 柿
 2. 高確率でまた日本に生まれられそうだから
 
+**砂時計**
+
+1. びわ
+2. めっちゃ美味しいのに誰の一番でもないから
+
 **[domeki](https://x.com/d0030m)**
 
 1. ライチ
