@@ -4,17 +4,23 @@ title: Generator
 permalink: /generator/
 image: /assets/images/ogp_default.jpg
 ---
+
 <div class="form-group">
-    <label for="author">作者名</label>
-    <input type="text" id="author" class="form-control" placeholder="作者名を入力してください">
+    <label for="author">Author</label>
+    <input type="text" id="author" class="form-control" placeholder="藤原定家">
 </div>
 
 <div class="form-group">
-    <label for="tanka">短歌</label>
-    <textarea id="tanka" class="form-control" rows="5" placeholder="短歌を入力してください（改行で区切る）"></textarea>
+    <label for="title">Title</label>
+    <input type="text" id="title" class="form-control" placeholder="新古今和歌集">
 </div>
 
-<button class="btn btn-primary" onclick="generateTanka()">短歌を生成</button>
+<div class="form-group">
+    <label for="tanka">Tanka</label>
+    <textarea id="tanka" class="form-control" rows="5" placeholder="見わたせば花も紅葉もなかりけり浦のとまやの秋の夕暮"></textarea>
+</div>
+
+<button class="btn btn-primary" onclick="generateTanka()">Generate HTML</button>
 
 <div class="form-group mt-4">
     <label for="outputHtml">生成されたHTML</label>
@@ -23,20 +29,38 @@ image: /assets/images/ogp_default.jpg
 
 <script>
 function generateTanka() {
-    var author = document.getElementById('author').value;
-    var tanka = document.getElementById('tanka').value;
+    const author = document.getElementById('author').value;
+    const title = document.getElementById('title').value;
+    const tanka = document.getElementById('tanka').value;
 
     // 改行で短歌を分割
-    var tankaLines = tanka.split('\n');
-    var tankaHtml = '';
+    const tankaLines = tanka.split('\n');
 
-    // 短歌をHTMLに変換
+    var tankaMain = [];
     tankaLines.forEach(function(line) {
-        tankaHtml += line + '<br>';
+        tankaMain.push('<p>' + line + '</p>' + '\n');
+    });
+
+    var tankaSummary = [];
+    tankaLines.forEach(function(line) {
+        tankaSummary.push(line + '<br/>');
     });
 
     // 出力されるHTML文字列を生成
-    var outputHtml = '<strong>作者: ' + author + '</strong><br>' + tankaHtml;
+    const outputHtml = [
+        `<div class="tanka-area"><div class="tanka">`,
+    ].concat(
+        tankaMain, 
+        [
+            `</div></div>\n`, 
+            `---\n`,
+            `<details><summary>` + title + `</summary>`,
+        ],
+        tankaSummary,
+        `<br/>\n`,
+        `</details>\n`,
+        author + '\n',
+    ).join('\n');
 
     // 生成されたHTMLをテキストボックスにプレーンテキストとして出力
     document.getElementById('outputHtml').value = outputHtml;
