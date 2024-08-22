@@ -5,6 +5,7 @@ title: "諸島のあらゆる箇所で行き違い一歩手前の石碑が光る
 image: /assets/images/ogp_default.jpg
 author: 福住電
 category: 福住電
+emoji: 💡
 ---
 
 <div class="tanka-area"><div class="tanka">

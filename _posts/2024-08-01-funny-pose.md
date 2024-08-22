@@ -5,6 +5,7 @@ title: "変なポーズ"
 image: /assets/images/ogp_default.jpg
 author: オルター堂
 category: オルター堂
+emoji: 🎸
 ---
 
 <div class="tanka-area"><div class="tanka">

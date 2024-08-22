@@ -5,6 +5,7 @@ title: "かっぱを着た犬"
 image: /assets/images/ogp_default.jpg
 author: domeki
 category: domeki
+emoji: 🏝️
 ---
 
 <div class="tanka-area"><div class="tanka">

@@ -5,6 +5,7 @@ title: "見たこともない魚"
 image: /assets/images/ogp_default.jpg
 author: domeki
 category: domeki
+emoji: 🏝️
 ---
 
 <div class="tanka-area"><div class="tanka">

@@ -5,6 +5,7 @@ title: "岩肌"
 image: /assets/images/ogp_default.jpg
 author: 犬の注射
 category: 犬の注射
+emoji: 💉
 ---
 
 <div class="tanka-area"><div class="tanka">

@@ -5,6 +5,7 @@ title: "心臓の王国"
 image: /assets/images/ogp_default.jpg
 author: 東川夢物語
 category: 東川夢物語
+emoji: 🦷
 ---
 
 <div class="tanka-area"><div class="tanka">

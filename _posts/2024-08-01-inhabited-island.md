@@ -5,6 +5,7 @@ title: "有人島"
 image: /assets/images/ogp_default.jpg
 author: 青野ゆらぎ
 category: 青野ゆらぎ
+emoji: 🐕
 ---
 
 <div class="tanka-area"><div class="tanka">
