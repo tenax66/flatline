@@ -4,17 +4,35 @@ image: /assets/images/ogp_default.jpg
 ---
 
 <div class="archive">
-  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
-  if currDate != date %}
-  <h1 class="archive-year">{{ currDate }}</h1>
-  {% assign date = currDate %} {% endif %}
+  {% assign dateYear = "" %}
+  {% assign dateMonth = "" %}
+
+  {% for post in site.posts %}
+  {% assign currYear = post.date | date: "%Y" %}
+  {% assign currMonth = post.date | date: "%m" %}
+
+  {% if currYear != dateYear %}
+  {% if dateYear != "" %}
+  <hr>
+  {% endif %}
+
+  {% assign dateYear = currYear %}
+  {% endif %}
+
+  {% if currMonth != dateMonth %}
+  {% if dateMonth != "" %}
+  <hr>
+  {% endif %}
+  <h2 class="archive-month">{{ currYear }}.{{ currMonth }}</h2>
+  {% assign dateMonth = currMonth %}
+  {% endif %}
+
   <div class="archive-item">
-    <span class="post-date archive-date fs-4"
-      >{{ post.date | date: "%B %d, %Y" }}</span
-    >
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
-      >{{ post.title }}</a
-    >
+    <span class="archive-date fs-6">{{ post.author }}</span>
+    <span class="archive-emoji">{{ post.emoji }} </span> 
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-4">
+      {{ post.title }}
+    </a>
   </div>
   {% endfor %}
 </div>
