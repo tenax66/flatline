@@ -47,6 +47,7 @@ function generateTanka() {
     });
 
     // 出力されるHTML文字列を生成
+    // TODO: 絵文字を簡単に選べるようにする
     const outputHtml = [
        `---`,
        `layout: post`,
