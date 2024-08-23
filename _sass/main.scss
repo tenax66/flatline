@@ -32,6 +32,7 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: "dotgothic16", sans-serif;
 }
 
 .footer-container {
@@ -103,8 +104,7 @@ pre.highlight {
 
 .tanka-area {
   text-align: center;
-  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
-    "YuMincho", "HGS明朝E", serif;
+  font-family: "dotgothic16", "lores-12", sans-serif;
 }
 
 .tanka {
