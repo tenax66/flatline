@@ -48,6 +48,14 @@ function generateTanka() {
 
     // 出力されるHTML文字列を生成
     const outputHtml = [
+       `---`,
+       `layout: post`,
+       `title: ` + title, 
+       `image: /assets/images/ogp_default.jpg`,
+       `author: ` + author,
+       `category: ` + author,
+       `emoji: 🐕`,
+       `---`,
         `<div class="tanka-area"><div class="tanka">`,
     ].concat(
         tankaMain, 
