@@ -22,13 +22,16 @@ img {
   margin-bottom: 1rem;
 }
 
-.archive-date {
+.archive-author {
   float: right;
   margin-left: 1rem;
 }
 
 .archive-item {
   margin-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .footer-container {
@@ -138,5 +141,5 @@ pre.highlight {
 }
 
 .dash {
-    letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 }
