@@ -22,7 +22,7 @@ image: /assets/images/ogp_default.png
     const lightThemeColors = {
         backgroundColor: '',
         borderColor: '',
-        borderColor: '96968C',
+        gridColor: '96968C',
         color: '#212529',
     };
 
