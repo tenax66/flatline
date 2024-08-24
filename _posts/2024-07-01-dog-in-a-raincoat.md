@@ -2,7 +2,7 @@
 date: "2024-07-01 00:00:00"
 layout: post
 title: "かっぱを着た犬"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: domeki
 category: domeki
 emoji: 🏝️

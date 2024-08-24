@@ -2,7 +2,7 @@
 date: "2024-08-01 00:00:00"
 layout: post
 title: "心臓の王国"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: 東川夢物語
 category: 東川夢物語
 emoji: 🦷

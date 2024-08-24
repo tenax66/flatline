@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 犬神通信
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
 emoji: 🐕

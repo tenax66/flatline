@@ -2,7 +2,7 @@
 layout: page
 title: Generator
 permalink: /generator/
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 ---
 
 <div class="form-group">
@@ -52,7 +52,7 @@ function generateTanka() {
        `---`,
        `layout: post`,
        `title: ` + title, 
-       `image: /assets/images/ogp_default.jpg`,
+       `image: /assets/images/ogp_default.png`,
        `author: ` + author,
        `category: ` + author,
        `emoji: 🐕`,

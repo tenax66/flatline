@@ -2,7 +2,7 @@
 date: "2024-08-01 00:00:00"
 layout: post
 title: "変なポーズ"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: オルター堂
 category: オルター堂
 emoji: 🎸

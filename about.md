@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 ---
 
 ### Member
