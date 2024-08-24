@@ -16,7 +16,7 @@ image: /assets/images/ogp_default.png
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<canvas id="fruitChart" class="fruitChart" width="400" height="100"></canvas>
+<canvas id="fruitChart" class="fruitChart" width="400" height="200"></canvas>
 
 <script>
     const lightThemeColors = {
