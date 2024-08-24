@@ -14,8 +14,6 @@ image: /assets/images/ogp_default.png
 1. 生まれ変わったら何のフルーツになりたいか
 2. その理由
 
----
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <canvas id="fruitChart" class="fruitChart" width="400" height="100"></canvas>
