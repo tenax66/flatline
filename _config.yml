@@ -29,9 +29,6 @@ baseurl: ""
 # global author information
 author: aonoyuragi
 
-# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_flatline_logo.png
-
 permalink: /:title/
 
 # Includes an icon in the footer for each username you enter
