@@ -18,14 +18,38 @@ image: /assets/images/ogp_default.png
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<canvas id="fruitChart" class="fruitChart"></canvas>
+<canvas id="fruitChart" class="fruitChart" width="400" height="100"></canvas>
 
 <script>
+    const lightThemeColors = {
+        backgroundColor: '',
+        borderColor: '',
+        borderColor: '96968C',
+        color: '#212529',
+    };
+
+    const darkThemeColors = {
+        backgroundColor: '',
+        borderColor: '',
+        gridColor: '#96968C',
+        textColor: '#E1E1E1',
+    };
+
+    function getThemeColors() {
+        const isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        return isDarkTheme ? darkThemeColors : lightThemeColors;
+    }
+
+    const themeColors = getThemeColors();
+
     const data = {
         labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ライチ'],
         datasets: [{
             data: [1, 1, 1, 3, 1, 1, 1, 1], 
-            borderWidth: 0,
+            backgroundColor: themeColors.backgroundColor,
+            borderColor: themeColors.borderColor,
+            borderWidth: 1
         }]
     };
 
@@ -33,11 +57,26 @@ image: /assets/images/ogp_default.png
         type: 'bar',
         data: data,
         options: {
-            scale: {
-                ticks: {
-                    max: 3,
-                    min: 0,
-                    stepSize: 1
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: themeColors.gridColor,
+                    },
+                    ticks: {
+                        max: 3,
+                        min: 0,
+                        stepSize: 1,
+                        color: themeColors.textColor,
+                    },
+                },
+                x: {
+                    grid: {
+                        color: themeColors.gridColor,
+                    },
+                    ticks: {
+                        color: themeColors.textColor,
+                    }
                 },
             },
             plugins: {
@@ -53,6 +92,8 @@ image: /assets/images/ogp_default.png
         config
     );
 </script>
+
+---
 
 **[青野ゆらぎ](https://x.com/aonoyuragi)**
 
