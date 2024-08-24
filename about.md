@@ -16,6 +16,44 @@ image: /assets/images/ogp_default.png
 
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<canvas id="fruitChart" class="fruitChart"></canvas>
+
+<script>
+    const data = {
+        labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ライチ'],
+        datasets: [{
+            data: [1, 1, 1, 3, 1, 1, 1, 1], 
+            borderWidth: 0,
+        }]
+    };
+
+    const config = {
+        type: 'bar',
+        data: data,
+        options: {
+            scale: {
+                ticks: {
+                    max: 3,
+                    min: 0,
+                    stepSize: 1
+                },
+            },
+            plugins: {
+                legend: {
+                    display: false
+                    },
+            },
+        }
+    };
+
+    const myChart = new Chart(
+        document.getElementById('fruitChart'),
+        config
+    );
+</script>
+
 **[青野ゆらぎ](https://x.com/aonoyuragi)**
 
 1. バナナ
