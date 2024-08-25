@@ -42,9 +42,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ライチ'],
+        labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','桃', 'ライチ'],
         datasets: [{
-            data: [1, 1, 1, 3, 1, 1, 1, 1], 
+            data: [1, 1, 1, 3, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -117,6 +117,10 @@ image: /assets/images/ogp_default.png
 
 1. スイカ
 2. デカくてつよそう
+
+**[白湯ささみ](https://x.com/sayu_73)**
+1. 桃
+2. 「廃村を告げる活字に桃の皮ふれればにじみゆくばかり　来て／東直子」が好きだから
 
 **[サラリーマン予想](https://x.com/4sigong)**
 
