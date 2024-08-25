@@ -2,9 +2,10 @@
 date: "2024-08-01 00:00:00"
 layout: post
 title: "諸島のあらゆる箇所で行き違い一歩手前の石碑が光る"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: 福住電
 category: 福住電
+emoji: 💡
 ---
 
 <div class="tanka-area"><div class="tanka">

@@ -2,9 +2,10 @@
 date: "2024-07-01 00:00:00"
 layout: post
 title: "ファフロツキーズ"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
+emoji: 🐕
 ---
 
 <div class="tanka-area"><div class="tanka">

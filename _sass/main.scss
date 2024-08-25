@@ -22,13 +22,17 @@ img {
   margin-bottom: 1rem;
 }
 
-.archive-date {
+.archive-author {
   float: right;
   margin-left: 1rem;
 }
 
 .archive-item {
   margin-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "dotgothic16", sans-serif;
 }
 
 .footer-container {
@@ -100,8 +104,7 @@ pre.highlight {
 
 .tanka-area {
   text-align: center;
-  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝", "Yu Mincho",
-    "YuMincho", "HGS明朝E", serif;
+  font-family: "dotgothic16", "lores-12", sans-serif;
 }
 
 .tanka {
@@ -122,7 +125,7 @@ pre.highlight {
 }
 
 .tate-chu-yoko {
-  text-combine-upright: all;
+    text-orientation: upright;
 }
 
 .tanka-sans {
@@ -147,3 +150,9 @@ pre.highlight {
 .dash {
   letter-spacing: -0.05em;
 }
+
+
+.fruitChart {
+        width: 50%;
+        max-width: 300px;
+    }

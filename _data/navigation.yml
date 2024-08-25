@@ -2,5 +2,5 @@
   link: /
 - name: About
   link: /about/
-- name: Sprawl
+- name: ^Sprawl
   link: https://scrapbox.io/sprawl/

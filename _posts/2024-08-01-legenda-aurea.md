@@ -2,9 +2,10 @@
 date: "2024-08-01 00:00:00"
 layout: post
 title: "おざなり！ 黄金伝説。"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: サラリーマン予想
 category: サラリーマン予想
+emoji: 🏘️
 ---
 
 <div class="tanka-area"><div class="tanka">

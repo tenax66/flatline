@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 ---
 
 ### Member
@@ -13,6 +13,83 @@ image: /assets/images/ogp_default.jpg
 
 1. 生まれ変わったら何のフルーツになりたいか
 2. その理由
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<canvas id="fruitChart" class="fruitChart" width="400" height="200"></canvas>
+
+<script>
+    const lightThemeColors = {
+        backgroundColor: '',
+        borderColor: '',
+        gridColor: '96968C',
+        color: '#212529',
+    };
+
+    const darkThemeColors = {
+        backgroundColor: '',
+        borderColor: '',
+        gridColor: '#96968C',
+        textColor: '#E1E1E1',
+    };
+
+    function getThemeColors() {
+        const isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        return isDarkTheme ? darkThemeColors : lightThemeColors;
+    }
+
+    const themeColors = getThemeColors();
+
+    const data = {
+        labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ライチ'],
+        datasets: [{
+            data: [1, 1, 1, 3, 1, 1, 1, 1], 
+            backgroundColor: themeColors.backgroundColor,
+            borderColor: themeColors.borderColor,
+            borderWidth: 1
+        }]
+    };
+
+    const config = {
+        type: 'bar',
+        data: data,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: themeColors.gridColor,
+                    },
+                    ticks: {
+                        max: 3,
+                        min: 0,
+                        stepSize: 1,
+                        color: themeColors.textColor,
+                    },
+                },
+                x: {
+                    grid: {
+                        color: themeColors.gridColor,
+                    },
+                    ticks: {
+                        color: themeColors.textColor,
+                    }
+                },
+            },
+            plugins: {
+                legend: {
+                    display: false
+                    },
+            },
+        }
+    };
+
+    const myChart = new Chart(
+        document.getElementById('fruitChart'),
+        config
+    );
+</script>
 
 ---
 
@@ -26,6 +103,16 @@ image: /assets/images/ogp_default.jpg
 1. 梨
 2. 上品だから
 
+**[江間あやせ](https://x.com/emma_sama_sama)**
+
+1. パイナップル
+2. 派手で攻撃力が高そうだから
+
+**[おざわ](https://www.instagram.com/gay.tanka/)**
+
+1. パイナップル
+2. 見た目ゴツゴツして強そうなのに、中身甘くて美味しくてギャップがあってセクシーだから
+
 **[オルター堂](https://x.com/_reijio)**
 
 1. スイカ
@@ -35,6 +122,11 @@ image: /assets/images/ogp_default.jpg
 
 1. 柿
 2. 高確率でまた日本に生まれられそうだから
+
+**砂時計**
+
+1. びわ
+2. めっちゃ美味しいのに誰の一番でもないから
 
 **[domeki](https://x.com/d0030m)**
 

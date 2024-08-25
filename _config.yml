@@ -11,12 +11,6 @@ title: flatline
 # TZ
 timezone: Asia/Tokyo
 
-# Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
-# Avatar for light mode site
-lightavatar: /assets/images/light_flatline_logo.png
-# Avatar for dark mode site
-darkavatar: /assets/images/dark_flatline_logo.png
-
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
 tagline: FLATLINE 短歌
 
@@ -24,7 +18,7 @@ tagline: FLATLINE 短歌
 description: FLATLINE 短歌
 
 # The full URL to your site. Note: site.github.url will be used by default.
-url: "https://flatline.pages.dev"
+url: "https://flatline.tanka.cc"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -34,12 +28,6 @@ baseurl: ""
 
 # global author information
 author: aonoyuragi
-
-# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_flatline_logo.png
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
 
 permalink: /:title/
 

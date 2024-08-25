@@ -2,9 +2,10 @@
 date: "2024-08-01 00:00:00"
 layout: post
 title: "岩肌"
-image: /assets/images/ogp_default.jpg
+image: /assets/images/ogp_default.png
 author: 犬の注射
 category: 犬の注射
+emoji: 💉
 ---
 
 <div class="tanka-area"><div class="tanka">
