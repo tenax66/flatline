@@ -21,4 +21,5 @@ FLATLINE はインターネット歌会です。
 
 #### 連絡先
 
+<i class="fa-regular fa-envelope"></i> [メール]({{site.baseurl}}/contact/)  
 <i class="fa-brands fa-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)
