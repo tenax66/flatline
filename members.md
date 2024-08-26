@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Members
+permalink: /members/
 image: /assets/images/ogp_default.png
 ---
 
