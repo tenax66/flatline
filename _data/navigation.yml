@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Theme
+  link: /theme/
 - name: About
   link: /about/
 - name: Members
