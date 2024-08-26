@@ -11,7 +11,7 @@ image: /assets/images/ogp_default.png
 |形式|連作五首・タイトルつき|
 |提出締め切り|9/25|
 
-Join on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
+Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 #### 過去のテーマ
 
