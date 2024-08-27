@@ -8,6 +8,7 @@ emoji: 🐕
 ---
 
 <div class="tanka-background-dark" style="background-image: url('https://images.flatline.tanka.cc/Anchor_Bay_-_April_2023_-_Sarah_Stierch_01.png');">
+<!-- Missvain, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons -->
 <div class="tanka-area"><div class="tanka">
 <p>いつになく小さな音でポップスをかけるパーティ　溺死者のため</p>
 
