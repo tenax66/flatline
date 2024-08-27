@@ -126,7 +126,7 @@ pre.highlight {
   text-orientation: mixed;
   font-feature-settings: "vert";
 
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .tanka p:nth-child(n + 2) {
@@ -150,7 +150,10 @@ pre.highlight {
 }
 
 .dash {
+  vertical-align: 1.5px;
+  padding: 5px;
   letter-spacing: -0.05em;
+  font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
 }
 
 .fruitChart {
