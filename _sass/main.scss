@@ -123,9 +123,9 @@ pre.highlight {
 
   display: inline-block;
   text-align: left;
-  font-feature-settings: "pkna";
+  text-orientation: mixed;
+  font-feature-settings: "vert";
 
-  /* 効いてなさそう */
   letter-spacing: 0.05em;
 }
 
