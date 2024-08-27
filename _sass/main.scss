@@ -78,7 +78,7 @@ pre.highlight {
 }
 
 .text-gray-dependent {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -134,7 +134,7 @@ pre.highlight {
 }
 
 .tate-chu-yoko {
-    text-orientation: upright;
+  text-orientation: upright;
 }
 
 @media (max-width: 768px) {
@@ -153,8 +153,7 @@ pre.highlight {
   letter-spacing: -0.05em;
 }
 
-
 .fruitChart {
-        width: 50%;
-        max-width: 300px;
-    }
+  width: 50%;
+  max-width: 300px;
+}
