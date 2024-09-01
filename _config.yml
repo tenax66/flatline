@@ -35,7 +35,6 @@ permalink: /:title/
 footer-links:
   github: tenax66/flatline
   rss: rss # just type anything here for a working RSS icon
-  twitter:
 
 plugins:
   - jekyll-seo-tag
