@@ -1,4 +1,5 @@
 ---
+date: "2024-09-01 00:00:00"
 layout: post
 title: 潮の満ち引き
 image: /assets/images/ogp_default.png
