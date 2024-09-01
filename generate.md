@@ -7,7 +7,17 @@ image: /assets/images/ogp_default.png
 
 <div class="form-group">
     <label for="author">Author</label>
-    <input type="text" id="author" class="form-control" placeholder="藤原定家">
+    <select id="author" class="form-control">
+        <option value="青野ゆらぎ">青野ゆらぎ</option>
+        <option value="犬の注射">犬の注射</option>
+        <option value="domeki">domeki</option>
+        <option value="サラリーマン予想">サラリーマン予想</option>
+        <option value="オルター堂">オルター堂</option>
+        <option value="福住電">福住電</option>
+        <option value="東川夢物語">東川夢物語</option>
+        <option value="おざわ">おざわ</option>
+        <option value="江間あやせ">江間あやせ</option>
+    </select>
 </div>
 
 <div class="form-group">
@@ -18,6 +28,21 @@ image: /assets/images/ogp_default.png
 <div class="form-group">
     <label for="tanka">Tanka</label>
     <textarea id="tanka" class="form-control" rows="5" placeholder="見わたせば花も紅葉もなかりけり浦のとまやの秋の夕暮"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="emoji">Emoji</label>
+    <select id="emoji" class="form-control">
+        <option value="🐕">🐕 青野ゆらぎ</option>
+        <option value="💉">💉 犬の注射</option>
+        <option value="🏝️">🏝️ domeki</option>
+        <option value="🏘️">🏘️ サラリーマン予想</option>
+        <option value="🎸">🎸 オルター堂</option>
+        <option value="💡">💡 福住電</option>
+        <option value="🦷">🦷 東川夢物語</option>
+        <option value="🧢">🧢 おざわ</option>
+        <option value="🍳">🍳 江間あやせ</option>
+    </select>
 </div>
 
 <button class="btn btn-primary" onclick="generateTanka()">Generate HTML</button>
@@ -32,6 +57,7 @@ function generateTanka() {
     const author = document.getElementById('author').value;
     const title = document.getElementById('title').value;
     const tanka = document.getElementById('tanka').value;
+    const emoji = document.getElementById('emoji').value;
 
     // 改行で短歌を分割
     const tankaLines = tanka.split('\n');
@@ -55,7 +81,7 @@ function generateTanka() {
        `image: /assets/images/ogp_default.png`,
        `author: ` + author,
        `category: ` + author,
-       `emoji: 🐕`,
+       `emoji: ` + emoji,
        `---`,
         `<div class="tanka-area"><div class="tanka">`,
     ].concat(

@@ -77,6 +77,10 @@ pre.highlight {
   margin-right: 0.25rem !important;
 }
 
+.text-gray-dependent {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 @media (prefers-color-scheme: dark) {
   .footer-icon-links {
     text-decoration: none;
@@ -100,6 +104,10 @@ pre.highlight {
   .dark-avatar {
     display: inline-block !important;
   }
+
+  .text-gray-dependent {
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 .tanka-area {
@@ -115,9 +123,10 @@ pre.highlight {
 
   display: inline-block;
   text-align: left;
-  font-feature-settings: "pkna";
+  text-orientation: mixed;
+  font-feature-settings: "vert";
 
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .tanka p:nth-child(n + 2) {
@@ -125,7 +134,7 @@ pre.highlight {
 }
 
 .tate-chu-yoko {
-    text-orientation: upright;
+  text-orientation: upright;
 }
 
 @media (max-width: 768px) {
@@ -141,11 +150,13 @@ pre.highlight {
 }
 
 .dash {
+  vertical-align: 1.5px;
+  padding: 5px;
   letter-spacing: -0.05em;
+  font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
 }
 
-
 .fruitChart {
-        width: 50%;
-        max-width: 300px;
-    }
+  width: 50%;
+  max-width: 300px;
+}
