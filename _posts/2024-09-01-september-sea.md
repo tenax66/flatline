@@ -17,6 +17,8 @@ category: flatline
 
 [神秘]({{ site.baseurl }}/mystery/) - オルター堂
 
+[陸のガチアンチ]({{ site.baseurl }}/anti-of-the-earth/) - サラリーマン予想
+
 [カニを見てピース]({{ site.baseurl }}/peace-sign-for-crab/) - domeki
 
 [舌に海を頒たむ]({{ site.baseurl }}/sea-on-the-tongue/) - 東川夢物語
