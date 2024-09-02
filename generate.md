@@ -48,7 +48,7 @@ image: /assets/images/ogp_default.png
 <button class="btn btn-primary" onclick="generateTanka()">Generate HTML</button>
 
 <div class="form-group mt-4">
-    <label for="outputHtml">生成されたHTML</label>
+    <label for="outputHtml">Generated HTML</label>
     <textarea id="outputHtml" class="form-control" rows="5" readonly></textarea>
 </div>
 
@@ -82,7 +82,7 @@ function generateTanka() {
        `author: ` + author,
        `category: ` + author,
        `emoji: ` + emoji,
-       `---`,
+       `---\n`,
         `<div class="tanka-area"><div class="tanka">`,
     ].concat(
         tankaMain, 
