@@ -15,11 +15,12 @@ FLATLINE はインターネット歌会です。
 
 毎月 25 日が投稿の締め切りで、翌月の 1 日に掲載されます。
 
-#### 参加
+#### 投稿方法
+
+<i class="fa-regular fa-envelope"></i> [投稿フォーム]({{site.baseurl}}/post/)
 
 <i class="fa-brands fa-discord"></i> [DISCORD](https://discord.gg/WyV2XHN6z2)
 
 #### 連絡先
 
-<i class="fa-regular fa-envelope"></i> [メール]({{site.baseurl}}/contact/)  
 <i class="fa-brands fa-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)
