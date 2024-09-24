@@ -44,7 +44,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','桃', 'ライチ'],
         datasets: [{
-            data: [1, 1, 1, 3, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 4, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -119,6 +119,7 @@ image: /assets/images/ogp_default.png
 2. デカくてつよそう
 
 **[白湯ささみ](https://x.com/sayu_73)**
+
 1. 桃
 2. 「廃村を告げる活字に桃の皮ふれればにじみゆくばかり　来て／東直子」が好きだから
 
@@ -141,6 +142,11 @@ image: /assets/images/ogp_default.png
 
 1. パイナップル
 2. お肉を柔らかくできるから
+
+**[彦凪　至](https://x.com/hiko6240)**
+
+1. パイナップル
+2. 絶対に陽キャだから
 
 **福住電**
 
