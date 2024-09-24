@@ -5,10 +5,6 @@ permalink: /members/
 image: /assets/images/ogp_default.png
 ---
 
-### Member
-
----
-
 **名前**
 
 1. 生まれ変わったら何のフルーツになりたいか
