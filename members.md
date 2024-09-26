@@ -38,9 +38,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','桃', 'ライチ'],
+        labels: ['いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','桃', 'ライチ', 'りんご'],
         datasets: [{
-            data: [1, 1, 1, 4, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -129,12 +129,18 @@ image: /assets/images/ogp_default.png
 1. びわ
 2. めっちゃ美味しいのに誰の一番でもないから
 
+**[点線画鋲](https://x.com/gabyo_p)**
+
+1. イチジク
+2. 余裕のある感じ、自分にはない部分なので憧れます！
+
 **[domeki](https://x.com/d0030m)**
 
 1. ライチ
 2. 基本、食べられたくない。皮と種でちょっと嫌な思いをさせたい。
 
 **[特上あいう](https://x.com/SF_nek0)**
+
 1. りんご
 2. 甘くておいしい種類が多いのに、原罪の象徴みたいな一面もあるのでかっこいい
 
