@@ -46,10 +46,10 @@ image: /assets/images/ogp_default.png
         <option value="🦷">🦷 東川夢物語</option>
         <option value="🧢">🧢 おざわ</option>
         <option value="🍳">🍳 江間あやせ</option>
-        <option value="👕">たかな</option>
-        <option value="🍳">彦凪　至</option>
-        <option value="🎠">特上あいう</option>
-        <option value="📌">点線画鋲</option>
+        <option value="👕">👕 たかな</option>
+        <option value="🚲">🚲 彦凪　至</option>
+        <option value="🎠">🎠 特上あいう</option>
+        <option value="📌">📌 点線画鋲</option>
     </select>
 </div>
 
