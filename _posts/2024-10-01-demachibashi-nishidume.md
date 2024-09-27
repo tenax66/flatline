@@ -4,7 +4,7 @@ title: 出町橋西詰
 image: /assets/images/ogp_default.png
 author: 彦凪　至
 category: 彦凪　至
-emoji: 🍳
+emoji: 🧭
 ---
 
 <div class="tanka-area"><div class="tanka">
