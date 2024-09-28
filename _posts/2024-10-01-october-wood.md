@@ -23,7 +23,7 @@ category: flatline
 
 [出町橋西詰]({{ site.baseurl }}/demachibashi-nishidume/) - 彦凪　至
 
-[木の温かみ]({{ site.baseurl }}/warmth-of-tree/) - 福住電
+[木の温もり]({{ site.baseurl }}/warmth-of-tree/) - 福住電
 
 ---
 
