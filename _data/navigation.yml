@@ -6,5 +6,7 @@
   link: /about/
 - name: Members
   link: /members/
+- name: Event
+  link: /event/
 - name: ^Sprawl
   link: https://scrapbox.io/sprawl/
