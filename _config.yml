@@ -26,10 +26,27 @@ url: "https://tanka.cc"
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+include: ["_pages"]
+
 # global author information
 author: aonoyuragi
 
 permalink: /:title/
+
+# Defaults
+defaults:
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
