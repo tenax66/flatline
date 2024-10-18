@@ -28,8 +28,8 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 日程
 
-調整中
+11/26 19:00~23:00
 
 #### 会場
 
-調整中
+[PASSAGE bis! BOOKS & CAFE](https://maps.app.goo.gl/B7PyzZxTCvZpaeU48)
