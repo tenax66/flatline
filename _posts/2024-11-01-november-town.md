@@ -7,6 +7,8 @@ author: flatline
 category: flatline
 ---
 
+[エブリシング・バット・ザ・ガール]({{ site.baseurl }}/everything-but-the-girl/) - 青野ゆらぎ
+
 [東京は]({{ site.baseurl }}/tokyo/) - 犬の注射
 
 [暗号のまま]({{ site.baseurl }}/in-cipher/) - 江間あやせ
