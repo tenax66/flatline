@@ -4,7 +4,7 @@ title: 景観
 image: /assets/images/ogp_default.png
 author: ヒミツー
 category: ヒミツー
-emoji: 🐢
+emoji: 🤫
 ---
 
 <div class="tanka-area"><div class="tanka">

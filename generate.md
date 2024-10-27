@@ -55,7 +55,7 @@ image: /assets/images/ogp_default.png
         <option value="🎠">🎠 特上あいう</option>
         <option value="📌">📌 点線画鋲</option>
         <option value="🪴">🪴 奥園</option>
-        <option value="🐢">🐢 ヒミツー</option>
+        <option value="🤫">🤫 ヒミツー</option>
         <option value="🎺">🎺 冨岡正太郎</option>
         <option value="🥛">🥛 夕凪らこ</option>
     </select>
