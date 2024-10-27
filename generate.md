@@ -57,7 +57,7 @@ image: /assets/images/ogp_default.png
         <option value="🪴">🪴 奥園</option>
         <option value="🤫">🤫 ヒミツー</option>
         <option value="🎺">🎺 冨岡正太郎</option>
-        <option value="🥛">🥛 夕凪らこ</option>
+        <option value="🧊">🧊 夕凪らこ</option>
     </select>
 </div>
 
