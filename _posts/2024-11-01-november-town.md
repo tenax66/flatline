@@ -13,7 +13,7 @@ category: flatline
 
 [暗号のまま]({{ site.baseurl }}/in-cipher/) - 江間あやせ
 
-[（タイトル未受領）]({{ site.baseurl }}/okuzono/) - 奥園
+[（タイトル未受領）]({{ site.baseurl }}/20241011/) - 奥園
 
 [かなた]({{ site.baseurl }}/kanata/) - たかな
 
