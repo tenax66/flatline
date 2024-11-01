@@ -21,6 +21,10 @@ image: /assets/images/ogp_default.png
         <option value="彦凪　至">彦凪　至</option>
         <option value="特上あいう">特上あいう</option>
         <option value="点線画鋲">点線画鋲</option>
+        <option value="奥園">奥園</option>
+        <option value="ヒミツー">ヒミツー</option>
+        <option value="冨岡正太郎">冨岡正太郎</option>
+        <option value="夕凪らこ">夕凪らこ</option>
     </select>
 </div>
 
@@ -50,6 +54,10 @@ image: /assets/images/ogp_default.png
         <option value="🧭">🧭 彦凪　至</option>
         <option value="🎠">🎠 特上あいう</option>
         <option value="📌">📌 点線画鋲</option>
+        <option value="🪴">🪴 奥園</option>
+        <option value="🤫">🤫 ヒミツー</option>
+        <option value="🎺">🎺 冨岡正太郎</option>
+        <option value="🧊">🧊 夕凪らこ</option>
     </select>
 </div>
 
