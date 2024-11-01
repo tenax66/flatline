@@ -5,11 +5,11 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 11 月号
+#### 12 月号
 
-|テーマ|街|
+|テーマ|鏡|
 |形式|連作五首・タイトルつき|
-|提出締め切り|10/25|
+|提出締め切り|11/25|
 
 Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
@@ -17,6 +17,7 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 | 号      | テーマ |
 | ------- | ------ |
+| 11 月号 | 街     |
 | 10 月号 | 木     |
 | 9 月号  | 海     |
 | 8 月号  | 島     |
