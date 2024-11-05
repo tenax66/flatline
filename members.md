@@ -38,9 +38,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','桃', 'ライチ', 'りんご'],
+        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '桃', 'ライチ', 'りんご'],
         datasets: [{
-            data: [1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 1, 4, 1, 1, 3, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -104,6 +104,11 @@ image: /assets/images/ogp_default.png
 1. パイナップル
 2. 派手で攻撃力が高そうだから
 
+**[奥園](https://x.com/okuzono___)**
+
+1. 温州みかん
+2. 語感が良い！
+
 **[おざわ](https://www.instagram.com/gay.tanka/)**
 
 1. パイナップル
@@ -144,6 +149,11 @@ image: /assets/images/ogp_default.png
 1. りんご
 2. 甘くておいしい種類が多いのに、原罪の象徴みたいな一面もあるのでかっこいい
 
+**[冨岡正太郎](https://twitter.com/left_ov)**
+
+1. シャインマスカット
+2. 自我がたくさんありそうだから
+
 **[東川夢物語](https://x.com/m_p_d_w)**
 
 1. パイナップル
@@ -154,7 +164,17 @@ image: /assets/images/ogp_default.png
 1. パイナップル
 2. 絶対に陽キャだから
 
+**[ヒミツー](https://x.com/secret_of_himi2)**
+
+1. ぶどう
+2. 出世したらワイン（かっこいい酒）になれるから。
+
 **福住電**
 
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
+
+**[夕凪らこ]()**
+
+1. いちご
+2. 可愛くて温室育ちで他の実ともある程度の距離感があるから
