@@ -38,7 +38,7 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '桃', 'ライチ', 'りんご'],
+        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
             data: [1, 1, 1, 1, 1, 4, 1, 1, 3, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
