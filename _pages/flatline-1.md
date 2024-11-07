@@ -10,6 +10,8 @@ image: /assets/images/ogp_default.png
 [偶然短歌](https://x.com/g57577)を題材にした短歌ドラフト（[参考](https://tankaness.com/2020/03/18/rendora/)）をやる会です。
 参加者がドラフト形式で短歌をえらび、連作をつくって鑑賞します。
 
+##### 参加方法
+
 Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 ##### 偶然短歌ドラフトの流れ
