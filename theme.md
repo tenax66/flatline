@@ -8,21 +8,19 @@ image: /assets/images/ogp_default.png
 #### 12 月号
 
 <table class="table table-striped table-bordered">
-    <thead>
-      <tr>
-        <th>テーマ</th>
-        <th>鏡</th>
-      </tr>
-    </thead>
-    <tbody class="table-group-divider">
-      <tr>
-        <td>形式</td>
-        <td>連作五首・タイトルつき</td>
-      </tr>
-      <tr>
-        <td>提出締め切り</td>
-        <td>11/25</td>
-      </tr>
+  <tbody>
+    <tr>
+      <th>テーマ</th>
+      <th>鏡</th>
+    </tr>
+    <tr>
+      <td>形式</td>
+      <td>連作五首・タイトルつき</td>
+    </tr>
+    <tr>
+      <td>提出締め切り</td>
+      <td>11/25</td>
+    </tr>
   </tbody>
 </table>
 
