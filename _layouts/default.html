@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" class="h-100">
+<html lang="en-us" class="h-100" data-bs-theme="auto">
   <head>
     <title>
       {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
@@ -18,17 +18,6 @@
       href="{{ '/assets/css/styles.css' | relative_url }}"
     />
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" />
-    <!-- Meta Theme Color is also supported on Safari and Chrome -->
-    <meta
-      name="theme-color"
-      content="#eeeeee"
-      media="(prefers-color-scheme: dark)"
-    />
-    <meta
-      name="theme-color"
-      content="#111111"
-      media="(prefers-color-scheme: light)"
-    />
     {% seo %} {% feed_meta %} {% include google-analytics.html %}
     <!-- Adobe Fonts -->
     <script>
@@ -43,6 +32,9 @@
     </script>
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/0d59881021.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="{{site.baseurl}}/assets/js/color-modes.js"></script>
   </head>
   <body class="d-flex flex-column h-100">
     <div class="container">
@@ -51,10 +43,6 @@
     </div>
     {% include footer.html %}
     <!-- JS for Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

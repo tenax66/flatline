@@ -1,152 +1,142 @@
-table {
-  @extend .table;
-  @extend .table-striped;
+.body {
+    font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
 }
 
-blockquote {
-  @extend .blockquote;
-}
-
-img {
-  @extend .img-fluid;
-  margin-bottom: 1rem;
+.bi {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentcolor;
 }
 
 .navbar {
-  margin-bottom: 2rem;
-  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+    font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    margin-bottom: 2rem;
+    border-bottom: 0.125rem solid hsl(0, 0%, 30%);
 }
 
+/* archive */
+
 .archive-year {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .archive-author {
-  float: right;
-  margin-left: 1rem;
+    float: right;
+    margin-left: 1rem;
 }
 
 .archive-item {
-  margin-bottom: 0.5rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-family: "dotgothic16", sans-serif;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "dotgothic16", sans-serif;
 }
 
+.archive-title {
+    color: #212529;
+}
+
+/* footer */
 .footer-container {
-  text-align: center;
+    text-align: center;
 }
 
 .footer-icons {
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-right: 0.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
 }
 
 .footer-icon-links {
-  text-decoration: none;
-  color: #212529;
+    text-decoration: none;
+    color: #212529;
 }
 
 .footer-icon-links:hover,
 .footer-icon-links:focus {
-  text-decoration: none;
-  color: #212529;
-}
-
-.archive-title {
-  color: #212529;
+    text-decoration: none;
+    color: #212529;
 }
 
 .highlight {
-  background-color: #272822;
+    background-color: #272822;
 }
 
 pre.highlight {
-  padding: 1rem;
-}
-
-.dark-avatar {
-  display: none !important;
-}
-
-.light-avatar,
-.dark-avatar {
-  margin-right: 0.25rem !important;
+    padding: 1rem;
 }
 
 .text-gray-dependent {
-  color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-color-scheme: dark) {
-  .footer-icon-links {
+/* dark mode */
+
+html[data-bs-theme="dark"] .footer-icon-links {
     text-decoration: none;
     color: #e1e1e1;
-  }
+}
 
-  .footer-icon-links:hover,
-  .footer-icon-links:focus {
+html[data-bs-theme="dark"] .footer-icon-links:hover,
+.footer-icon-links:focus {
     text-decoration: none;
     color: #e1e1e1;
-  }
+}
 
-  .archive-title {
+html[data-bs-theme="dark"] .archive-title {
     color: #e1e1e1;
-  }
+}
 
-  .light-avatar {
-    display: none !important;
-  }
-
-  .dark-avatar {
-    display: inline-block !important;
-  }
-
-  .text-gray-dependent {
+html[data-bs-theme="dark"] .text-gray-dependent {
     color: rgba(255, 255, 255, 0.5);
-  }
 }
 
 .tanka-area {
-  text-align: center;
-  font-family: "dotgothic16", "lores-12", sans-serif;
+    text-align: center;
+    font-family: "dotgothic16", "lores-12", sans-serif;
 }
 
 .tanka {
-  /* 縦書き */
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
+    /* 縦書き */
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
 
-  display: inline-block;
-  text-align: left;
-  text-orientation: mixed;
-  font-feature-settings: "vert";
+    display: inline-block;
+    text-align: left;
+    text-orientation: mixed;
+    font-feature-settings: "vert";
 
-  letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
 }
 
 .tanka p:nth-child(n + 2) {
-  padding-right: 100px;
+    padding-right: 100px;
 }
 
 .tate-chu-yoko {
-  text-orientation: upright;
+    text-orientation: upright;
 }
 
 @media (max-width: 768px) {
-  .tanka p:nth-child(n + 2) {
-    padding-right: 10vw !important;
-  }
+    .tanka p:nth-child(n + 2) {
+        padding-right: 10vw !important;
+    }
 }
 
 @media (max-width: 480px) {
-  .tanka p:nth-child(n + 2) {
-    padding-right: 5vw !important;
-  }
+    .tanka p:nth-child(n + 2) {
+        padding-right: 5vw !important;
+    }
 }
 
 .kotobagaki {
@@ -158,13 +148,13 @@ pre.highlight {
 }
 
 .dash {
-  vertical-align: 1.5px;
-  padding: 5px;
-  letter-spacing: -0.05em;
-  font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
+    vertical-align: 1.5px;
+    padding: 5px;
+    letter-spacing: -0.05em;
+    font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
 }
 
 .fruitChart {
-  width: 50%;
-  max-width: 300px;
+    width: 50%;
+    max-width: 300px;
 }

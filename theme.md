@@ -7,21 +7,59 @@ image: /assets/images/ogp_default.png
 
 #### 12 月号
 
-|テーマ|鏡|
-|形式|連作五首・タイトルつき|
-|提出締め切り|11/25|
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>テーマ</th>
+        <th>鏡</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr>
+        <td>形式</td>
+        <td>連作五首・タイトルつき</td>
+      </tr>
+      <tr>
+        <td>提出締め切り</td>
+        <td>11/25</td>
+      </tr>
+  </tbody>
+</table>
 
 Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 #### 過去のテーマ
 
-| 号      | テーマ |
-| ------- | ------ |
-| 11 月号 | 街     |
-| 10 月号 | 木     |
-| 9 月号  | 海     |
-| 8 月号  | 島     |
-| 7 月号  | 雨     |
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>号</th>
+      <th>テーマ</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr>
+      <td>11 月号</td>
+      <td>街</td>
+    </tr>
+    <tr>
+      <td>10 月号</td>
+      <td>木</td>
+    </tr>
+    <tr>
+      <td>9 月号</td>
+      <td>海</td>
+    </tr>
+    <tr>
+      <td>8 月号</td>
+      <td>島</td>
+    </tr>
+    <tr>
+      <td>7 月号</td>
+      <td>雨</td>
+    </tr>
+  </tbody>
+</table>
 
 #### テーマ詠について
 
