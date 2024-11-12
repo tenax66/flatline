@@ -5,7 +5,7 @@ permalink: /about/
 image: /assets/images/ogp_default.png
 ---
 
-<img src="/assets/images/ogp_default.png" alt="Mattel-Aquarius-Computer-FL" width="640" height="361">
+<img src="/assets/images/ogp_default.png" alt="Mattel-Aquarius-Computer-FL" class="responsive-img">
 
 FLATLINE はインターネット歌会です。
 

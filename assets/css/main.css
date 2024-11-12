@@ -171,3 +171,11 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     color: #e1e1e1;
     padding: 15px;
 }
+
+.responsive-img {
+    width: 100%; /* 親要素の幅に合わせて画像を調整 */
+    max-width: 640px; /* 画像の最大幅を設定 */
+    height: auto; /* アスペクト比を維持 */
+    display: block; /* 行間の隙間を防ぐため */
+    margin: 0 auto; /* 中央揃えにする場合 */
+}
