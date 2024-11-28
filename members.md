@@ -40,7 +40,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 4, 1, 1, 3, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 1, 4, 1, 2, 3, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
