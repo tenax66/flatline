@@ -6,6 +6,13 @@ image: /assets/images/ogp_default.png
 ---
 
 #### Active Events
+
+No events.
+
+Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
+
+#### Past Events
+
 <table class="table table-striped table-bordered">
   <thead>
     <tr>
@@ -26,7 +33,3 @@ image: /assets/images/ogp_default.png
     </tr>
   </tbody>
 </table>
-
-Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
-
-#### Past Events
