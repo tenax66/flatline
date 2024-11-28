@@ -179,9 +179,3 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     display: block; /* 行間の隙間を防ぐため */
     margin: 0 auto; /* 中央揃えにする場合 */
 }
-
-@media (max-width: 480px) {
-    .responsive-img {
-        max-width: 400px; /* 画像の最大幅を設定 */
-    }
-}
