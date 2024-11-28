@@ -2,8 +2,8 @@
 layout: post
 title: 緑風そぞろ
 image: /assets/images/ogp_default.png
-author: たかな
-category: たかな
+author: 非鋭理反
+category: 非鋭理反
 emoji: 👕
 ---
 
@@ -32,4 +32,4 @@ emoji: 👕
 
 </details>
 
-たかな
+非鋭理反

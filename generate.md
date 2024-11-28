@@ -17,7 +17,7 @@ image: /assets/images/ogp_default.png
         <option value="東川夢物語">東川夢物語</option>
         <option value="おざわ">おざわ</option>
         <option value="江間あやせ">江間あやせ</option>
-        <option value="たかな">たかな</option>
+        <option value="非鋭理反">非鋭理反</option>
         <option value="彦凪　至">彦凪　至</option>
         <option value="特上あいう">特上あいう</option>
         <option value="点線画鋲">点線画鋲</option>
@@ -53,7 +53,7 @@ image: /assets/images/ogp_default.png
         <option value="🦷">🦷 東川夢物語</option>
         <option value="🧢">🧢 おざわ</option>
         <option value="🍳">🍳 江間あやせ</option>
-        <option value="👕">👕 たかな</option>
+        <option value="👕">👕 非鋭理反</option>
         <option value="🧭">🧭 彦凪　至</option>
         <option value="🎠">🎠 特上あいう</option>
         <option value="📌">📌 点線画鋲</option>

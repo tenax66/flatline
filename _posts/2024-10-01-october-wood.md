@@ -11,7 +11,7 @@ category: flatline
 
 [都市計画]({{ site.baseurl }}/urban-planning/) - 犬の注射
 
-[緑風そぞろ]({{ site.baseurl }}/early-summer-breeze/) - たかな
+[緑風そぞろ]({{ site.baseurl }}/early-summer-breeze/) - 非鋭理反
 
 [もくようび]({{ site.baseurl }}/thursday/) - 点線画鋲
 
@@ -29,4 +29,4 @@ category: flatline
 
 自由詠
 
-[旗はためいて又束ねられ]({{ site.baseurl }}/flattering-flag/) - たかな
+[旗はためいて又束ねられ]({{ site.baseurl }}/flattering-flag/) - 非鋭理反
