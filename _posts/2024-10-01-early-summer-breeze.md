@@ -4,7 +4,7 @@ title: 緑風そぞろ
 image: /assets/images/ogp_default.png
 author: 非鋭理反
 category: 非鋭理反
-emoji: 👕
+emoji: �️
 ---
 
 <div class="tanka-area"><div class="tanka">
