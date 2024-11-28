@@ -4,7 +4,7 @@ title: 自意識があり
 image: /assets/images/ogp_default.png
 author: 夕凪らこ
 category: 夕凪らこ
-emoji: 📌
+emoji: 🧊
 ---
 
 <div class="tanka-area"><div class="tanka">
