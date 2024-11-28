@@ -4,7 +4,7 @@ title: the cracked black mirror
 image: /assets/images/ogp_default.png
 author: 八谷のり
 category: 八谷のり
-emoji: 🐝
+emoji: 🍞
 ---
 
 <div class="tanka-area"><div class="tanka">

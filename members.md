@@ -40,7 +40,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 4, 1, 1, 3, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 1, 4, 1, 2, 3, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -118,6 +118,11 @@ image: /assets/images/ogp_default.png
 
 1. スイカ
 2. デカくてつよそう
+
+**㐂子**
+
+1. びわ
+2. お父さんが会食でゲットした種を植えたら、小さい木になったから
 
 **[白湯ささみ](https://x.com/sayu_73)**
 
