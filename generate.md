@@ -25,6 +25,9 @@ image: /assets/images/ogp_default.png
         <option value="ヒミツー">ヒミツー</option>
         <option value="冨岡正太郎">冨岡正太郎</option>
         <option value="夕凪らこ">夕凪らこ</option>
+        <option value="㐂子">㐂子</option>
+        <option value="宇佐田灰加">宇佐田灰加</option>
+        <option value="八谷のり">八谷のり</option>
     </select>
 </div>
 
@@ -58,6 +61,9 @@ image: /assets/images/ogp_default.png
         <option value="🤫">🤫 ヒミツー</option>
         <option value="🎺">🎺 冨岡正太郎</option>
         <option value="🧊">🧊 夕凪らこ</option>
+        <option value="🍑">🍑 㐂子</option>
+        <option value="🐰">🐰 宇佐田灰加</option>
+        <option value="🐝">🐝 八谷のり</option>
     </select>
 </div>
 
