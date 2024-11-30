@@ -9,8 +9,8 @@ category: flatline
 
 ## 偶然短歌のリスト
 
-<img src="https://images.tanka.cc/guzen-tanka.png" alt="" class="responsive-img">
+<a href="https://images.tanka.cc/guzen-tanka.png"><img src="https://images.tanka.cc/guzen-tanka.png" alt="" class="responsive-img"></a>
 
 ## ドラフト結果
 
-<img src="https://images.tanka.cc/draft_result.png" alt="" class="responsive-img">
+<a href="https://images.tanka.cc/draft_result.png"><img src="https://images.tanka.cc/draft_result.png" alt="" class="responsive-img"></a>
