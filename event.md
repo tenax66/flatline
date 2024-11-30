@@ -21,6 +21,7 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>概要</td>
       <td>日程</td>
       <td>場所</td>
+      <td>結果</td>
     </tr>
   </thead>
   <tbody class="table-group-divider">
@@ -30,6 +31,7 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td><a href="https://x.com/g57577">偶然短歌</a>からドラフト形式で連作をつくります。</td>
       <td>11/26 19:00~23:00</td>
       <td><a href="https://maps.app.goo.gl/B7PyzZxTCvZpaeU48">PASSAGE bis! BOOKS &amp; CAFE</a></td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
