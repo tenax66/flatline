@@ -15,7 +15,7 @@ category: flatline
 
 [20241011]({{ site.baseurl }}/20241011/) - 奥園
 
-[かなた]({{ site.baseurl }}/kanata/) - たかな
+[かなた]({{ site.baseurl }}/kanata/) - 非鋭理反
 
 [０]({{ site.baseurl }}/zero/) - 点線画鋲
 

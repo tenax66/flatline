@@ -38,9 +38,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
+        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 4, 1, 1, 3, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 1, 4, 1, 2, 4, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -99,6 +99,10 @@ image: /assets/images/ogp_default.png
 1. 梨
 2. 上品だから
 
+**[宇佐田灰加](https://twitter.com/_duckengineer)**
+1. 生まれ変わったらぶどうになりたいです！
+2. たくさんだから
+
 **[江間あやせ](https://x.com/emma_sama_sama)**
 
 1. パイナップル
@@ -118,6 +122,11 @@ image: /assets/images/ogp_default.png
 
 1. スイカ
 2. デカくてつよそう
+
+**㐂子**
+
+1. びわ
+2. お父さんが会食でゲットした種を植えたら、小さい木になったから
 
 **[白湯ささみ](https://x.com/sayu_73)**
 
@@ -153,6 +162,11 @@ image: /assets/images/ogp_default.png
 
 1. シャインマスカット
 2. 自我がたくさんありそうだから
+
+**非鋭理反**
+
+1. 柚子
+2. 温泉に浸かれる可能性に賭けたい。
 
 **[東川夢物語](https://x.com/m_p_d_w)**
 

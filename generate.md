@@ -17,7 +17,7 @@ image: /assets/images/ogp_default.png
         <option value="東川夢物語">東川夢物語</option>
         <option value="おざわ">おざわ</option>
         <option value="江間あやせ">江間あやせ</option>
-        <option value="たかな">たかな</option>
+        <option value="非鋭理反">非鋭理反</option>
         <option value="彦凪　至">彦凪　至</option>
         <option value="特上あいう">特上あいう</option>
         <option value="点線画鋲">点線画鋲</option>
@@ -25,6 +25,9 @@ image: /assets/images/ogp_default.png
         <option value="ヒミツー">ヒミツー</option>
         <option value="冨岡正太郎">冨岡正太郎</option>
         <option value="夕凪らこ">夕凪らこ</option>
+        <option value="㐂子">㐂子</option>
+        <option value="宇佐田灰加">宇佐田灰加</option>
+        <option value="八谷のり">八谷のり</option>
     </select>
 </div>
 
@@ -50,7 +53,7 @@ image: /assets/images/ogp_default.png
         <option value="🦷">🦷 東川夢物語</option>
         <option value="🧢">🧢 おざわ</option>
         <option value="🍳">🍳 江間あやせ</option>
-        <option value="👕">👕 たかな</option>
+        <option value="🕯️">🕯️ 非鋭理反</option>
         <option value="🧭">🧭 彦凪　至</option>
         <option value="🎠">🎠 特上あいう</option>
         <option value="📌">📌 点線画鋲</option>
@@ -58,6 +61,9 @@ image: /assets/images/ogp_default.png
         <option value="🤫">🤫 ヒミツー</option>
         <option value="🎺">🎺 冨岡正太郎</option>
         <option value="🧊">🧊 夕凪らこ</option>
+        <option value="🍑">🍑 㐂子</option>
+        <option value="🐰">🐰 宇佐田灰加</option>
+        <option value="🍞">🍞 八谷のり</option>
     </select>
 </div>
 
