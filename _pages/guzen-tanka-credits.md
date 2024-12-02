@@ -91,7 +91,7 @@ image: /assets/images/ogp_default.png
     - 「[ハワリンバヤル](https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%AF%E3%83%AA%E3%83%B3%E3%83%90%E3%83%A4%E3%83%AB&oldid=89979993)」フリー百科事典　ウィキペディア日本語版より
 1. 霊的な恐怖に耐える、日本の伝統的なゲームの一種
     - 「[肝試し](https://ja.wikipedia.org/w/index.php?title=%E8%82%9D%E8%A9%A6%E3%81%97&oldid=53454612)」フリー百科事典　ウィキペディア日本語版より
-1. たいていは家屋の中で日当たりのよい場所にあり、窓が大きく
+1. たいていは家屋の中で日当りのよい場所にあり、窓が大きく
     - 「[居間](https://ja.wikipedia.org/w/index.php?title=%E5%B1%85%E9%96%93&oldid=49125880)」フリー百科事典　ウィキペディア日本語版より
 1. 単独の外出禁止、映画館、ボウリング場、ゲームセンター
     - 「[門限](https://ja.wikipedia.org/w/index.php?title=%E9%96%80%E9%99%90&oldid=102729947)」フリー百科事典　ウィキペディア日本語版より
