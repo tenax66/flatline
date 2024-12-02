@@ -2,7 +2,7 @@
 layout: page
 title: 偶然短歌 クレジット表記
 permalink: /misc/guzen-tanka-credits/
-image: /assets/images/ogp_default.png
+image: https://images.tanka.cc/guzen-tanka.png
 ---
 
 1. アルメニア、アゼルバイジャン、ウクライナ、中央アジア、およびシベリア
