@@ -2,7 +2,7 @@
 date: "2024-12-01 12:30:00"
 layout: post
 title: "イベント記録: 偶然短歌ドラフト"
-image: /assets/images/ogp_default.png
+image: https://images.tanka.cc/draft-result.png
 author: flatline
 category: flatline
 ---
