@@ -40,7 +40,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 4, 1, 2, 4, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 2, 4, 1, 2, 4, 1, 1, 1, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -162,6 +162,10 @@ image: /assets/images/ogp_default.png
 
 1. シャインマスカット
 2. 自我がたくさんありそうだから
+
+**[八谷のり](https://x.com/noriko_kenkou)**
+1. 梨
+2. 秋だけ生きたいから
 
 **非鋭理反**
 
