@@ -58,6 +58,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-archives
+  - jekyll-paginate
 
 jekyll-archives:
   enabled:
@@ -70,3 +71,7 @@ jekyll-archives:
     day: "/:year/:month/:day/"
     tag: "/tag/:name/"
     category: "/category/:name/"
+
+paginate: 30
+
+paginate_path: "/:num/"

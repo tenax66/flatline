@@ -23,12 +23,16 @@ layout: default
   <div class="d-flex justify-content-between">
     {% if page.previous %}
     <a href="{{ page.previous.url }}"><i class="fa-solid fa-arrow-left fa-2xl"></i></a>
+    {% else %}
+    &nbsp;
     {% endif %}
 
     <a href="{{ site.url }}" class="fs-5">HOME</a>
 
     {% if page.next %}
     <a href="{{ page.next.url }}"><i class="fa-solid fa-arrow-right fa-2xl"></i></a>
+    {% else %}
+    &nbsp;
     {% endif %}
   </div>
 </div>

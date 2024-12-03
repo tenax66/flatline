@@ -7,7 +7,7 @@ image: /assets/images/ogp_default.png
   {% assign dateYear = "" %}
   {% assign dateMonth = "" %}
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   {% assign currYear = post.date | date: "%Y" %}
   {% assign currMonth = post.date | date: "%m" %}
 
@@ -35,4 +35,23 @@ image: /assets/images/ogp_default.png
     </a>
   </div>
   {% endfor %}
+</div>
+
+<hr>
+
+<!-- Pagination links -->
+<div class="pagination d-flex justify-content-between">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}"><i class="previous fa-solid fa-arrow-left fa-2xl"></i></a>
+  {% else %}
+  &nbsp;
+  {% endif %}
+
+  <span class="page_number fs-5">
+    {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-arrow-right fa-2xl"></i></a>
+  {% endif %}
 </div>
