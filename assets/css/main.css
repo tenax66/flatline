@@ -179,3 +179,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     display: block; /* 行間の隙間を防ぐため */
     margin: 0 auto; /* 中央揃えにする場合 */
 }
+
+.invisible {
+    visibility: hidden;
+  }
