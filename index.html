@@ -16,9 +16,9 @@ image: /assets/images/ogp_default.png
   {% endif %}
 
   {% if currMonth != dateMonth %}
-    {% if dateMonth != "" %}
-    <hr>
-    {% endif %}
+  {% if dateMonth != "" %}
+  <hr>
+  {% endif %}
   <h2 class="archive-month">{{ currYear }}.{{ currMonth }}</h2>
   {% assign dateMonth = currMonth %}
   {% endif %}
@@ -38,9 +38,11 @@ image: /assets/images/ogp_default.png
 <!-- Pagination links -->
 <div class="pagination d-flex justify-content-between">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}"><i class="previous fa-solid fa-arrow-left fa-2xl"></i></a>
+  <a href="{{ paginator.previous_page_path }}"><i
+      class="previous fa-solid fa-arrow-left fa-2xl transition-arrow"></i></a>
   {% else %}
-  <a href="{{ paginator.previous_page_path }}"><i class="invisible previous fa-solid fa-arrow-left fa-2xl"></i></a>
+  <a href="{{ paginator.previous_page_path }}"><i
+      class="invisible previous fa-solid fa-arrow-left fa-2xl transition-arrow"></i></a>
   {% endif %}
 
   <span class="page_number fs-5">
@@ -48,8 +50,9 @@ image: /assets/images/ogp_default.png
   </span>
 
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-arrow-right fa-2xl"></i></a>
+  <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-arrow-right fa-2xl transition-arrow"></i></a>
   {% else %}
-  <a href="{{ paginator.next_page_path }}"><i class="invisible next fa-solid fa-arrow-right fa-2xl"></i></a>
+  <a href="{{ paginator.next_page_path }}"><i
+      class="invisible next fa-solid fa-arrow-right fa-2xl transition-arrow"></i></a>
   {% endif %}
 </div>
