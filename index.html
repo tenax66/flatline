@@ -12,17 +12,13 @@ image: /assets/images/ogp_default.png
   {% assign currMonth = post.date | date: "%m" %}
 
   {% if currYear != dateYear %}
-  {% if dateYear != "" %}
-  <hr>
-  {% endif %}
-
   {% assign dateYear = currYear %}
   {% endif %}
 
   {% if currMonth != dateMonth %}
-  {% if dateMonth != "" %}
-  <hr>
-  {% endif %}
+    {% if dateMonth != "" %}
+    <hr>
+    {% endif %}
   <h2 class="archive-month">{{ currYear }}.{{ currMonth }}</h2>
   {% assign dateMonth = currMonth %}
   {% endif %}
