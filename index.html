@@ -53,5 +53,7 @@ image: /assets/images/ogp_default.png
 
   {% if paginator.next_page %}
   <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-arrow-right fa-2xl"></i></a>
+  {% else %}
+  &nbsp;
   {% endif %}
 </div>
