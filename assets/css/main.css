@@ -1,3 +1,4 @@
+/* general */
 .body {
     font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
@@ -100,6 +101,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* tanka */
 .tanka-area {
     text-align: center;
     font-family: "dotgothic16", "lores-12", sans-serif;
@@ -154,6 +156,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
 }
 
+/* chart */
 .fruitChart {
     width: 50%;
     max-width: 300px;
@@ -172,6 +175,8 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     padding: 15px;
 }
 
+
+/* image */
 .responsive-img {
     width: 100%; /* 親要素の幅に合わせて画像を調整 */
     max-width: 640px; /* 画像の最大幅を設定 */
@@ -180,6 +185,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     margin: 0 auto; /* 中央揃えにする場合 */
 }
 
+/* misc */
 .invisible {
     visibility: hidden;
   }
