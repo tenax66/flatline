@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html[data-bs-theme="light"] {
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 249, 238, 228;
+    --bs-body-color: #212529;
+    --bs-body-bg: #f9eee4;
+}
+/*
+ * ---------- Dark Mode ------------------------------------------------------
+ */
+html[data-bs-theme="dark"] {
+    --bs-body-color-rgb: 225, 225, 225;
+    --bs-body-bg-rgb: 34, 34, 34;
+    --bs-body-color: #e1e1e1;
+    --bs-body-bg: #222;
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+}
