@@ -82,19 +82,24 @@ pre.highlight {
 
 /* dark mode */
 
+html[data-bs-theme="dark"] .navbar {
+    --bs-navbar-brand-color: var(--bs-body-color);
+    --bs-navbar-active-color: var(--bs-body-color);
+}
+
 html[data-bs-theme="dark"] .footer-icon-links {
     text-decoration: none;
-    color: #e1e1e1;
+    color: var(--bs-body-color);
 }
 
 html[data-bs-theme="dark"] .footer-icon-links:hover,
 .footer-icon-links:focus {
     text-decoration: none;
-    color: #e1e1e1;
+    color: var(--bs-body-color);
 }
 
 html[data-bs-theme="dark"] .archive-title {
-    color: #e1e1e1;
+    color: var(--bs-body-color);
 }
 
 html[data-bs-theme="dark"] .text-gray-dependent {

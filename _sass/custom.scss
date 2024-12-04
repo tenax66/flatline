@@ -4,7 +4,7 @@ html[data-bs-theme="light"] {
     --bs-body-color-rgb: 20, 13, 0;
     --bs-body-bg-rgb: 249, 238, 228;
     --bs-body-color: #140d00;
-    --bs-body-bg: #f9eee4;
+    --bs-body-bg: #f5e8d5;
 }
 /*
  * ---------- Dark Mode ------------------------------------------------------
@@ -12,8 +12,8 @@ html[data-bs-theme="light"] {
 html[data-bs-theme="dark"] {
     --bs-body-color-rgb: 221, 221, 221;
     --bs-body-bg-rgb: 30, 32, 34;
-    --bs-body-color: #dddddd;
-    --bs-body-bg: #1e2022;
+    --bs-body-color: #f8e7d6;
+    --bs-body-bg: #140c00;
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
     --pagefind-ui-background: #152028;
