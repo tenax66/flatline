@@ -10,10 +10,10 @@ html[data-bs-theme="light"] {
  * ---------- Dark Mode ------------------------------------------------------
  */
 html[data-bs-theme="dark"] {
-    --bs-body-color-rgb: 225, 225, 225;
-    --bs-body-bg-rgb: 34, 34, 34;
-    --bs-body-color: #e1e1e1;
-    --bs-body-bg: #222;
+    --bs-body-color-rgb: 221, 221, 221;
+    --bs-body-bg-rgb: 30, 32, 34;
+    --bs-body-color: #dddddd;
+    --bs-body-bg: #1e2022;
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
     --pagefind-ui-background: #152028;
