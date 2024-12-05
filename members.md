@@ -89,36 +89,36 @@ image: /assets/images/ogp_default.png
 
 ---
 
-**[青野ゆらぎ](https://x.com/aonoyuragi)**
+**[青野ゆらぎ](https://x.com/aonoyuragi){:target="_blank"}**
 
 1. バナナ
 2. そのまま持っても手が汚れず、栄養価が高い。
 
-**[犬の注射](https://x.com/kanetomo_seihyo)**
+**[犬の注射](https://x.com/kanetomo_seihyo){:target="_blank"}**
 
 1. 梨
 2. 上品だから
 
-**[宇佐田灰加](https://twitter.com/_duckengineer)**
+**[宇佐田灰加](https://twitter.com/_duckengineer){:target="_blank"}**
 1. 生まれ変わったらぶどうになりたいです！
 2. たくさんだから
 
-**[江間あやせ](https://x.com/emma_sama_sama)**
+**[江間あやせ](https://x.com/emma_sama_sama){:target="_blank"}**
 
 1. パイナップル
 2. 派手で攻撃力が高そうだから
 
-**[奥園](https://x.com/okuzono___)**
+**[奥園](https://x.com/okuzono___){:target="_blank"}**
 
 1. 温州みかん
 2. 語感が良い！
 
-**[おざわ](https://www.instagram.com/gay.tanka/)**
+**[おざわ](https://www.instagram.com/gay.tanka/){:target="_blank"}**
 
 1. パイナップル
 2. 見た目ゴツゴツして強そうなのに、中身甘くて美味しくてギャップがあってセクシーだから
 
-**[オルター堂](https://x.com/_reijio)**
+**[オルター堂](https://x.com/_reijio){:target="_blank"}**
 
 1. スイカ
 2. デカくてつよそう
@@ -128,12 +128,12 @@ image: /assets/images/ogp_default.png
 1. びわ
 2. お父さんが会食でゲットした種を植えたら、小さい木になったから
 
-**[白湯ささみ](https://x.com/sayu_73)**
+**[白湯ささみ](https://x.com/sayu_73){:target="_blank"}**
 
 1. 桃
 2. 「廃村を告げる活字に桃の皮ふれればにじみゆくばかり　来て／東直子」が好きだから
 
-**[サラリーマン予想](https://x.com/4sigong)**
+**[サラリーマン予想](https://x.com/4sigong){:target="_blank"}**
 
 1. 柿
 2. 高確率でまた日本に生まれられそうだから
@@ -143,27 +143,27 @@ image: /assets/images/ogp_default.png
 1. びわ
 2. めっちゃ美味しいのに誰の一番でもないから
 
-**[点線画鋲](https://x.com/gabyo_p)**
+**[点線画鋲](https://x.com/gabyo_p){:target="_blank"}**
 
 1. イチジク
 2. 余裕のある感じ、自分にはない部分なので憧れます！
 
-**[domeki](https://x.com/d0030m)**
+**[domeki](https://x.com/d0030m){:target="_blank"}**
 
 1. ライチ
 2. 基本、食べられたくない。皮と種でちょっと嫌な思いをさせたい。
 
-**[特上あいう](https://x.com/SF_nek0)**
+**[特上あいう](https://x.com/SF_nek0){:target="_blank"}**
 
 1. りんご
 2. 甘くておいしい種類が多いのに、原罪の象徴みたいな一面もあるのでかっこいい
 
-**[冨岡正太郎](https://twitter.com/left_ov)**
+**[冨岡正太郎](https://twitter.com/left_ov){:target="_blank"}**
 
 1. シャインマスカット
 2. 自我がたくさんありそうだから
 
-**[八谷のり](https://x.com/noriko_kenkou)**
+**[八谷のり](https://x.com/noriko_kenkou){:target="_blank"}**
 1. 梨
 2. 秋だけ生きたいから
 
@@ -172,17 +172,17 @@ image: /assets/images/ogp_default.png
 1. 柚子
 2. 温泉に浸かれる可能性に賭けたい。
 
-**[東川夢物語](https://x.com/m_p_d_w)**
+**[東川夢物語](https://x.com/m_p_d_w){:target="_blank"}**
 
 1. パイナップル
 2. お肉を柔らかくできるから
 
-**[彦凪　至](https://x.com/hiko6240)**
+**[彦凪　至](https://x.com/hiko6240){:target="_blank"}**
 
 1. パイナップル
 2. 絶対に陽キャだから
 
-**[ヒミツー](https://x.com/secret_of_himi2)**
+**[ヒミツー](https://x.com/secret_of_himi2){:target="_blank"}**
 
 1. ぶどう
 2. 出世したらワイン（かっこいい酒）になれるから。
@@ -192,7 +192,7 @@ image: /assets/images/ogp_default.png
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
 
-**[夕凪らこ](https://x.com/yunagi0ra)**
+**[夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}**
 
 1. いちご
 2. 可愛くて温室育ちで他の実ともある程度の距離感があるから
