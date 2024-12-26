@@ -187,7 +187,7 @@ image: /assets/images/ogp_default.png
 1. ぶどう
 2. 出世したらワイン（かっこいい酒）になれるから。
 
-**福住電**
+**[福住電](https://x.com/fukuzumiden)**
 
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
