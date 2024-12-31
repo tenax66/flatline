@@ -28,6 +28,10 @@ image: /assets/images/ogp_default.png
         <option value="㐂子">㐂子</option>
         <option value="宇佐田灰加">宇佐田灰加</option>
         <option value="八谷のり">八谷のり</option>
+        <option value="京野正午">京野正午</option>
+        <option value="三好しほ">三好しほ</option>
+        <option value="福田六個">福田六個</option>
+        <option value="太朗千尋">太朗千尋</option>
     </select>
 </div>
 
@@ -64,6 +68,10 @@ image: /assets/images/ogp_default.png
         <option value="🍑">🍑 㐂子</option>
         <option value="🐰">🐰 宇佐田灰加</option>
         <option value="🍞">🍞 八谷のり</option>
+        <option value="☕️">☕️ 京野正午</option>
+        <option value="🫖">🫖 三好しほ</option>
+        <option value="☁️">☁️ 福田六個</option>
+        <option value="🌲">🌲 太朗千尋</option>
     </select>
 </div>
 
