@@ -32,6 +32,7 @@ image: /assets/images/ogp_default.png
         <option value="三好しほ">三好しほ</option>
         <option value="福田六個">福田六個</option>
         <option value="太朗千尋">太朗千尋</option>
+        <option value="尾内甲太郎">尾内甲太郎</option>
     </select>
 </div>
 
@@ -72,6 +73,7 @@ image: /assets/images/ogp_default.png
         <option value="🫖">🫖 三好しほ</option>
         <option value="☁️">☁️ 福田六個</option>
         <option value="🌲">🌲 太朗千尋</option>
+        <option value="🚲">🚲 尾内甲太郎</option>
     </select>
 </div>
 

@@ -14,6 +14,8 @@ category: flatline
 
 [20241227]({{ site.baseurl }}/20241227/) - 奥園
 
+[天空率]({{ site.baseurl }}/sky-ratio/) - 尾内甲太郎
+
 [MPDG]({{ site.baseurl }}/mpdg/) - 京野正午
 
 [池崎はサンシャインなのか]({{ site.baseurl }}/is-ikezaki-sunshine/) - 太朗千尋
