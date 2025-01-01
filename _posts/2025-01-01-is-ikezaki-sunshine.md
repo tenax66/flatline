@@ -4,7 +4,7 @@ title: 池崎はサンシャインなのか
 image: /assets/images/ogp_default.png
 author: 太朗千尋
 category: 太朗千尋
-emoji: 🌲
+emoji: 💻
 ---
 
 <div class="tanka-area"><div class="tanka">
