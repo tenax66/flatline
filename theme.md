@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 1 月号
+#### 2 月号
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>晴</th>
+      <th>音</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>12/27</td>
+      <td>1/25</td>
     </tr>
   </tbody>
 </table>
@@ -36,6 +36,10 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <th>1月号</th>
+      <th>晴</th>
+    </tr>
     <tr>
       <th>12月号</th>
       <th>鏡</th>
