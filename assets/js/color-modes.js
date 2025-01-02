@@ -12,7 +12,7 @@
 
     const getPreferredTheme = () => {
         const storedTheme = getStoredTheme();
-        if (storedTheme) {
+        if (storedTheme && storedTheme !== "auto") {
             return storedTheme;
         }
 
