@@ -37,12 +37,12 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
   </thead>
   <tbody class="table-group-divider">
     <tr>
-      <th>1月号</th>
-      <th>晴</th>
+      <td>1月号</td>
+      <td>晴</td>
     </tr>
     <tr>
-      <th>12月号</th>
-      <th>鏡</th>
+      <td>12月号</td>
+      <td>鏡</td>
     </tr>
     <tr>
       <td>11 月号</td>
