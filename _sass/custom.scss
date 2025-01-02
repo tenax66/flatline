@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root {
+    --bs-body-color: #140d00;
+    --bs-body-color-rgb: 20, 13, 0;
+    --bs-body-bg: #f5e8d5;
+    --bs-body-bg-rgb: 245, 232, 213;
+    --bs-link-color: #2940b3;
+    --bs-link-color-rgb: 41, 64, 179;
+}
+
 html[data-bs-theme="light"] {
     --bs-body-color: #140d00;
     --bs-body-color-rgb: 20, 13, 0;
