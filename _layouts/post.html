@@ -22,18 +22,17 @@ layout: default
 
   <div class="d-flex justify-content-between">
     {% if page.previous %}
-    <a href="{{ page.previous.url }}"><i class="fa-solid fa-square-caret-left fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.previous.url }}"><i class="fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
     {% else %}
-    <a href="{{ page.previous.url }}"><i
-        class="invisible fa-solid fa-square-caret-left fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.previous.url }}"><i class="invisible fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
     {% endif %}
 
     <a href="{{ site.url }}" class="fs-5">HOME</a>
 
     {% if page.next %}
-    <a href="{{ page.next.url }}"><i class="fa-solid fa-square-caret-right fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.next.url }}"><i class="fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
     {% else %}
-    <a href="{{ page.next.url }}"><i class="invisible fa-solid fa-square-caret-right fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.next.url }}"><i class="invisible fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
     {% endif %}
   </div>
 </div>
