@@ -26,7 +26,7 @@ category: flatline
 
 [クオンタイズ]({{ site.baseurl }}/quantize/) - 高橋寧
 
-[がたんがたんがたんがたん]({{ site.baseurl }}/clickety‐clack/) - 太朗千尋
+[がたんがたんがたんがたん]({{ site.baseurl }}/clickety-clack/) - 太朗千尋
 
 [ここは上空]({{ site.baseurl }}/this-is-the-sky/) - 点線画鋲
 
