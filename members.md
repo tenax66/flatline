@@ -11,6 +11,7 @@ image: /assets/images/ogp_default.png
 2. その理由
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{site.baseurl}}/assets/js/color-modes.js"></script>
 
 <canvas id="fruitChart" class="fruitChart" width="400" height="200"></canvas>
 
@@ -18,19 +19,28 @@ image: /assets/images/ogp_default.png
     const lightThemeColors = {
         backgroundColor: '',
         borderColor: '',
-        gridColor: '96968C',
-        color: '#212529',
+        gridColor: '#96968C',
+        color: '#140d00',
     };
 
     const darkThemeColors = {
         backgroundColor: '',
         borderColor: '',
         gridColor: '#96968C',
-        textColor: '#E1E1E1',
+        textColor: '#0a172a',
     };
 
+    const getStoredTheme = () => localStorage.getItem("theme");
+
     function getThemeColors() {
-        const isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const storedTheme = getStoredTheme();
+        if (storedTheme && storedTheme !== "auto") {
+            return storedTheme === 'dark' ? darkThemeColors : lightThemeColors;;
+        }
+
+        const isDarkTheme =  window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
 
         return isDarkTheme ? darkThemeColors : lightThemeColors;
     }
