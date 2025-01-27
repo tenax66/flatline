@@ -4,7 +4,7 @@ title: メモリなしメモリアル（景色）
 image: /assets/images/ogp_default.png
 author: 唯織明
 category: 唯織明
-emoji: 🍋
+emoji: 🖱️
 ---
 
 <div class="tanka-area"><div class="tanka">

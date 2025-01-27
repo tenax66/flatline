@@ -4,7 +4,7 @@ title: 花に嵐耳に黴
 image: /assets/images/ogp_default.png
 author: 蛸
 category: 蛸
-emoji: 🐙
+emoji: 🧝‍♂️
 ---
 
 <div class="tanka-area"><div class="tanka">
