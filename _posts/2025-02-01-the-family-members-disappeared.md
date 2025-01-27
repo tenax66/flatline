@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 家族はひとりづつすがたを消した
+title: 家族はひとりづつ姿を消した
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
