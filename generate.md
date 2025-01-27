@@ -39,7 +39,8 @@ image: /assets/images/ogp_default.png
         <option value="鵺沼こもり">鵺沼こもり</option>
         <option value="小西善仁">小西善仁</option>
         <option value="ゆるもちゆ">ゆるもちゆ</option>
-         <option value="唯織明">唯織明</option>
+        <option value="唯織明">唯織明</option>
+        <option value="蛸">蛸</option>
 
     </select>
 </div>
@@ -89,6 +90,7 @@ image: /assets/images/ogp_default.png
         <option value="🍊">🍊 小西善仁</option>
         <option value="🥁">🥁 ゆるもちゆ</option>
         <option value="🍋">🍋 唯織明</option>
+        <option value="🐙">🐙 蛸</option>
     </select>
 </div>
 
