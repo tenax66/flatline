@@ -11,6 +11,7 @@ image: /assets/images/ogp_default.png
 2. その理由
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{site.baseurl}}/assets/js/color-modes.js"></script>
 
 <canvas id="fruitChart" class="fruitChart" width="400" height="200"></canvas>
 
@@ -18,19 +19,28 @@ image: /assets/images/ogp_default.png
     const lightThemeColors = {
         backgroundColor: '',
         borderColor: '',
-        gridColor: '96968C',
-        color: '#212529',
+        gridColor: '#96968C',
+        color: '#140d00',
     };
 
     const darkThemeColors = {
         backgroundColor: '',
         borderColor: '',
         gridColor: '#96968C',
-        textColor: '#E1E1E1',
+        textColor: '#0a172a',
     };
 
+    const getStoredTheme = () => localStorage.getItem("theme");
+
     function getThemeColors() {
-        const isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const storedTheme = getStoredTheme();
+        if (storedTheme && storedTheme !== "auto") {
+            return storedTheme === 'dark' ? darkThemeColors : lightThemeColors;;
+        }
+
+        const isDarkTheme =  window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
 
         return isDarkTheme ? darkThemeColors : lightThemeColors;
     }
@@ -38,9 +48,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう','みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
+        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 2, 4, 1, 2, 4, 1, 1, 1, 1, 1], 
+            data: [1, 1, 1, 1, 1, 2, 4, 1, 2, 5, 1, 1, 1, 2, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -128,6 +138,10 @@ image: /assets/images/ogp_default.png
 1. びわ
 2. お父さんが会食でゲットした種を植えたら、小さい木になったから
 
+**[京野正午](https://x.com/kyono_shogo){:target="_blank"}**
+1. 柘榴
+2. 耽美的でグロテスクなところに惹かれます
+
 **[白湯ささみ](https://x.com/sayu_73){:target="_blank"}**
 
 1. 桃
@@ -142,6 +156,10 @@ image: /assets/images/ogp_default.png
 
 1. びわ
 2. めっちゃ美味しいのに誰の一番でもないから
+
+**[太朗千尋](https://x.com/Tarou_Chihiro){:target="_blank"}**
+1. ブルーベリー
+2. 語感が非常によい
 
 **[点線画鋲](https://x.com/gabyo_p){:target="_blank"}**
 
@@ -187,12 +205,23 @@ image: /assets/images/ogp_default.png
 1. ぶどう
 2. 出世したらワイン（かっこいい酒）になれるから。
 
-**[福住電](https://x.com/fukuzumiden)**
+**[福住電](https://x.com/fukuzumiden){:target="_blank"}**
 
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
+
+
+**[三好しほ](https://x.com/myss_025){:target="_blank"}**
+1. 桃
+2. 理由：愛されて育ってそうだから
+
 
 **[夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}**
 
 1. いちご
 2. 可愛くて温室育ちで他の実ともある程度の距離感があるから
+
+**ゆるもちゆ**
+
+1. マスカット
+2. 上品だから。普段のわたしは品の欠けらも無いので……
