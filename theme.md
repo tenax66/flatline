@@ -11,7 +11,7 @@ image: /assets/images/ogp_default.png
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>音</th>
+      <th>風</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>1/25</td>
+      <td>2/25</td>
     </tr>
   </tbody>
 </table>
@@ -36,6 +36,10 @@ Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2月号</td>
+      <td>音</td>
+    </tr>
     <tr>
       <td>1月号</td>
       <td>晴</td>
