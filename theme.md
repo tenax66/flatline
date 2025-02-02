@@ -5,7 +5,7 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 2 月号
+#### 3 月号
 
 <table class="table table-striped table-bordered">
   <tbody>
