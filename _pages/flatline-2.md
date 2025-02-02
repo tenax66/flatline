@@ -14,7 +14,11 @@ image: /assets/images/ogp_default.png
 - ゆるい歌会
     - テーマ: 冬
     - 一首
+
+##### その他、やること
+
 - おすすめの歌集持ち込み
+- FLATLINE2月号の感想を話す
 
 #### 参加方法
 
