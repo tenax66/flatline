@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import re
+
 
 def process_tanka_blocks(lines):
     output_list = []
@@ -15,6 +15,7 @@ def process_tanka_blocks(lines):
         count += 1
         i += 7  # Move to the next block
     return output_list
+
 
 def generate_tanka_html(title, author, tanka):
     emoji_map = {
