@@ -57,24 +57,26 @@ emoji: {emoji}
 {author}
 """
 
+
 def main():
     if len(sys.argv) < 3:
         print("使用方法: {} <入力ファイル> <日付 (YYYYMMDD)>".format(sys.argv[0]))
         sys.exit(1)
-    
+
     input_file = sys.argv[1]
     date_str = sys.argv[2]
-    
+
     with open(input_file, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f.readlines() if line.strip()]
-    
+
     output_list = process_tanka_blocks(lines)
-    
+
     for count, title, author, output in output_list:
         output_filename = f"{date_str}-tanka{count}.txt"
         with open(output_filename, "w", encoding="utf-8") as f:
             f.write(output)
         print(f"出力ファイル: {output_filename}")
+
 
 if __name__ == "__main__":
     main()
