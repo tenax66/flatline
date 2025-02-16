@@ -24,7 +24,7 @@ image: /assets/images/ogp_default.png
   </tbody>
 </table>
 
-Join us in <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
+Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 #### 過去のテーマ
 
