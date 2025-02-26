@@ -48,9 +48,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
+        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 2, 4, 1, 2, 5, 1, 2, 1, 2, 1, 1], 
+            data: [1, 1, 1, 1, 1, 2, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -214,6 +214,10 @@ image: /assets/images/ogp_default.png
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
 
+
+**[福田六個](https://note.com/kuku1899){:target="_blank"}**
+1. 八朔
+2. 来世も名前の象徴力を頼りに生きていこうと思う
 
 **[三好しほ](https://x.com/myss_025){:target="_blank"}**
 1. 桃
