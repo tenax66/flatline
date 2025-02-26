@@ -128,6 +128,10 @@ image: /assets/images/ogp_default.png
 1. パイナップル
 2. 見た目ゴツゴツして強そうなのに、中身甘くて美味しくてギャップがあってセクシーだから
 
+**[尾内甲太郎](https://goki.her.jp/){:target="_blank"}**
+1. 棗椰子
+2. ヒトと同じ物質で創られたらしいから。
+
 **[オルター堂](https://x.com/_reijio){:target="_blank"}**
 
 1. スイカ
@@ -221,7 +225,7 @@ image: /assets/images/ogp_default.png
 
 **[三好しほ](https://x.com/myss_025){:target="_blank"}**
 1. 桃
-2. 理由：愛されて育ってそうだから
+2. 愛されて育ってそうだから
 
 
 **[夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}**
