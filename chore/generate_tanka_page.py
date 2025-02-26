@@ -29,7 +29,8 @@ def generate_tanka_html(title, author, tanka):
         "三好しほ": "🫖", "福田六個": "🦟", "太朗千尋": "💻",
         "尾内甲太郎": "🪲", "神乃": "🦀", "高橋寧": "🎪",
         "織原禾": "⛪️", "鵺沼こもり": "🎩", "小西善仁": "🍊",
-        "ゆるもちゆ": "🍡", "唯織明": "🖱️", "蛸": "🧝‍♂️"
+        "ゆるもちゆ": "🍡", "唯織明": "🖱️", "蛸": "🧝‍♂️",
+        "新戸鴎二": "⚓", "永井文鳥": "🐦"
     }
     emoji = emoji_map.get(author, "❓")
 
@@ -61,7 +62,7 @@ emoji: {emoji}
 
 def main():
     if len(sys.argv) < 3:
-        print("使用方法: {} <入力ファイル> <日付 (YYYYMMDD)>".format(sys.argv[0]))
+        print("使用方法: {} <入力ファイル> <日付 (YYYY-MM-DD)>".format(sys.argv[0]))
         sys.exit(1)
 
     input_file = sys.argv[1]
@@ -73,7 +74,7 @@ def main():
     output_list = process_tanka_blocks(lines)
 
     for count, title, author, output in output_list:
-        output_filename = f"{date_str}-tanka{count}.txt"
+        output_filename = f"{date_str}-tanka{count}.md"
         with open(output_filename, "w", encoding="utf-8") as f:
             f.write(output)
         print(f"出力ファイル: {output_filename}")
