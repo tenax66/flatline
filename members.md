@@ -50,7 +50,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', '梨', 'パイナップル', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 2, 4, 1, 2, 5, 1, 1, 1, 2, 1, 1], 
+            data: [1, 1, 1, 1, 1, 2, 4, 1, 2, 5, 1, 2, 1, 2, 1, 1], 
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -180,6 +180,10 @@ image: /assets/images/ogp_default.png
 
 1. シャインマスカット
 2. 自我がたくさんありそうだから
+
+**[鵺沼こもり]**
+1. みかん
+2. 白いやつ『アルベド』って名前で、錬金術において再結晶、精神的浄化って意味で、かっこいいから
 
 **[八谷のり](https://x.com/noriko_kenkou){:target="_blank"}**
 1. 梨
