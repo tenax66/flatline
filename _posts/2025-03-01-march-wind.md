@@ -17,7 +17,7 @@ category: flatline
 
 [分けてく]({{ site.baseurl }}/devide-up/) - 神乃
 
-[一口中虫虱風嵐]({{ site.baseurl }}/arashi-fuku-sama/) - 京野正午
+[<ruby>一口中虫虱風嵐<rp>（</rp><rt>あらしふくさま</rt><rp>）</rp></ruby>]({{ site.baseurl }}/arashi-fuku-sama/) - 京野正午
 
 [ロウリュは風に乗って]({{ site.baseurl }}/löyly-rides-the-wind/) - 小西善仁
 
