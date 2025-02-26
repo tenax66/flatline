@@ -4,7 +4,7 @@ title: 帆船につき
 image: /assets/images/ogp_default.png
 author: 新戸鴎二
 category: 新戸鴎二
-emoji: ⚓
+emoji: 🐔
 ---
 
 <div class="tanka-area"><div class="tanka">
