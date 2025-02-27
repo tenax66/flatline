@@ -17,6 +17,8 @@ category: flatline
 
 [分けてく]({{ site.baseurl }}/devide-up/) - 神乃
 
+[通過した街]({{ site.baseurl }}/towns-we-passed/) - 㐂子
+
 [<ruby>一口中虫虱風嵐<rp>（</rp><rt>あらしふくさま</rt><rp>）</rp></ruby>]({{ site.baseurl }}/arashi-fuku-sama/) - 京野正午
 
 [ロウリュは風に乗って]({{ site.baseurl }}/löyly-rides-the-wind/) - 小西善仁
@@ -31,9 +33,11 @@ category: flatline
 
 [遺灰のように]({{ site.baseurl }}/like-ashes/) - 永井文鳥
 
+[帆船につき]({{ site.baseurl }}/per-sailing-ship/) - 新戸鴎二
+
 [おろしたて靴下のイヤイヤ期]({{ site.baseurl }}/socks-terrible/) - 鵺沼こもり
 
-[帆船につき]({{ site.baseurl }}/per-sailing-ship/) - 新戸鴎二
+[傾向と対策、西方と哀楽]({{ site.baseurl }}/trends-and-measures/) - nes
 
 [ザ　バースデイ]({{ site.baseurl }}/the-birthday/) - 八谷のり
 
