@@ -36,7 +36,7 @@ def generate_tanka_html(title, author, tanka):
 
     tanka_lines = tanka.split("\n")
     tanka_main = "\n".join(f"<p>{line}</p>" for line in tanka_lines)
-    tanka_summary = "<br/>".join(tanka_lines)
+    tanka_summary = "<br/>\n".join(tanka_lines)
 
     return f"""---
 layout: post
