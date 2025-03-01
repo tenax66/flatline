@@ -8,3 +8,6 @@ Gemfile.lock
 
 # Mac
 .DS_Store
+
+# chore
+input.txt
