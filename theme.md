@@ -41,7 +41,6 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>風</td>
     </tr>
     <tr>
-    <tr>
       <td>2025年2月号</td>
       <td>音</td>
     </tr>
@@ -76,7 +75,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
   </tbody>
 </table>
 
-#### テーマ詠について
+##### テーマ詠について
 
 ここでは、「与えられたテーマを連想させる短歌をつくること」をテーマ詠といいます。
 テーマの言葉そのものが短歌に含まれている必要はありません。
