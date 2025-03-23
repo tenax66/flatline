@@ -7,7 +7,26 @@ image: /assets/images/ogp_default.png
 
 #### Active Events
 
-No events.
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <td>#</td>
+      <td>名前</td>
+      <td>概要</td>
+      <td>日程</td>
+      <td>場所</td>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr>
+      <td>3</td>
+      <td><a href="/event/flatline-3">犬ミーティング</a></td>
+      <td>昼は犬とピクニックをして、夜は屋根のあるところで歌会をします。</td>
+      <td>調整中</td>
+      <td>調整中</td>
+    </tr>
+  </tbody>
+</table>
 
 Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
