@@ -4,7 +4,7 @@ title: 指示
 image: /assets/images/ogp_default.png
 author: 雀100
 category: 雀100
-emoji: 🔶
+emoji: 😑
 ---
 
 <div class="tanka-area"><div class="tanka">
