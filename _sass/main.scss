@@ -134,6 +134,10 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     text-orientation: upright;
 }
 
+.tate-chu-yoko-number {
+    text-combine-upright: all;
+}
+
 @media (max-width: 768px) {
     .tanka p:nth-child(n + 2) {
         padding-right: 10vw !important;
