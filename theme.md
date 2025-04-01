@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 4 月号
+#### 5 月号
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>道</th>
+      <th>旅</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>3/25</td>
+      <td>4/25</td>
     </tr>
   </tbody>
 </table>
@@ -36,6 +36,10 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2025年4月号</td>
+      <td>道</td>
+    </tr>
     <tr>
       <td>2025年3月号</td>
       <td>風</td>
