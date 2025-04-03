@@ -50,7 +50,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [2, 1, 1, 1, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 1],
+            data: [2, 1, 1, 1, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -149,6 +149,12 @@ image: /assets/images/ogp_default.png
 1. 柘榴
 2. 耽美的でグロテスクなところに惹かれます
 
+**小西善仁 [𝕏](https://x.com/ol_bp42){:target="_blank"} [Instagram](https://www.instagram.com/ponkoni/){:target="_blank"}**
+
+1. りんご
+
+2. なんかよさそう。おさまりがよろしい。一定の支持を受けている気分になれそう。
+
 **[白湯ささみ](https://x.com/sayu_73){:target="_blank"}**
 
 1. 桃
@@ -175,6 +181,7 @@ image: /assets/images/ogp_default.png
 2. 形がかっこよくて、被らない
 
 **[太朗千尋](https://x.com/Tarou_Chihiro){:target="_blank"}**
+
 1. ブルーベリー
 2. 語感が非常によい
 
@@ -237,7 +244,6 @@ image: /assets/images/ogp_default.png
 
 1. ぶどう
 2. 生まれ変わってもぶどうで大丈夫です
-
 
 **[福田六個](https://note.com/kuku1899){:target="_blank"}**
 
