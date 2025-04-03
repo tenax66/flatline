@@ -27,7 +27,7 @@ image: /assets/images/ogp_default.png
         backgroundColor: '',
         borderColor: '',
         gridColor: '#96968C',
-        textColor: '#0a172a',
+        textColor: '#f5e8d5',
     };
 
     const getStoredTheme = () => localStorage.getItem("theme");
@@ -48,9 +48,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
+        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [1, 1, 1, 1, 1, 2, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 1], 
+            data: [2, 1, 1, 1, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 1],
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -164,6 +164,16 @@ image: /assets/images/ogp_default.png
 1. びわ
 2. めっちゃ美味しいのに誰の一番でもないから
 
+**[髙山准](https://x.com/m99ejxj){:target="_blank"}**
+
+1. いちご
+2. 昔おかあさんといっしょで流れていた「いちごはいちご」という曲が好きだから
+
+**[蛸](https://x.com/tuna_kue27){:target="_blank"}**
+
+1. スターフルーツ
+2. 形がかっこよくて、被らない
+
 **[太朗千尋](https://x.com/Tarou_Chihiro){:target="_blank"}**
 1. ブルーベリー
 2. 語感が非常によい
@@ -192,6 +202,11 @@ image: /assets/images/ogp_default.png
 
 1. みかん
 2. 白いやつ『アルベド』って名前で、錬金術において再結晶、精神的浄化って意味で、かっこいいから
+
+**[nes](https://x.com/nes_mochir){:target="_blank"}**
+
+1. 梨
+2. いろいろと好きだから。雰囲気、味や食感、「梨」の漢字の造形など。
 
 **[八谷のり](https://x.com/noriko_kenkou){:target="_blank"}**
 
