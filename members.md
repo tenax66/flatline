@@ -110,6 +110,7 @@ image: /assets/images/ogp_default.png
 2. 上品だから
 
 **[宇佐田灰加](https://twitter.com/_duckengineer){:target="_blank"}**
+
 1. 生まれ変わったらぶどうになりたいです！
 2. たくさんだから
 
@@ -129,6 +130,7 @@ image: /assets/images/ogp_default.png
 2. 見た目ゴツゴツして強そうなのに、中身甘くて美味しくてギャップがあってセクシーだから
 
 **[尾内甲太郎](https://goki.her.jp/){:target="_blank"}**
+
 1. 棗椰子
 2. ヒトと同じ物質で創られたらしいから。
 
@@ -143,6 +145,7 @@ image: /assets/images/ogp_default.png
 2. お父さんが会食でゲットした種を植えたら、小さい木になったから
 
 **[京野正午](https://x.com/kyono_shogo){:target="_blank"}**
+
 1. 柘榴
 2. 耽美的でグロテスクなところに惹かれます
 
@@ -186,10 +189,12 @@ image: /assets/images/ogp_default.png
 2. 自我がたくさんありそうだから
 
 **鵺沼こもり**
+
 1. みかん
 2. 白いやつ『アルベド』って名前で、錬金術において再結晶、精神的浄化って意味で、かっこいいから
 
 **[八谷のり](https://x.com/noriko_kenkou){:target="_blank"}**
+
 1. 梨
 2. 秋だけ生きたいから
 
@@ -220,13 +225,14 @@ image: /assets/images/ogp_default.png
 
 
 **[福田六個](https://note.com/kuku1899){:target="_blank"}**
+
 1. 八朔
 2. 来世も名前の象徴力を頼りに生きていこうと思う
 
 **[三好しほ](https://x.com/myss_025){:target="_blank"}**
+
 1. 桃
 2. 愛されて育ってそうだから
-
 
 **[夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}**
 
