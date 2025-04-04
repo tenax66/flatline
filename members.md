@@ -50,7 +50,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [2, 1, 1, 1, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
+            data: [2, 1, 1, 1, 2, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -164,6 +164,11 @@ image: /assets/images/ogp_default.png
 
 1. 柿
 2. 高確率でまた日本に生まれられそうだから
+
+**[雀100](https://x.com/suzumedancing){:target="_blank"}**
+
+1. スイカ
+2. 野菜としての顔もあるから
 
 **砂時計**
 
