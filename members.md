@@ -48,9 +48,9 @@ image: /assets/images/ogp_default.png
     const themeColors = getThemeColors();
 
     const data = {
-        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
+        labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', 'デコポン', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [2, 1, 1, 1, 2, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
+            data: [2, 1, 1, 1, 2, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -254,6 +254,11 @@ image: /assets/images/ogp_default.png
 
 1. 八朔
 2. 来世も名前の象徴力を頼りに生きていこうと思う
+
+**[間際](https://x.com/magiwa_hako){:target="_blank"}**
+
+1. デコポン（不知火）
+2. 可愛い名前もカッコいい名前も持っているから
 
 **[三好しほ](https://x.com/myss_025){:target="_blank"}**
 
