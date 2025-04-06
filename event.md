@@ -22,8 +22,8 @@ image: /assets/images/ogp_default.png
       <td>3</td>
       <td><a href="/event/flatline-3">犬ミーティング</a></td>
       <td>昼は犬とピクニックをして、夜は屋根のあるところで歌会をします。</td>
-      <td>調整中</td>
-      <td>調整中</td>
+      <td>5/24</td>
+      <td>代々木公園→レンタルスペース</td>
     </tr>
   </tbody>
 </table>

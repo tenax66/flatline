@@ -21,10 +21,10 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 日程
 
-調整中
+2025-05-24
 
 #### 会場
 
-昼: 代々木公園（予定）
+昼: 代々木公園
 
-夜: 未定
+夜: レンタルスペース
