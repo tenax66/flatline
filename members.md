@@ -50,7 +50,7 @@ image: /assets/images/ogp_default.png
     const data = {
         labels: ['いちご', 'いちじく', '柿', '柘榴', 'スイカ', 'スターフルーツ', 'デコポン', '梨', 'パイナップル', 'はっさく', 'バナナ', 'びわ', 'ぶどう', 'ブルーベリー', 'みかん', '柚子', '桃', 'ライチ', 'りんご'].map((v)=>v.split("")),
         datasets: [{
-            data: [2, 1, 1, 1, 2, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
+            data: [2, 1, 2, 1, 2, 1, 1, 3, 4, 1, 1, 2, 5, 1, 2, 1, 2, 1, 2],
             backgroundColor: themeColors.backgroundColor,
             borderColor: themeColors.borderColor,
             borderWidth: 1
@@ -113,6 +113,11 @@ image: /assets/images/ogp_default.png
 
 1. 生まれ変わったらぶどうになりたいです！
 2. たくさんだから
+
+**宇祖田都子**
+
+1. 柿
+2. 日本の原風景っぽいかなと思って
 
 **[江間あやせ](https://x.com/emma_sama_sama){:target="_blank"}**
 
