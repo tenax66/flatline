@@ -13,7 +13,7 @@ emoji: 🧝‍♂️
 
 <p>
 <ruby>Patriōs sardonychēs vendit<rp>（</rp><rt>祖国の紅縞瑪瑙を売りに出す</rt><rp>）</rp></ruby>,<br/>
-<ruby>perlūcidī fabulae facit<rp>（</rp><rt>昔話が透明になる</rt><rp>）</rp></ruby>
+<ruby>perlūcidam fabulam facit<rp>（</rp><rt>昔話が透明になる</rt><rp>）</rp></ruby>
 </p>
 
 <p>
