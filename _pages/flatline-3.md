@@ -25,6 +25,6 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 会場
 
-昼: 代々木公園
+昼: 代々木公園（雨天中止）
 
-夜: レンタルスペース（19:00~23:00）
+夜: レンタルスペース（19:00~23:00、新大久保）
