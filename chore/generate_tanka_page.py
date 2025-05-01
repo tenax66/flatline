@@ -9,11 +9,12 @@ def process_tanka_blocks(lines):
     count = 1
     while i < len(lines):
         title = lines[i].strip()
-        author = lines[i + 1].strip()
-        tanka = "\n".join(lines[i + 2:i + 7]).strip()
-        output_list.append((count, title, author, generate_tanka_html(title, author, tanka)))
+        english_title = lines[i + 1].strip()
+        author = lines[i + 2].strip()
+        tanka = "\n".join(lines[i + 3:i + 8]).strip()
+        output_list.append((count, title, english_title, author, generate_tanka_html(title, author, tanka)))
         count += 1
-        i += 7  # Move to the next block
+        i += 9  # Move to the next block
     return output_list
 
 
@@ -32,7 +33,8 @@ def generate_tanka_html(title, author, tanka):
         "ゆるもちゆ": "🍡", "唯織明": "🖱️", "蛸": "🧝‍♂️",
         "新戸鴎二": "🐔", "永井文鳥": "🐦", "nes": "🌇",
         "宇祖田都子": "🎈", "髙山准": "💺", "雀100": "😑",
-        "間際": "🐈"
+        "間際": "🐈", "ほぐし水サワー": "🫗", "げきりん": "🐉",
+        "児玉すだま": "👻"
     }
     emoji = emoji_map.get(author, "❓")
 
@@ -75,8 +77,8 @@ def main():
 
     output_list = process_tanka_blocks(lines)
 
-    for count, title, author, output in output_list:
-        output_filename = f"{date_str}-tanka{count}.md"
+    for count, title, english_title, author, output in output_list:
+        output_filename = f"{date_str}-{english_title}.md"
         with open(output_filename, "w", encoding="utf-8") as f:
             f.write(output)
         print(f"出力ファイル: {output_filename}")
