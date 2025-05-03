@@ -247,17 +247,17 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 }
 
 .pagination-button:hover {
-  background-color: var(--bs-primary);
+  background-color: var(--bs-primary-bg-subtle);
   color: white;
 }
 
 .current-page {
   display: inline-block;
   padding: 2px 8px;
-  border: 1px solid var(--bs-primary);
+  border: 1px solid var(--bs-link-color);
   border-radius: 4px;
   font-size: 0.9rem;
-  background-color: var(--bs-primary);
+  background-color: var(--bs-link-color);
   color: white;
 }
 
