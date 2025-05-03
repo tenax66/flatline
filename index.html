@@ -68,16 +68,16 @@ image: /assets/images/ogp_default.png
 
       {% for page in (2..paginator.total_pages) %}
       {% if page == paginator.page %}
-      <span class="pagination-button current-page">{{ page }}</span>
+      <span class="btn pagination-button current-page">{{ page }}</span>
       {% elsif page >= start_page and page <= end_page and page !=1 and page !=paginator.total_pages %} <a
-        href="{{ site.baseurl }}/{{ page }}" class="pagination-button">{{ page }}</a>
+        href="{{ site.baseurl }}/{{ page }}" class="btn pagination-button">{{ page }}</a>
         {% endif %}
         {% endfor %}
 
         {% if end_page < paginator.total_pages %} {% assign last_minus_one=paginator.total_pages | minus: 1 %} {% if
           end_page < last_minus_one %} <span class="pagination-ellipsis">...</span>
           {% endif %}
-          <a href="{{ site.baseurl }}/{{ paginator.total_pages }}" class="pagination-button">{{
+          <a href="{{ site.baseurl }}/{{ paginator.total_pages }}" class="btn pagination-button">{{
             paginator.total_pages }}</a>
           {% endif %}
     </div>
