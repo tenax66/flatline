@@ -3,7 +3,8 @@ layout: default
 image: /assets/images/ogp_default.png
 ---
 
-<div class="text-center fs-6">Join our <i class="fa-brands fa-discord"></i> <a href="https://discord.gg/WyV2XHN6z2">Discord</a>!</div>
+<div class="text-center fs-6">Join our <i class="fa-brands fa-discord"></i> <a
+    href="https://discord.gg/WyV2XHN6z2">Discord</a>!</div>
 <hr>
 
 <div class="archive">
@@ -48,9 +49,21 @@ image: /assets/images/ogp_default.png
       class="invisible previous fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
   {% endif %}
 
-  <span class="page_number fs-5">
-    {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
+  <div class="d-flex align-items-center">
+    <div class="pagination-buttons">
+      {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <span class="pagination-button current-page">{{ page }}</span>
+      {% else %}
+      {% if page == 1 %}
+      <a href="{{ site.baseurl }}/" class="pagination-button">{{ page }}</a>
+      {% else %}
+      <a href="{{ site.baseurl }}/{{ page }}" class="pagination-button">{{ page }}</a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
   {% if paginator.next_page %}
   <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
