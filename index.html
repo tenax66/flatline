@@ -3,7 +3,8 @@ layout: default
 image: /assets/images/ogp_default.png
 ---
 
-<div class="text-center fs-6">Join our <i class="fa-brands fa-discord"></i> <a href="https://discord.gg/WyV2XHN6z2">Discord</a>!</div>
+<div class="text-center fs-6">Join our <i class="fa-brands fa-discord"></i> <a
+    href="https://discord.gg/WyV2XHN6z2">Discord</a>!</div>
 <hr>
 
 <div class="archive">
@@ -48,9 +49,39 @@ image: /assets/images/ogp_default.png
       class="invisible previous fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
   {% endif %}
 
-  <span class="page_number fs-5">
-    {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
+  <div class="d-flex align-items-center">
+    <div class="pagination-buttons">
+      <!-- 最初のページ -->
+      {% if paginator.page != 1 %}
+      <a href="{{ site.baseurl }}/" class="pagination-button">1</a>
+      {% else %}
+      <span class="pagination-button current-page">1</span>
+      {% endif %}
+
+      <!-- 省略記号と中間ページ -->
+      {% assign start_page = paginator.page | minus: 1 %}
+      {% assign end_page = paginator.page | plus: 1 %}
+
+      {% if start_page > 2 %}
+      <span class="pagination-ellipsis">...</span>
+      {% endif %}
+
+      {% for page in (2..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <span class="pagination-button current-page">{{ page }}</span>
+      {% elsif page >= start_page and page <= end_page and page !=1 and page !=paginator.total_pages %} <a
+        href="{{ site.baseurl }}/{{ page }}" class="pagination-button">{{ page }}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if end_page < paginator.total_pages %} {% assign last_minus_one=paginator.total_pages | minus: 1 %} {% if
+          end_page < last_minus_one %} <span class="pagination-ellipsis">...</span>
+          {% endif %}
+          <a href="{{ site.baseurl }}/{{ paginator.total_pages }}" class="pagination-button">{{
+            paginator.total_pages }}</a>
+          {% endif %}
+    </div>
+  </div>
 
   {% if paginator.next_page %}
   <a href="{{ paginator.next_page_path }}"><i class="next fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
