@@ -51,17 +51,40 @@ image: /assets/images/ogp_default.png
 
   <div class="d-flex align-items-center">
     <div class="pagination-buttons">
-      {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-      <span class="pagination-button current-page">{{ page }}</span>
-      {% else %}
-      {% if page == 1 %}
-      <a href="{{ site.baseurl }}/" class="pagination-button">{{ page }}</a>
-      {% else %}
-      <a href="{{ site.baseurl }}/{{ page }}" class="pagination-button">{{ page }}</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      {% assign start_page = paginator.page | minus: 2 %}
+      {% if start_page < 1 %} {% assign start_page=1 %} {% endif %} {% assign end_page=paginator.page | plus: 2 %} {% if
+        end_page> paginator.total_pages %}
+        {% assign end_page = paginator.total_pages %}
+        {% endif %}
+
+        <!-- 最初のページ -->
+        {% if start_page > 1 %}
+        <a href="{{ site.baseurl }}/" class="pagination-button">1</a>
+        {% if start_page > 2 %}
+        <span class="pagination-ellipsis">...</span>
+        {% endif %}
+        {% endif %}
+
+        <!-- 中間のページ -->
+        {% for page in (start_page..end_page) %}
+        {% if page == paginator.page %}
+        <span class="pagination-button current-page">{{ page }}</span>
+        {% else %}
+        {% if page == 1 %}
+        <a href="{{ site.baseurl }}/" class="pagination-button">{{ page }}</a>
+        {% else %}
+        <a href="{{ site.baseurl }}/{{ page }}" class="pagination-button">{{ page }}</a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        <!-- 最後のページ -->
+        {% if end_page < paginator.total_pages %} {% assign last_minus_one=paginator.total_pages | minus: 1 %} {% if
+          end_page < last_minus_one %} <span class="pagination-ellipsis">...</span>
+          {% endif %}
+          <a href="{{ site.baseurl }}/{{ paginator.total_pages }}" class="pagination-button">{{
+            paginator.total_pages }}</a>
+          {% endif %}
     </div>
   </div>
 

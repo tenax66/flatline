@@ -261,8 +261,8 @@ html[data-bs-theme="dark"] .text-gray-dependent {
   color: white;
 }
 
-@media (max-width: 768px) {
-  .pagination-buttons {
-    display: none;
-  }
+.pagination-ellipsis {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.9rem;
 }
