@@ -1,11 +1,13 @@
 - name: Home
   link: /
-- name: Theme
-  link: /theme/
 - name: About
   link: /about/
+- name: Theme
+  link: /theme/
 - name: Members
   link: /members/
+- name: Archive
+  link: /archive/
 - name: Event
   link: /event/
 - name: ^57577.net

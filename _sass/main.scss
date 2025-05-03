@@ -198,3 +198,32 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 .invisible {
     visibility: hidden;
   }
+
+.archive-page-container {
+  margin-top: 2rem;
+}
+
+.archive-page-container h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.archive-page-container h3 {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.archive-page-list {
+  list-style-type: none;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.archive-page-date {
+  display: inline-block;
+  min-width: 100px;
+  color: #666;
+  margin-right: 1rem;
+}
