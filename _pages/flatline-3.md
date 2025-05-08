@@ -27,7 +27,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 昼のみ、夜のみの参加もOKです
 
-*昼: 代々木公園*
+**<u>昼: 代々木公園</u>**
 
 - 15時ごろ開始します
 - 雨天中止
@@ -36,7 +36,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
   - 飲食物は持ち寄り形式です
 - その後、レンタルスペースに移動します
 
-*夜: レンタルスペース（19:00~23:00、新大久保）*
+**<u>夜: レンタルスペース（19:00~23:00、新大久保）</u>**
 
 - こちらは天候にかかわらず開催します
 - 1時間程度歌会をする予定です
