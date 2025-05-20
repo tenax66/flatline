@@ -25,8 +25,6 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 開催要項
 
-昼のみ、夜のみの参加もOKです
-
 <u>昼: 代々木公園</u>
 
 ＜雨天のため中止します＞
