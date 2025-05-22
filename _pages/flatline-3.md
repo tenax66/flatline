@@ -44,7 +44,6 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 - 当日17時までに一首を主催者（青野ゆらぎ）に提出ください
 - テーマ: **犬**
-- 事前に提出してもらうのも、犬の現物を見てから短歌をつくるのもどちらもOKです
 
 #### 犬に関する注意事項
 
