@@ -2,9 +2,9 @@
 layout: post
 title: 乱暴者の詩
 image: /assets/images/ogp_default.png
-author: のい
-category: のい
-emoji: 🐶
+author: のい（noigashira）
+category: のい（noigashira）
+emoji: 🌷
 ---
 
 <div class="tanka-area"><div class="tanka">
@@ -24,4 +24,4 @@ emoji: 🐶
 ニョキニョキの雑草掴んでどつき回すそんですぐ生えめちゃくちゃシバく<br/>
 </details>
 
-のい
+のい（noigashira）
