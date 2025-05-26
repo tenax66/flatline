@@ -39,7 +39,7 @@ category: flatline
         slug = lines[i+1]
         author = lines[i+2]
         print(f"[{title}]({{ site.baseurl }}/{slug}) - {author}")
-        entries.append(f"[{title}]({{ site.baseurl }}/{slug}) - {author}\n")
+        entries.append(f"[{title}]({{{{ site.baseurl }}}}/{slug}) - {author}\n")
         i += 9  # 各作品は8行構成（タイトル、slug、作者、短歌×5、--）
 
     with open(output_file, "w", encoding="utf-8") as f:
