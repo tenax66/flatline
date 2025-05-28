@@ -12,7 +12,7 @@ emoji: 🍑
 <p>湖で溺れる君を眺めつつ飲んだガソリン乳が膨らむ</p>
 <p>走馬灯　話題のナウいおすすめはオバフェス達のアーパツアパツ♪</p>
 <p>対岸の火事は先ほど点けました<ruby>110番<rp>（</rp><rt>ひゃくとおばん</rt><rp>）</rp></ruby>も吾が迅速に</p>
-<p>遊覧船<span class="tate-chu-yoko" style="font-family: 'Noto Sans', sans-serif;">&#x303D;&#xFE0E;</span>あぁ松島や松島や」袋に入れた君を投げ捨て</p></div></div>
+<p>遊覧船<span style="font-family: 'Noto Sans', sans-serif;">&#x303D;&#xFE0E;</span>あぁ松島や松島や」袋に入れた君を投げ捨て</p></div></div>
 
 ---
 
@@ -21,7 +21,7 @@ emoji: 🍑
 湖で溺れる君を眺めつつ飲んだガソリン乳が膨らむ<br/>
 走馬灯　話題のナウいおすすめはオバフェス達のアーパツアパツ♪<br/>
 対岸の火事は先ほど点けました<ruby>110番<rp>（</rp><rt>ひゃくとおばん</rt><rp>）</rp></ruby>も吾が迅速に<br/>
-遊覧船<span class="tate-chu-yoko" style="font-family: 'Noto Sans', sans-serif;">&#x303D;&#xFE0E;</span>あぁ松島や松島や」袋に入れた君を投げ捨て<br/>
+遊覧船<span style="font-family: 'Noto Sans', sans-serif;">&#x303D;&#xFE0E;</span>あぁ松島や松島や」袋に入れた君を投げ捨て<br/>
 </details>
 
 㐂子
