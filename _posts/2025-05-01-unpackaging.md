@@ -8,7 +8,7 @@ emoji: 🫗
 ---
 
 <div class="tanka-area"><div class="tanka">
-<p>いちご狩りツアー！ お土産にメロンが一玉ついてくる<span class="tate-chu-yoko-number">！！</span> らしい、行きたい</p>
+<p>いちご狩りツアー！ お土産にメロンが一玉ついてくる<span class="tate-chu-yoko-upright">！！</span> らしい、行きたい</p>
 <p>窓のない県道、橙の灯り、排気ガス色の雨に濡れる</p>
 <p>ホリケンと略せる看板プリズムの三層目から旅してきた蒼</p>
 <p>フェルトを片刃で裁ってササーとかスーとか進む時の無呼吸</p>
