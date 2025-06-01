@@ -11,7 +11,7 @@ image: /assets/images/ogp_default.png
     <h2>{{ year.name }}</h2>
     {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
     {% for month in postsByMonth %}
-      <h3>{{ month.name | date: "%m" }}月</h3>
+      <h3>{{ month.name }}月</h3>
       <ul class="archive-page-list">
         {% for post in month.items %}
           <li>
