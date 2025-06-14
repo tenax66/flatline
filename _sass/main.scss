@@ -1,5 +1,6 @@
 /* general */
 .body {
+    margin-top: 78px;
     font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
@@ -18,7 +19,13 @@
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
-    margin-bottom: 2rem;
+    background-color: var(--bs-body-bg);
+}
+
+.flatline-navbar-container {
+    padding-bottom: 0.75rem;
+    padding-left: 0;
+    padding-right:0;
     border-bottom: 0.125rem solid hsl(0, 0%, 30%);
 }
 
