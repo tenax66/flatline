@@ -18,13 +18,6 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
-    <tr>
-      <td>3</td>
-      <td><a href="/event/flatline-3">犬ミーティング</a></td>
-      <td>屋根のあるところで犬と歌会をします。</td>
-      <td>2025-05-24</td>
-      <td>レンタルスペース</td>
-    </tr>
   </tbody>
 </table>
 
@@ -59,6 +52,13 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>2025-02-13 19:00~23:00</td>
       <td><a href="https://maps.app.goo.gl/B7PyzZxTCvZpaeU48">PASSAGE bis! BOOKS &amp; CAFE</a></td>
       <td>-</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="/event/flatline-3">犬ミーティング</a></td>
+      <td>屋根のあるところで犬と歌会をします。</td>
+      <td>2025-05-24</td>
+      <td>レンタルスペース</td>
     </tr>
   </tbody>
 </table>
