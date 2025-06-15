@@ -5,6 +5,7 @@
     --bs-body-color-rgb: 20, 13, 0;
     --bs-body-bg: #f5e8d5;
     --bs-body-bg-rgb: 245, 232, 213;
+    --bs-body-bg-rgb-opaque: 245, 232, 213, 0.25;
     --bs-link-color: #2940b3;
     --bs-link-color-rgb: 41, 64, 179;
     --bs-primary-bg-subtle: #6C81EB;
@@ -16,6 +17,7 @@ html[data-bs-theme="light"] {
     --bs-body-color-rgb: 20, 13, 0;
     --bs-body-bg: #f5e8d5;
     --bs-body-bg-rgb: 245, 232, 213;
+    --bs-body-bg-rgb-opaque: 245, 232, 213, 0.25;
     --bs-link-color: #2940b3;
     --bs-link-color-rgb: 41, 64, 179;
 }
@@ -27,6 +29,7 @@ html[data-bs-theme="dark"] {
     --bs-body-color-rgb: 245, 232, 213;
     --bs-body-bg: #0a172a;
     --bs-body-bg-rgb: 10, 23, 42;
+    --bs-body-bg-rgb-opaque: 10, 23, 42, 0.25;
     --bs-link-color: #6ea8fe;
     --bs-link-color-rgb: 110, 168, 254;
 

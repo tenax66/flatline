@@ -19,7 +19,20 @@
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
-    background-color: var(--bs-body-bg);
+    background-color: rgba(var(--bs-body-bg-rgb-opaque)); /* 半透明な白 */
+    backdrop-filter: blur(10px); /* 背景のぼかし */
+    -webkit-backdrop-filter: blur(10px); /* Safari対応 */
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* 少し光る境界線 */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05); /* ふわっとした影 */
+}
+
+/* ダークモード用に背景色を暗めに調整 */
+html[data-bs-theme="dark"] .navbar {
+    background-color: rgba(var(--bs-body-bg-rgb-opaque));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .flatline-navbar-container {
