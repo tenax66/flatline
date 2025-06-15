@@ -10,6 +10,7 @@
     --bs-link-color-rgb: 41, 64, 179;
     --bs-primary-bg-subtle: #6C81EB;
     --bs-primary-bg-subtle-rgb: 108, 129, 235;
+    --bs-border-color: #140d00;
 }
 
 html[data-bs-theme="light"] {
@@ -20,6 +21,7 @@ html[data-bs-theme="light"] {
     --bs-body-bg-rgb-opaque: 245, 232, 213, 0.25;
     --bs-link-color: #2940b3;
     --bs-link-color-rgb: 41, 64, 179;
+    --bs-border-color: #140d00;
 }
 /*
  * ---------- Dark Mode ------------------------------------------------------
@@ -32,6 +34,7 @@ html[data-bs-theme="dark"] {
     --bs-body-bg-rgb-opaque: 10, 23, 42, 0.25;
     --bs-link-color: #6ea8fe;
     --bs-link-color-rgb: 110, 168, 254;
+    --bs-border-color: #f5e8d5;
 
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
