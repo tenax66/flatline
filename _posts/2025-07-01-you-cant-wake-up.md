@@ -12,12 +12,17 @@ emoji: 🐕
 <br/>
 <img src="https://images.tanka.cc/2025_07_face.png" alt="苦労して顔を歪める必要はないさ　そのまま立ってればいい" class="responsive-img">
 <br/>
+<img src="https://images.tanka.cc/2025_07_train.png" alt="どれぐらい乗っていたのかわからないけど 未来には着いてなかった" class="responsive-img">
+<br/>
 <img src="https://images.tanka.cc/2025_07_summer.png" alt="完全で簡潔な夏　考えるまでもなく旅は終わりつつある" class="responsive-img">
+<br/>
+
 ---
 
 <details><summary>眠らなければ目覚められない</summary>
 おれたちは海が見たくて逃げてきた　だから天国へは入れない<br/>
 苦労して顔を歪める必要はないさ　そのまま立ってればいい<br/>
+どれぐらい乗っていたのかわからないけど 未来には着いてなかった<br/>
 完全で簡潔な夏　考えるまでもなく旅は終わりつつある<br/>
 <br/>
 
