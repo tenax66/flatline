@@ -31,7 +31,7 @@ category: flatline
 
 [サイクリングロード]({{ site.baseurl }}/cycling-road/) - 太朗千尋
 
-[いま出たところ]({{ site.baseurl }}/i-just-left/) - 点線画鋲
+[いま出たところ]({{ site.baseurl }}/i-just-left/) - 町田永久
 
 [午前1時コンビニの白髪]({{ site.baseurl }}/1-am-gray-hair/) - 鵺沼こもり
 

@@ -17,7 +17,7 @@ category: flatline
 
 [かなた]({{ site.baseurl }}/kanata/) - 非鋭理反
 
-[０]({{ site.baseurl }}/zero/) - 点線画鋲
+[０]({{ site.baseurl }}/zero/) - 町田永久
 
 [最近できた街]({{ site.baseurl }}/newtown/) - domeki
 

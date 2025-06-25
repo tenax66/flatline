@@ -15,7 +15,7 @@ category: flatline
 
 [since 2008]({{ site.baseurl }}/since-2008/) - 㐂子
 
-[入射角]({{ site.baseurl }}/incidence-angle/) - 点線画鋲
+[入射角]({{ site.baseurl }}/incidence-angle/) - 町田永久
 
 [one-to-one onto]({{ site.baseurl }}/one-to-one-onto/) - 冨岡正太郎
 

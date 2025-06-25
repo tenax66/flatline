@@ -2,8 +2,8 @@
 layout: post
 title: Playground
 image: /assets/images/ogp_default.png
-author: 点線画鋲
-category: 点線画鋲
+author: 町田永久
+category: 町田永久
 emoji: 📌
 ---
 
@@ -24,4 +24,4 @@ emoji: 📌
 朝食べたコーンフレークが奥歯から出てこれないで牛乳を待つ<br/>
 </details>
 
-点線画鋲
+町田永久

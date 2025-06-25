@@ -13,7 +13,7 @@ category: flatline
 
 [緑風そぞろ]({{ site.baseurl }}/early-summer-breeze/) - 非鋭理反
 
-[もくようび]({{ site.baseurl }}/thursday/) - 点線画鋲
+[もくようび]({{ site.baseurl }}/thursday/) - 町田永久
 
 [校舎から観覧車が見える]({{ site.baseurl }}/ferris-wheel-from-the-school/) -   特上あいう
 

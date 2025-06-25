@@ -29,7 +29,7 @@ category: flatline
 
 [関係各所への謝罪]({{ site.baseurl }}/apology-to-all-concerned/) - 太朗千尋
 
-[コムソワ]({{ site.baseurl }}/comme-soi/) - 点線画鋲
+[コムソワ]({{ site.baseurl }}/comme-soi/) - 町田永久
 
 [遺灰のように]({{ site.baseurl }}/like-ashes/) - 永井文鳥
 

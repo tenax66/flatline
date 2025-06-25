@@ -28,7 +28,7 @@ category: flatline
 
 [がたんがたんがたんがたん]({{ site.baseurl }}/clickety-clack/) - 太朗千尋
 
-[ここは上空]({{ site.baseurl }}/this-is-the-sky/) - 点線画鋲
+[ここは上空]({{ site.baseurl }}/this-is-the-sky/) - 町田永久
 
 [バナナの鳴らし方]({{ site.baseurl }}/how-to-sound-a-banana/) - 鵺沼こもり
 
