@@ -21,7 +21,7 @@ category: flatline
 
 [the cracked black mirror]({{ site.baseurl }}/the-cracked-black-mirror/) - 八谷のり
 
-[模範の波紋が繁茂して]({{ site.baseurl }}/ripples-flourish/) - 非鋭理反
+[模範の波紋が繁茂して]({{ site.baseurl }}/ripples-flourish/) - 留留留
 
 [本当は夢の駅の夢は本当]({{ site.baseurl }}/dream-of-a-dream-station/) - 東川夢物語
 

@@ -26,7 +26,7 @@ category: flatline
 
 [流動]({{ site.baseurl }}/flow/) - 八谷のり
 
-[沼底でねむる]({{ site.baseurl }}/sleep-in-the-swamp-bottom/) - 非鋭理反
+[沼底でねむる]({{ site.baseurl }}/sleep-in-the-swamp-bottom/) - 留留留
 
 [晴れ虱]({{ site.baseurl }}/fine-louse/) - 東川夢物語
 

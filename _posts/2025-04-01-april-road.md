@@ -39,7 +39,7 @@ category: flatline
 
 [高尾山（遺伝子組換えでない）]({{ site.baseurl }}/mt-takao-non-gmo/) - 八谷のり
 
-[未知満ちていた道]({{ site.baseurl }}/the-road-filled-with-the-unknown/) - 非鋭理反
+[未知満ちていた道]({{ site.baseurl }}/the-road-filled-with-the-unknown/) - 留留留
 
 [歩けば当たる]({{ site.baseurl }}/walk-and-hit/) - 彦凪　至
 

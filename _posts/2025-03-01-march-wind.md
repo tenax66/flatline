@@ -41,7 +41,7 @@ category: flatline
 
 [ザ　バースデイ]({{ site.baseurl }}/the-birthday/) - 八谷のり
 
-[すべる明日へとすべり澱]({{ site.baseurl }}/slippery-tomorrow/) - 非鋭理反
+[すべる明日へとすべり澱]({{ site.baseurl }}/slippery-tomorrow/) - 留留留
 
 [ドップラー効果]({{ site.baseurl }}/doppler-effect/) - ヒミツー
 

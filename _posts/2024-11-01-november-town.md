@@ -15,7 +15,7 @@ category: flatline
 
 [20241011]({{ site.baseurl }}/20241011/) - 奥園
 
-[かなた]({{ site.baseurl }}/kanata/) - 非鋭理反
+[かなた]({{ site.baseurl }}/kanata/) - 留留留
 
 [０]({{ site.baseurl }}/zero/) - 町田永久
 

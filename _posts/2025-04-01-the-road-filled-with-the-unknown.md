@@ -2,8 +2,8 @@
 layout: post
 title: 未知満ちていた道
 image: /assets/images/ogp_default.png
-author: 非鋭理反
-category: 非鋭理反
+author: 留留留
+category: 留留留
 emoji: 🕯️
 ---
 
@@ -24,4 +24,4 @@ emoji: 🕯️
 あの日から虚ろにのびた光受け焦げてゆくのみ三叉路の前<br/>
 </details>
 
-非鋭理反
+留留留

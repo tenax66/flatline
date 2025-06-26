@@ -2,8 +2,8 @@
 layout: post
 title: 火曜日にプードルを買います。
 image: /assets/images/ogp_default.png
-author: 非鋭理反
-category: 非鋭理反
+author: 留留留
+category: 留留留
 emoji: 🕯️
 ---
 
@@ -24,4 +24,4 @@ emoji: 🕯️
 嘘つきが天国の門くぐるたび枠減っていく指定郷推薦<br/>
 </details>
 
-非鋭理反
+留留留

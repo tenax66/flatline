@@ -2,8 +2,8 @@
 layout: post
 title: 旗はためいて又束ねられ
 image: /assets/images/ogp_default.png
-author: 非鋭理反
-category: 非鋭理反
+author: 留留留
+category: 留留留
 emoji: 🕯️
 ---
 
@@ -32,4 +32,4 @@ emoji: 🕯️
 
 </details>
 
-非鋭理反
+留留留

@@ -2,8 +2,8 @@
 layout: post
 title: 旅の端のかき揚げ
 image: /assets/images/ogp_default.png
-author: 非鋭理反
-category: 非鋭理反
+author: 留留留
+category: 留留留
 emoji: 🕯️
 ---
 
@@ -24,4 +24,4 @@ emoji: 🕯️
 幾千の緑が列島染め上げて近所のパン屋はきら光るまま<br/>
 </details>
 
-非鋭理反
+留留留

@@ -32,7 +32,7 @@ category: flatline
 
 [バナナの鳴らし方]({{ site.baseurl }}/how-to-sound-a-banana/) - 鵺沼こもり
 
-[ぬぬぬぬぬぅ]({{ site.baseurl }}/nnnnnu/) - 非鋭理反
+[ぬぬぬぬぬぅ]({{ site.baseurl }}/nnnnnu/) - 留留留
 
 [それは少し奇妙に聞こえます]({{ site.baseurl }}/it-sounds-a-bit-strange/) - 東川夢物語
 
