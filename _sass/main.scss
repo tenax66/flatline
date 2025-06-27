@@ -126,6 +126,9 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 .tanka-area {
     text-align: center;
     font-family: "dotgothic16", "lores-12", sans-serif;
+    display: block;
+    height: auto;
+    max-height: none;
 }
 
 .tanka {
