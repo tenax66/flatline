@@ -184,12 +184,6 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     font-family: "ヒラギノ角ゴ ProN", "Yu Gothic", sans-serif;
 }
 
-/* chart */
-.fruitChart {
-    width: 50%;
-    max-width: 300px;
-}
-
 /* 2024-09-01-the-children-of-anchor-bay.md */
 .tanka-background-dark {
     position: relative;
@@ -316,4 +310,20 @@ blockquote p {
 html[data-bs-theme="dark"] blockquote {
   background-color: rgba(var(--bs-body-bg-rgb), 0.3);
   border-left-color: var(--bs-link-color);
+}
+
+.responsive-iframe-container {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* 16:9の比率 */
+  position: relative;
+  overflow: hidden;
+  max-width: 560px;
+  max-height: 315px;
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
