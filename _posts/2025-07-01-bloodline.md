@@ -51,6 +51,7 @@ emoji: 🍞
   </div>
   <div class="twitter-fake-card-footer">
     <span class="twitter-fake-date">2020年7月16日</span>
+    <span class="twitter-fake-date">このツイートは、ツイートの作成者により削除されました。</span>
   </div>
 </div>
 <p class="text-center">出典: <small><a href="https://twitter.com/YojiNoda1/status/1283752963052167169">https://twitter.com/YojiNoda1/status/1283752963052167169</a></small></p>
@@ -71,7 +72,7 @@ emoji: 🍞
     <span class="twitter-fake-date">2020年7月16日</span>
   </div>
 </div>
-<p class="text-center"><small>出典: <a href="https://twitter.com/YojiNoda1/status/1283752963052167169">https://x.com/YojiNoda1/status/1283755421363130370</a></small></p>
+<p class="text-center"><small>出典: <a href="https://twitter.com/YojiNoda1/status/1283755421363130370">https://twitter.com/YojiNoda1/status/1283755421363130370</a></small></p>
 
 ---
 
