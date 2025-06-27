@@ -51,6 +51,7 @@ emoji: 🍞
   </div>
   <div class="twitter-fake-card-footer">
     <span class="twitter-fake-date">2020年7月16日</span>
+    <br/>
     <span class="twitter-fake-date">このツイートは、ツイートの作成者により削除されました。</span>
   </div>
 </div>
