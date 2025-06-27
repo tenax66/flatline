@@ -1,5 +1,4 @@
 ---
-date: "2025-07-01 00:00:00"
 layout: post
 title: 眠らなければ目覚められない
 image: /assets/images/ogp_default.png
