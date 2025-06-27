@@ -7,7 +7,7 @@ category: 留留留
 emoji: 🕯️
 ---
 
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area" style="font-size: 95%;"><div class="tanka">
 <p>走馬灯出演歴なく孤死居士は孤死居士だよと風がささやく</p>
 <p>ぜんせよりまえからずーっと孤死居士は孤死居士だからさみしくないよ</p>
 <p>誇示固持は孤死居士となりて矜持のみ肥大したままゆく畜生道</p>
