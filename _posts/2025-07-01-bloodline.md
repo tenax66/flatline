@@ -61,7 +61,6 @@ emoji: 🍞
 <p>国というシステム人という記号全部ままごとにするお父さん</p>
 <p>本当に歌うよお化け遺伝子を持つ人たちを飼い殺す歌</p>
 <p>いつの日かヨージローには選ばれず最初で最後の死ぬをしましょう</p></div></div>
-<br/>
 <div class="twitter-fake-card">
   <div class="twitter-fake-card-header">
   </div>
