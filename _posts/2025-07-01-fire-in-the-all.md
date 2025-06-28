@@ -8,6 +8,12 @@ emoji: 🧝‍♂️
 ---
 
 <style>
+@media (max-width: 480px) {
+    .tanka-area {
+        font-size: 90%;
+    }
+}
+
 @media (max-width: 380px) {
     .tanka-area {
         font-size: 75%;

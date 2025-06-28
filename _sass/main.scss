@@ -169,13 +169,6 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     }
 }
 
-/* iPhone SEなど小さい画面用 */
-@media (max-width: 380px) {
-    .tanka-area {
-        font-size: 80%;
-    }
-}
-
 .kotobagaki {
     font-size: 0.8rem;
 }
