@@ -4,7 +4,7 @@ title: 成仏してやらない
 image: /assets/images/ogp_default.png
 author: 再生
 category: 再生
-emoji: 📼
+emoji: ▶️ 
 ---
 
 <div class="tanka-area"><div class="tanka">
