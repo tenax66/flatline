@@ -170,13 +170,6 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     }
 }
 
-/* iPhone（大きめ）用 */
-@media (max-width: 480px) {
-    .tanka-area {
-        font-size: 90%;
-    }
-}
-
 /* iPhone SEなど小さい画面用 */
 @media (max-width: 380px) {
     .tanka-area {
