@@ -7,7 +7,7 @@ category: 魚石ひかり
 emoji: 🐟
 ---
 
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area" style="font-size: 92%;"><div class="tanka">
 <p>ここだから足元から目がはなせないメッシュの靴に木漏れ日おとして</p>
 <p>歩いてる　森にさわれる気がしてて腕をわたしの範囲で差し出す</p>
 <p>ツバメと共にやってきたこころを抱えていたら春になる　ひとりではない</p>
