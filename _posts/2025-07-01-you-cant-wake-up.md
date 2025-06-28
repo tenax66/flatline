@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 眠らなければ目覚められない
-image: https://images.tanka.cc/2025_07_sea.png
+image: https://images.tanka.cc/2025_07_sea_og.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
 emoji: 🐕
