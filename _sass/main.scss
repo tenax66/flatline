@@ -126,6 +126,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 .tanka-area {
     text-align: center;
     font-family: "dotgothic16", "lores-12", sans-serif;
+    font-size: 100%; /* PCデフォルト */
     display: block;
     height: auto;
     max-height: none;
@@ -166,6 +167,20 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 @media (max-width: 480px) {
     .tanka p:nth-child(n + 2) {
         padding-right: 5vw !important;
+    }
+}
+
+/* iPhone（大きめ）用 */
+@media (max-width: 428px) {
+    .tanka-area {
+        font-size: 90%;
+    }
+}
+
+/* iPhone SEなど小さい画面用 */
+@media (max-width: 375px) {
+    .tanka-area {
+        font-size: 80%;
     }
 }
 
