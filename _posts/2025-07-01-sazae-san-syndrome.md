@@ -1,6 +1,6 @@
 ---
 layout: post
-title: サザエさんシンドローム（まだある？ ）
+title: サザエさんシンドローム<br />（まだある？ ）
 image: /assets/images/ogp_default.png
 author: 田中記念館
 category: 田中記念館
