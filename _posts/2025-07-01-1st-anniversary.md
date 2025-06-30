@@ -24,7 +24,7 @@ category: 青野ゆらぎ
   <iframe width="560" height="315" src="https://www.youtube.com/embed/NrMINC5xjMs?si=gGPpsjijUEDv7oJF&amp;start=640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br />
-これについて、タルコフスキー自身は以下のように語っています。
+これについて、タルコフスキー自身は以下のように述べました。
 
 > 彼が去っていくときに、彼がたんにヒロインの方を振り返って、意味ありげに見たとするならば、そのときすべては一本調子で偽りに満ちたものになったに違いない。そのとき、この草原を風が突然吹きわたるということが頭に浮かんだのだ。この思いがけぬ風のために、この見知らぬ男は心を奪われ、風ゆえにあたりを見回したのである。もしこのように言うことが許されるならば、このような場合、作者の〈手をつかんで〉、その意志の明確な方向を示させることなどできないのだ。
 > <br />
