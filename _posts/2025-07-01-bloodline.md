@@ -51,12 +51,12 @@ emoji: 🍞
   </div>
   <div class="twitter-fake-card-footer">
     <span class="twitter-fake-date">2020年7月16日</span>
-    <br/>
+    <br />
     <span class="twitter-fake-date">このツイートは、ツイートの作成者により削除されました。</span>
   </div>
 </div>
 <p class="text-center">出典: <small><a href="https://twitter.com/YojiNoda1/status/1283752963052167169">https://twitter.com/YojiNoda1/status/1283752963052167169</a></small></p>
-<br/>
+<br />
 <div class="tanka-area"><div class="tanka">
 <p>100-0001　産まれるというしがらみはまだ終わらない</p>
 <p>今からは<ruby>徹底的な血統<rp>（</rp><rt>Thoroughbred</rt><rp>）</rp></ruby>になれないね、出揃わないまんまの皇太子</p>
@@ -78,11 +78,11 @@ emoji: 🍞
 ---
 
 <details><summary>ブラッドライン</summary>
-100-0001　産まれるというしがらみはまだ終わらない<br/>
-今からは<ruby>徹底的な血統<rp>（</rp><rt>Thoroughbred</rt><rp>）</rp></ruby>になれないね、出揃わないまんまの皇太子<br/>
-国というシステム人という記号全部ままごとにするお父さん<br/>
-本当に歌うよお化け遺伝子を持つ人たちを飼い殺す歌<br/>
-いつの日かヨージローには選ばれず最初で最後の死ぬをしましょう<br/>
+100-0001　産まれるというしがらみはまだ終わらない<br />
+今からは<ruby>徹底的な血統<rp>（</rp><rt>Thoroughbred</rt><rp>）</rp></ruby>になれないね、出揃わないまんまの皇太子<br />
+国というシステム人という記号全部ままごとにするお父さん<br />
+本当に歌うよお化け遺伝子を持つ人たちを飼い殺す歌<br />
+いつの日かヨージローには選ばれず最初で最後の死ぬをしましょう<br />
 </details>
 
 八谷のり

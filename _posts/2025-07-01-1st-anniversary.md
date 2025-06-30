@@ -23,11 +23,11 @@ category: 青野ゆらぎ
 <div class="responsive-iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/NrMINC5xjMs?si=gGPpsjijUEDv7oJF&amp;start=640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<br/>
+<br />
 これについて、タルコフスキー自身は以下のように語っています。
 
 > 彼が去っていくときに、彼がたんにヒロインの方を振り返って、意味ありげに見たとするならば、そのときすべては一本調子で偽りに満ちたものになったに違いない。そのとき、この草原を風が突然吹きわたるということが頭に浮かんだのだ。この思いがけぬ風のために、この見知らぬ男は心を奪われ、風ゆえにあたりを見回したのである。もしこのように言うことが許されるならば、このような場合、作者の〈手をつかんで〉、その意志の明確な方向を示させることなどできないのだ。
-> <br/>
+> <br />
 > <small>アンドレイ・タルコフスキー「映像のポエジア」鴻英良訳，ちくま文庫，pp.182-183.</small>
 
 映画においては、彼が言うように、必然性のないできごとが、まるでそこにある物語や人間関係、ひいては世界の全体を反映しているかのように機能することがあります。  
