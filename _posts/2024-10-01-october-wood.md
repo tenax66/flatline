@@ -11,9 +11,9 @@ category: flatline
 
 [都市計画]({{ site.baseurl }}/urban-planning/) - 犬の注射
 
-[緑風そぞろ]({{ site.baseurl }}/early-summer-breeze/) - 非鋭理反
+[緑風そぞろ]({{ site.baseurl }}/early-summer-breeze/) - 留留留
 
-[もくようび]({{ site.baseurl }}/thursday/) - 点線画鋲
+[もくようび]({{ site.baseurl }}/thursday/) - 町田永久
 
 [校舎から観覧車が見える]({{ site.baseurl }}/ferris-wheel-from-the-school/) -   特上あいう
 
@@ -29,4 +29,4 @@ category: flatline
 
 自由詠
 
-[旗はためいて又束ねられ]({{ site.baseurl }}/flattering-flag/) - 非鋭理反
+[旗はためいて又束ねられ]({{ site.baseurl }}/flattering-flag/) - 留留留

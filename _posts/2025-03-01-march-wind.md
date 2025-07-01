@@ -29,7 +29,7 @@ category: flatline
 
 [関係各所への謝罪]({{ site.baseurl }}/apology-to-all-concerned/) - 太朗千尋
 
-[コムソワ]({{ site.baseurl }}/comme-soi/) - 点線画鋲
+[コムソワ]({{ site.baseurl }}/comme-soi/) - 町田永久
 
 [遺灰のように]({{ site.baseurl }}/like-ashes/) - 永井文鳥
 
@@ -41,7 +41,7 @@ category: flatline
 
 [ザ　バースデイ]({{ site.baseurl }}/the-birthday/) - 八谷のり
 
-[すべる明日へとすべり澱]({{ site.baseurl }}/slippery-tomorrow/) - 非鋭理反
+[すべる明日へとすべり澱]({{ site.baseurl }}/slippery-tomorrow/) - 留留留
 
 [ドップラー効果]({{ site.baseurl }}/doppler-effect/) - ヒミツー
 

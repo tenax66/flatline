@@ -14,14 +14,14 @@ category: flatline
 <a href="https://images.tanka.cc/guzen-tanka.png"><img src="https://images.tanka.cc/guzen-tanka.png" alt="" class="responsive-img"></a>
 
 {: align="center"}
-&copy; 点線画鋲 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+&copy; 町田永久 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 
 ## ドラフト結果
 
 <a href="https://images.tanka.cc/draft-result.png"><img src="https://images.tanka.cc/draft-result.png" alt="" class="responsive-img"></a>
 
 {: align="center"}
-&copy; 点線画鋲 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+&copy; 町田永久 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
 
 ## クレジット
 

@@ -31,7 +31,7 @@ image: /assets/images/ogp_default.png
     <span class="archive-author fs-6">{{ post.author }}</span>
     <span class="archive-emoji">{{ post.emoji }} </span>
     <a href="{{ post.url | relative_url }}" class="archive-title fs-5">
-      {{ post.title }}
+      {{ post.title | replace: '<br />', '' | replace: '<br>', '' }}
     </a>
   </div>
   {% endfor %}
@@ -73,8 +73,7 @@ image: /assets/images/ogp_default.png
         href="{{ site.baseurl }}/{{ page }}" class="btn pagination-button">{{ page }}</a>
         {% endif %}
         {% endfor %}
-
-        {% if end_page < paginator.total_pages %} {% assign last_minus_one=paginator.total_pages | minus: 1 %} {% if
+        {% if end_page <= paginator.total_pages %} {% assign last_minus_one=paginator.total_pages | minus: 1 %} {% if
           end_page < last_minus_one %} <span class="pagination-ellipsis">...</span>
           {% endif %}
           <a href="{{ site.baseurl }}/{{ paginator.total_pages }}" class="btn pagination-button">{{

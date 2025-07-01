@@ -72,6 +72,6 @@ jekyll-archives:
     tag: "/tag/:name/"
     category: "/category/:name/"
 
-paginate: 30
+paginate: 32
 
 paginate_path: "/:num/"

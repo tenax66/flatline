@@ -20,13 +20,13 @@ category: flatline
 
 [池崎はサンシャインなのか]({{ site.baseurl }}/is-ikezaki-sunshine/) - 太朗千尋
 
-[オールクリア]({{ site.baseurl }}/all-clear/) - 点線画鋲
+[オールクリア]({{ site.baseurl }}/all-clear/) - 町田永久
 
 [Double Time]({{ site.baseurl }}/double-time/) - 冨岡正太郎
 
 [流動]({{ site.baseurl }}/flow/) - 八谷のり
 
-[沼底でねむる]({{ site.baseurl }}/sleep-in-the-swamp-bottom/) - 非鋭理反
+[沼底でねむる]({{ site.baseurl }}/sleep-in-the-swamp-bottom/) - 留留留
 
 [晴れ虱]({{ site.baseurl }}/fine-louse/) - 東川夢物語
 

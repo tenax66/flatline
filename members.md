@@ -108,7 +108,7 @@ image: /assets/images/ogp_default.png
 1. ブルーベリー
 2. 語感が非常によい
 
-**[点線画鋲](https://x.com/gabyo_p){:target="_blank"}**
+**[町田永久](https://x.com/gabyo_p){:target="_blank"}**
 
 1. イチジク
 2. 余裕のある感じ、自分にはない部分なので憧れます！
@@ -143,7 +143,7 @@ image: /assets/images/ogp_default.png
 1. 梨
 2. 秋だけ生きたいから
 
-**[非鋭理反](https://x.com/hyellypan)**
+**[留留留](https://x.com/hyellypan)**
 
 1. 柚子
 2. 温泉に浸かれる可能性に賭けたい。
