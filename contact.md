@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post
+title: 投稿フォーム
 permalink: /post/
 image: /assets/images/ogp_default.png
 ---
