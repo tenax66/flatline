@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 募集中: 7 月号
+#### 募集中: 8 月号
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>自由詠（一周年記念）</th>
+      <th>夢</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>6/25</td>
+      <td>7/25</td>
     </tr>
   </tbody>
 </table>
@@ -36,6 +36,10 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2025年7月号</td>
+      <td>自由詠</td>
+    </tr>
     <tr>
       <td>2025年6月号</td>
       <td>嘘</td>
