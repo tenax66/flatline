@@ -59,6 +59,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>屋根のあるところで犬と歌会をします。</td>
       <td>2025-05-24</td>
       <td>レンタルスペース</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
