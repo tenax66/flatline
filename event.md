@@ -18,6 +18,13 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>1</td>
+      <td><a href="/event/flatline-1">夏の短歌祭り</a></td>
+      <td>歌会をしたり、飲んだり食べたりして夏を乗り切ります。</td>
+      <td>調整中</td>
+      <td>調整中</td>
+    </tr>
   </tbody>
 </table>
 
