@@ -15,7 +15,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 日程
 
-<調整中>
+2025/9/20
 
 #### 開催要項
 
