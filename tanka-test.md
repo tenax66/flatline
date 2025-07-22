@@ -6,15 +6,16 @@ permalink: /tanka-test/
 ---
 <p>タイトルと短歌を入力すると、縦書きのプレビューが表示されます。</p>
 <label for="tanka-title"><b>タイトル</b></label><br>
-<input id="tanka-title" type="text" placeholder="タイトルを入力" />
+<input class="form-control" id="tanka-title" type="text" placeholder="タイトルを入力" />
 <br>
 <label for="tanka-input"><b>短歌</b></label><br>
-<textarea id="tanka-input" placeholder="短歌を1行ずつ入力"></textarea>
+<textarea class="form-control" id="tanka-input" placeholder="短歌を1行ずつ入力" rows="5"></textarea>
 
 ---
 
-<h3>プレビュー</h3>
-<h1 id="tanka-h1-title"></h1>
+
+<h4 id="tanka-h1-title"></h4>
+<span class="fs-4 text-muted">{{ site.time | date: "%b %d, %y" }}</span>
 <div class="tanka-area">
   <div class="tanka" id="tanka-preview"></div>
 </div>
