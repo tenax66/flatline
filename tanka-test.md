@@ -15,10 +15,8 @@ permalink: /tanka-test/
 <input class="form-control" id="tanka-author" type="text" placeholder="作者名を入力" />
 
 ---
-
-<h3>プレビュー</h3>
-<h1 id="tanka-h1-title"></h1>
-<span class="fs-4 text-muted">{{ site.time | date: "%b %d, %y" }}</span>
+<h4 id="tanka-preview-title"></h4>
+<span class="fs-4 text-muted">{{ site.time | date: "%b %d, %y" }} <span id="tanka-preview-author"></span></span>
 <div class="tanka-area">
   <div class="tanka" id="tanka-preview"></div>
 </div>
@@ -34,9 +32,9 @@ const preview = document.getElementById('tanka-preview');
 const detailsContent = document.getElementById('tanka-details-content');
 const titleInput = document.getElementById('tanka-title');
 const detailsTitle = document.getElementById('tanka-details-title');
-const h1Title = document.getElementById('tanka-h1-title');
+const previewTitle = document.getElementById('tanka-preview-title');
 const authorInput = document.getElementById('tanka-author');
-const h1Author = document.getElementById('tanka-h1-author');
+const previewAuthor = document.getElementById('tanka-preview-author');
 
 function escapeHtml(str) {
   return str.replace(/[&<>"]/g, function(tag) {
@@ -54,8 +52,8 @@ function renderTanka() {
   // タイトル・作者反映
   const title = titleInput.value.trim();
   detailsTitle.textContent = title;
-  h1Title.textContent = title;
-  h1Author.textContent = authorInput.value.trim();
+  previewTitle.textContent = title;
+  previewAuthor.textContent = authorInput.value.trim();
 }
 
 textarea.addEventListener('input', renderTanka);
