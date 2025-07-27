@@ -7,21 +7,7 @@ category: 蛸
 emoji: 🧝‍♂️
 ---
 
-<style>
-@media (max-width: 480px) {
-    .tanka-area {
-        font-size: 90%;
-    }
-}
-
-@media (max-width: 380px) {
-    .tanka-area {
-        font-size: 75%;
-    }
-}
-</style>
-
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area tanka-area--small tanka-area--xsmall"><div class="tanka">
 <p>ゲジゲジのゲジゲジしてるとこ全部 抜けば閃くフラッシュバン GO!</p>
 <p>おめでとうクラッカー引くおめでとう1000本鳴っても君は爆ぜない</p>
 <p>ダイナマイトパーティーナイト踊り切れ ジジイになっても白色矮星 </p>
