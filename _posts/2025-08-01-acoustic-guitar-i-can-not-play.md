@@ -4,7 +4,7 @@ title: 弾けないアコギ
 image: /assets/images/ogp_default.png
 author: maeri
 category: maeri
-emoji: 🍔
+emoji: 🌱
 ---
 
 <div class="tanka-area" style="font-size: 95%;"><div class="tanka">
