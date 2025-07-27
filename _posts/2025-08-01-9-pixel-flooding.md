@@ -6,20 +6,6 @@ author: 留留留
 category: 留留留
 emoji: 🕯️
 ---
-<style>
-@media (max-width: 480px) {
-    .tanka-area {
-        font-size: 85%;
-    }
-}
-
-@media (max-width: 380px) {
-    .tanka-area {
-        font-size: 75%;
-    }
-}
-</style>
-
 <div class="tanka-area tanka-area--small tanka-area--xsmall"><div class="tanka">
 <p>バスの荷台からガストへと降り立ってドアを引いたら熊に追われる</p>
 <p>パラレルの夏を買い込む。夢だから空を飛ばなきゃ。あ、今日歯医者だ。</p>

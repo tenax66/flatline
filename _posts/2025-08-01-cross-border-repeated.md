@@ -6,21 +6,8 @@ author: 蛸
 category: 蛸
 emoji: 🧝‍♂️
 ---
-<style>
-@media (max-width: 480px) {
-    .tanka-area {
-        font-size: 85%;
-    }
-}
 
-@media (max-width: 380px) {
-    .tanka-area {
-        font-size: 75%;
-    }
-}
-</style>
-
-<div class="tanka-area  tanka-area--small tanka-area--xsmall" style="font-size: 90%"><div class="tanka">
+<div class="tanka-area" style="font-size: 90%"><div class="tanka">
 <p>？？？(どうしよう)→→(おりてくおりてく)おむすびの転がる街で🔄🔄(ころがりつづける)</p>
 <p>落ちているバランは全部噛むこと朽ちた橋には近寄らないこと</p>
 <p>通るたび道祖神が膨らんで　はやくパティシエになれますように</p>
