@@ -4,7 +4,7 @@ title: 設計思想
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
-emoji: 犬
+emoji: 🐕
 ---
 
 <div class="tanka-area"><div class="tanka">

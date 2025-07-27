@@ -7,7 +7,7 @@ category: 留留留
 emoji: 🕯️
 ---
 
-<div class="tanka-area" style="font-size: 90%;"><div class="tanka">
+<div class="tanka-area" style="font-size: 88%;"><div class="tanka">
 <p>バスの荷台からガストへと降り立ってドアを引いたら熊に追われる</p>
 <p>パラレルの夏を買い込む。夢だから空を飛ばなきゃ。あ、今日歯医者だ。</p>
 <p>だからピカソはアルカリ性なのか！&emsp14;わ！&emsp14;そういうことか！&emsp14;ペンがない、ペン！！</p>

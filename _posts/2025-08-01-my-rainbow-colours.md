@@ -7,7 +7,7 @@ category: のい（noigashira）
 emoji: 🌷
 ---
 
-<div class="tanka-area" style="font-size: 95%;"><div class="tanka">
+<div class="tanka-area" style="font-size: 93%;"><div class="tanka">
 <p>なにもない日常すこぅし歪ませて　帽子の中に小鳥忍ばせたり</p>
 <p>日高屋か回転ずしか王将か　心のままに悩んだりする</p>
 <p>実際のおれはおしゃべりかつおしゃま　その上ユニークそしてユニコーン</p>
