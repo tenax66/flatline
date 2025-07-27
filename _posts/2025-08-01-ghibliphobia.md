@@ -7,7 +7,7 @@ category: 太朗千尋
 emoji: 💻
 ---
 
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area" style="font-size: 97%;"><div class="tanka">
 <p>夢だけど夢じゃねンだわネコバスの座席の隙間にカードが落ちる</p>
 <p>どの豚もマジでお前に見えてくる　生前のジーザス・クライスト</p>
 <p>ジジ、それは祝日　ジジ、それは<ruby>金<rp>（</rp><rt>かね</rt><rp>）</rp></ruby>　ジジ、あれは病気のおとな</p>

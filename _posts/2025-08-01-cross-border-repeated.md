@@ -7,7 +7,7 @@ category: 蛸
 emoji: 🧝‍♂️
 ---
 
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area" style="font-size: 90%"><div class="tanka">
 <p>？？？(どうしよう)→→(おりてくおりてく)おむすびの転がる街で🔄🔄(ころがりつづける)</p>
 <p>落ちているバランは全部噛むこと朽ちた橋には近寄らないこと</p>
 <p>通るたび道祖神が膨らんで　はやくパティシエになれますように</p>

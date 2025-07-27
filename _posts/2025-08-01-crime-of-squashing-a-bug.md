@@ -7,7 +7,7 @@ category: 再生
 emoji: ▶️ 
 ---
 
-<div class="tanka-area"><div class="tanka">
+<div class="tanka-area" style="font-size: 97%;"><div class="tanka">
 <p>主犯格赤レンジャーを焼き尽くせ　治外法権･魔女狩り裁判</p>
 <p>助太刀だ、青レンジャーのご登場　水に流して煙にも巻いて</p>
 <p>きっとまだ希望を探す黄レンジャー　ハコを抱えた遺族のせい、とか</p>
