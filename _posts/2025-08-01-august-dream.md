@@ -7,7 +7,7 @@ author: flatline
 category: flatline
 ---
 
-[設計思想]({{ site.baseurl }}/design-concept) - 青野ゆらぎ
+[近代建築史]({{ site.baseurl }}/history-of-modern-architecture) - 青野ゆらぎ
 
 [日記]({{ site.baseurl }}/diary) - 雨森百合子
 
