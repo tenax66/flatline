@@ -4,7 +4,7 @@ title: ロストテクノロジー
 image: /assets/images/ogp_default.png
 author: 池野飛魚
 category: 池野飛魚
-emoji: 🐠
+emoji: ♓️
 ---
 
 <div class="tanka-area"><div class="tanka">
