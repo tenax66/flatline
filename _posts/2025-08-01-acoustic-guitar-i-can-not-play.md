@@ -2,8 +2,8 @@
 layout: post
 title: 弾けないアコギ
 image: /assets/images/ogp_default.png
-author: maeri
-category: maeri
+author: まえり
+category: まえり
 emoji: 🌱
 ---
 
@@ -25,4 +25,4 @@ emoji: 🌱
 <br />
 </details>
 
-maeri
+まえり

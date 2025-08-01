@@ -45,7 +45,7 @@ category: flatline
 
 [意識はすこぶる淵明]({{ site.baseurl }}/consciousness0-is-very-yuanming) - 福住電
 
-[弾けないアコギ]({{ site.baseurl }}/acoustic-guitar-i-can-not-play) - maeri
+[弾けないアコギ]({{ site.baseurl }}/acoustic-guitar-i-can-not-play) - まえり
 
 [現在進行形]({{ site.baseurl }}/present-continuous) - マミ
 
