@@ -23,7 +23,7 @@ image: /assets/images/ogp_default.png
       <td><a href="/event/flatline-4">夏の短歌祭り</a></td>
       <td>歌会をしたり、飲んだり食べたりして夏を乗り切ります。</td>
       <td>9/20</td>
-      <td>調整中</td>
+      <td>レンタルスペース</td>
     </tr>
   </tbody>
 </table>
