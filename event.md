@@ -20,8 +20,8 @@ image: /assets/images/ogp_default.png
   <tbody class="table-group-divider">
     <tr>
       <td>1</td>
-      <td><a href="/event/flatline-4">夏の短歌祭り</a></td>
-      <td>歌会をしたり、飲んだり食べたりして夏を乗り切ります。</td>
+      <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
+      <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
       <td>9/20</td>
       <td>レンタルスペース</td>
     </tr>

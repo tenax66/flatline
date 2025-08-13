@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 晩夏の短歌祭り
+title: 晩夏の短歌会
 permalink: /event/flatline-4/
 image: https://images.tanka.cc/summer_dog.png
 ---
