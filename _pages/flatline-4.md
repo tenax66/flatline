@@ -19,7 +19,9 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 場所
 
-**<u>夜: レンタルスペース（17:00~23:00、新大久保）</u>**
+レンタルスペース（17:00~23:00、新大久保駅近辺）
+
+#### 実施要項
 
 - 19時ごろから歌会をする予定です
   - それ以外の時間は歓談です
@@ -27,14 +29,15 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 - 参加者からスペース料を徴収します
   - ¥1500~2000 程度の見込みです
 
-#### 歌会について
+##### 歌会について
 
 - 前日までに一首を主催者（青野ゆらぎ）に提出してください
-- テーマ: ＜検討中＞
+- テーマ: 「謎」
+  - テーマを連想させる短歌であればよく、この漢字そのものが短歌の中に含まれている必要はありません。
 
-#### 犬について
+##### 犬について
 
-- 主催者の犬が来ます
+- 主催者の飼っている犬が来ます
 
 <figure>
 <img src="https://images.tanka.cc/summer_dog.png" alt="a sitting dog" class="responsive-img">
