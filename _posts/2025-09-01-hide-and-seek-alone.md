@@ -12,7 +12,7 @@ emoji: ▶️
 <p>手指から溢れた影が集まってすこし大きいシルエット内</p>
 <p>現実は見てないけれどただ別の事実をじっと見つめてるだけ</p>
 <p>センテンス偏光板を付け外す出入力の間に病めよ</p>
-<p>大爆破→全部無意味→にするような暴力的なブラックホール</p></div></div>
+<p>大爆破<span class="safari-rotate-positive">←</span>全部無意味<span class="safari-rotate-positive">←</span>にするような暴力的なブラックホール</p></div></div>
 
 ---
 
