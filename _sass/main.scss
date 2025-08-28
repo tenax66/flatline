@@ -176,20 +176,6 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     }
 }
 
-/* 小さい画面用 */
-@media (max-width: 480px) {
-    .tanka-area--small {
-        font-size: 90%;
-    }
-}
-
-/* さらに小さい画面用 */
-@media (max-width: 380px) {
-    .tanka-area--xsmall {
-        font-size: 75%;
-    }
-}
-
 .kotobagaki {
     font-size: 0.8rem;
 }
