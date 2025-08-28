@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 環境改善コンソーシアム
+title: 個人的なレッスン
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ

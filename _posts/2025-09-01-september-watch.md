@@ -6,7 +6,7 @@ image: /assets/images/ogp_default.png
 author: flatline
 category: flatline
 ---
-[環境改善コンソーシアム]({{ site.baseurl }}/environmental-improvement-consortium) - 青野ゆらぎ
+[個人的なレッスン]({{ site.baseurl }}/private-lessons) - 青野ゆらぎ
 
 [善・視力検査]({{ site.baseurl }}/vision-test-good) - 池野飛魚
 
