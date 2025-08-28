@@ -145,6 +145,13 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     letter-spacing: 0.1em;
 }
 
+/* 段落内での自動改行を禁止（高さが内容に応じて伸びる） */
+.tanka p {
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
 .tanka p:nth-child(n + 2) {
     padding-right: 100px;
 }
