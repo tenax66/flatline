@@ -4,7 +4,7 @@ title: ステガノグラフィ
 image: /assets/images/ogp_default.png
 author: 小坂くれい
 category: 小坂くれい
-emoji: 🎨
+emoji: 🪿
 ---
 
 <div class="tanka-area"><div class="tanka">

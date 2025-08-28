@@ -4,7 +4,7 @@ title: 見る魔法
 image: /assets/images/ogp_default.png
 author: なかの
 category: なかの
-emoji: 🔍
+emoji: 🐢
 ---
 
 <div class="tanka-area"><div class="tanka">
