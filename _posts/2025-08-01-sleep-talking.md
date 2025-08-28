@@ -7,7 +7,7 @@ category: 加藤荷空
 emoji: 🛝
 ---
 
-<div class="tanka-area" style="font-size: 93%;"><div class="tanka">
+<div class="tanka-area"><div class="tanka">
 <p>本来は何をしたっていい。ただし、寝言に返事をしてはいけない</p>
 <p>いつの日かレム睡眠に頼らずに自力で君を殺してみたい</p>
 <p>「死ぬ前に聞いておきたいことはある？」「俺の顔ってThis Man似かな」</p>

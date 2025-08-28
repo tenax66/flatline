@@ -7,7 +7,7 @@ category: まえり
 emoji: 🌱
 ---
 
-<div class="tanka-area" style="font-size: 95%;"><div class="tanka">
+<div class="tanka-area"><div class="tanka">
 <p>ひとりだってホールケーキを買えるのよフルーツ全種たべちゃうもんね</p>
 <p>窓際のウンベラータの葉が揺れる私の部屋には木漏れ日がある</p>
 <p>洗濯の山未踏なり標高は推定八〇二ミリメートル</p>

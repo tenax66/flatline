@@ -7,7 +7,7 @@ category: 八谷のり
 emoji: 🍞
 ---
 
-<div class="tanka-area" style="font-size: 95%;"><div class="tanka">
+<div class="tanka-area"><div class="tanka">
 <p>白煙のこもるバイパスを抜けると雪国<ruby>BB<rp>（</rp><rt>ブルーバック</rt><rp>）</rp></ruby>であった</p>
 <p>描画負荷軽減チェーンのめがね屋におんなじ顔の親子が親子が</p>
 <p>後ろから僕のつむじを見ている僕は今何に見られているだろう</p>
