@@ -145,6 +145,13 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     letter-spacing: 0.1em;
 }
 
+/* 段落内での自動改行を禁止（高さが内容に応じて伸びる） */
+.tanka p {
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
 .tanka p:nth-child(n + 2) {
     padding-right: 100px;
 }
@@ -166,20 +173,6 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 @media (max-width: 480px) {
     .tanka p:nth-child(n + 2) {
         padding-right: 5vw !important;
-    }
-}
-
-/* 小さい画面用 */
-@media (max-width: 480px) {
-    .tanka-area--small {
-        font-size: 90%;
-    }
-}
-
-/* さらに小さい画面用 */
-@media (max-width: 380px) {
-    .tanka-area--xsmall {
-        font-size: 75%;
     }
 }
 
@@ -297,6 +290,11 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 /* Safari */
 _::-webkit-full-page-media, _:future, :root .safari-rotate {
     transform: rotate(-90deg);
+    display: inline-block;
+  }
+
+  _::-webkit-full-page-media, _:future, :root .safari-rotate-positive {
+    transform: rotate(90deg);
     display: inline-block;
   }
 
