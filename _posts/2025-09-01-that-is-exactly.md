@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ＜確認中＞
+title: そういうところだよ
 image: /assets/images/ogp_default.png
 author: 黒田なな
 category: 黒田なな

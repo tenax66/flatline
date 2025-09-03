@@ -22,7 +22,7 @@ category: flatline
 
 [ブラインド]({{ site.baseurl }}/blind) - 京野正午
 
-[＜確認中＞]({{ site.baseurl }}/untitled) - 黒田なな
+[そういうところだよ]({{ site.baseurl }}/that-is-exactly) - 黒田なな
 
 [ステガノグラフィ]({{ site.baseurl }}/steganography) - 小坂くれい
 
