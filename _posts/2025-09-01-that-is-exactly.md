@@ -16,7 +16,7 @@ emoji: 🐹
 
 ---
 
-<details><summary>＜確認中＞</summary>
+<details><summary>そういうところだよ</summary>
 「natural」を信仰してるけどさぁ私見たんですあの子のアイプチ<br />
 自己矛盾を抱いて死ね！見てね見たな見るな見てみろ<br />
 眼差しを感じる月曜&emsp14;UNIQLO&emsp14;にベーッと貼られた&emsp14;ssss<br />
