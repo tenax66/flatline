@@ -19,11 +19,11 @@ image: /assets/images/ogp_default.png
   </thead>
   <tbody class="table-group-divider">
     <tr>
-      <td>1</td>
-      <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
-      <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
-      <td>9/20</td>
-      <td>レンタルスペース</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
@@ -65,6 +65,13 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td><a href="/event/flatline-3">犬ミーティング</a></td>
       <td>屋根のあるところで犬と歌会をします。</td>
       <td>2025-05-24</td>
+      <td>レンタルスペース</td>
+      <td>-</td>
+    </tr>
+      <td>4</td>
+      <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
+      <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
+      <td>9/20</td>
       <td>レンタルスペース</td>
       <td>-</td>
     </tr>
