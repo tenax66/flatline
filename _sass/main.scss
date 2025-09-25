@@ -340,3 +340,16 @@ html[data-bs-theme="dark"] blockquote {
   height: 100%;
   border: 0;
 }
+
+/* link utilities */
+.link-reset,
+.link-reset:visited,
+.link-reset:hover,
+.link-reset:active,
+.link-reset:focus,
+.link-reset:focus-visible {
+    text-decoration: none !important;
+    color: inherit !important;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}

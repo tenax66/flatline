@@ -28,7 +28,8 @@ image: /assets/images/ogp_default.png
   {% endif %}
 
   <div class="archive-item">
-    <span class="archive-author fs-6">{{ post.author }}</span>
+    <span class="archive-author fs-6"><a class="link-reset"
+        href="{{ site.baseurl }}/category/{{ post.author | url_encode }}">{{ post.author }}</a></span>
     <span class="archive-emoji">{{ post.emoji }} </span>
     <a href="{{ post.url | relative_url }}" class="archive-title fs-5">
       {{ post.title | replace: '<br />', '' | replace: '<br>', '' }}
