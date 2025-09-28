@@ -154,7 +154,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 }
 
 /* for tanka requiring line breaks */
-.tanka-with-line-breaks .tanka p {
+.tanka p.tanka-with-line-breaks {
     white-space: normal;
     word-break: break-word;
     overflow-wrap: break-word;
