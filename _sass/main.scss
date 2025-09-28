@@ -153,6 +153,11 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     text-autospace: normal;
 }
 
+/* for tanka requiring line breaks */
+.tanka-with-line-breaks .tanka p {
+    white-space: normal;
+}
+
 .tanka p:nth-child(n + 2) {
     padding-right: 100px;
 }
