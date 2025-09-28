@@ -9,7 +9,7 @@ category: flatline
 
 [男性的な衝動]({{ site.baseurl }}/masculine-urge) - 青野ゆらぎ
 
-[俺たち無限の猿定理]({{ site.baseurl }}/a4366ef0) - 池野飛魚
+[【俺たち無限の猿定理】]({{ site.baseurl }}/%E3%80%90a4366ef0%E3%80%91) - 池野飛魚
 
 [太陽フレア（断片）]({{ site.baseurl }}/solar-flare-fragment) - 宇佐田灰加
 
