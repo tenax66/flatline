@@ -4,7 +4,7 @@ title: 通信途絶
 image: /assets/images/ogp_default.png
 author: 兎田ファルク
 category: 兎田ファルク
-emoji: 🐇
+emoji: 🐻‍❄️
 ---
 
 <div class="tanka-area tanka-with-line-breaks"><div class="tanka">
