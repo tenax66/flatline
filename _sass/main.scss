@@ -156,6 +156,9 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 /* for tanka requiring line breaks */
 .tanka-with-line-breaks .tanka p {
     white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-height: 40em;
 }
 
 .tanka p:nth-child(n + 2) {
