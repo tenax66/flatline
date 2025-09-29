@@ -55,7 +55,7 @@ image: /assets/images/ogp_default.png
 
 🍊 小西善仁 [𝕏](https://x.com/ol_bp42){:target="_blank"} [Instagram](https://www.instagram.com/ponkoni/){:target="_blank"}
 
-▶️ 再生
+▶️ [再生](https://x.com/p1aybacker){:target="_blank"}
 
 🪽 鷺なみ子
 
