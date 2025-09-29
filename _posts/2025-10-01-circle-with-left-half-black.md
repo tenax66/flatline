@@ -10,7 +10,7 @@ emoji: 🦀
 <div class="tanka-area"><div class="tanka">
 <p>アマゾンの奥地へ向かい木漏れ日の形をめくって覚えておいて</p>
 <p>部分蝕　あなたが選んで伏せていたトランプ以外は消失します</p>
-<p>もう誰もいない地球の植生へサジェストされるパキラ4.4★★★★☆（0）</p>
+<p>もう誰もいない地球の植生へサジェストされるパキラ4.4<span class="rotate-positive">★</span><span class="rotate-positive">★</span><span class="rotate-positive">★</span><span class="rotate-positive">★</span><span class="rotate-positive">☆</span>（0）</p>
 <p>月に住むカニのハサミはもちをつき丸めるための進化をしてる</p>
 <p>アーティフィシャルグリーンが栄え本物が生まれた　月も　あなたの指も</p></div></div>
 

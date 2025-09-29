@@ -296,6 +296,16 @@ html[data-bs-theme="dark"] .text-gray-dependent {
   font-size: 0.9rem;
 }
 
+.rotate-negative {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.rotate-positive {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
 /* Safari */
 _::-webkit-full-page-media, _:future, :root .safari-rotate {
     transform: rotate(-90deg);
