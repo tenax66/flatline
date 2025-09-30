@@ -41,6 +41,8 @@ category: flatline
 
 [みんなでのりたいタイムマシーン]({{ site.baseurl }}/we-all-want-to-ride-in-the-time-machine) - のい（noigashira）
 
+[離れてゆく心臓に朝焼けが]({{ site.baseurl }}/the-morning-glow-upon-the-heart-that-drifts-away) - 八谷のり
+
 [門扉]({{ site.baseurl }}/gateway) - 彦凪　至
 
 [ブレス]({{ site.baseurl }}/breath) - 福住電
