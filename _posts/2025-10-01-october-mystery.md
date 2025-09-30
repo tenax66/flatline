@@ -23,6 +23,8 @@ category: flatline
 
 [怖い]({{ site.baseurl }}/frightening) - 再生
 
+[愛の魔術に対する防衛術]({{ site.baseurl }}/defence-against-the-love-arts) - セブルス・スネイプ
+
 [さなぎ]({{ site.baseurl }}/pupa) - 髙山准
 
 [川劇はつづく]({{ site.baseurl }}/sichuan-opera-continues) - 蛸
