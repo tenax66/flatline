@@ -153,6 +153,14 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     text-autospace: normal;
 }
 
+/* for tanka requiring line breaks */
+.tanka p.tanka-with-line-breaks {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-height: 50em;
+}
+
 .tanka p:nth-child(n + 2) {
     padding-right: 100px;
 }
@@ -286,6 +294,16 @@ html[data-bs-theme="dark"] .text-gray-dependent {
   display: inline-block;
   padding: 2px 8px;
   font-size: 0.9rem;
+}
+
+.rotate-negative {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.rotate-positive {
+    transform: rotate(90deg);
+    display: inline-block;
 }
 
 /* Safari */

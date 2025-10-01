@@ -59,6 +59,8 @@ image: /assets/images/ogp_default.png
 
 🪽 鷺なみ子
 
+⚗️ [セブルス・スネイプ](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%96%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%B9%E3%83%8D%E3%82%A4%E3%83%97){:target="_blank"}
+
 🏘️ [サラリーマン予想](https://x.com/4sigong){:target="_blank"}
 
 😑 [雀100](https://x.com/suzumedancing){:target="_blank"}
