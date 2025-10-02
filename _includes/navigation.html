@@ -19,7 +19,7 @@
 </svg>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light flatline-navbar-container">
-  <div class="container position-relative align-items-start flex-wrap flex-lg-nowrap">
+  <div class="container position-relative align-items-start">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
       href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
     <a class="navbar-brand p-0 d-none d-lg-block" href="{{ '/' | relative_url }}">{{ site.name | upcase
       }}</a>
-    <div class="d-flex align-items-start ms-auto flex-grow-1 justify-content-end">
+    <div class="navbar-actions position-absolute top-0 end-0 pe-2">
       <ul class="navbar-nav align-items-center flex-row">
         <li class="nav-item">
           <button class="btn btn-link nav-link py-2 px-1 px-lg-2 d-flex align-items-center" id="bd-theme" type="button"
@@ -64,15 +64,18 @@
         </li>
       </ul>
     </div>
-    <div class="collapse navbar-collapse w-100 mt-2 mt-lg-0" id="navbarNav">
-      <ul class="navbar-nav ms-lg-auto">
-        {% for item in site.data.navigation %}
-        <li class="nav-item">
-          <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
-            class="nav-link" {% endif %}>{{ item.name }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+    <div class="d-flex align-items-start ms-lg-auto w-100 flex-grow-1 justify-content-end flex-wrap pe-lg-5">
+      <div class="collapse navbar-collapse mt-2 mt-lg-0 w-100" id="navbarNav">
+        <ul class="navbar-nav me-lg-3 ms-lg-auto">
+          {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
+              class="nav-link" {% endif %}>{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="w-100 d-lg-none"></div>
     </div>
   </div>
 </nav>
