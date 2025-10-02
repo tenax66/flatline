@@ -19,15 +19,16 @@
 </svg>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light flatline-navbar-container">
-  <div class="container">
+  <div class="container position-relative">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand p-0 position-absolute start-50 translate-middle-x position-lg-static"
-      href="{{ '/' | relative_url }}">
-      {{ site.name | upcase }}</a>
-    <ul class="navbar-nav ms-auto align-items-center flex-row">
+    <a class="navbar-brand p-0 position-absolute start-50 translate-middle-x d-lg-none"
+      href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
+    <a class="navbar-brand p-0 d-none d-lg-block order-lg-1" href="{{ '/' | relative_url }}">{{ site.name | upcase
+      }}</a>
+    <ul class="navbar-nav ms-auto align-items-center flex-row order-lg-3">
       <li class="nav-item dropdown">
         <button class="btn btn-link nav-link py-2 px-1 px-lg-3 dropdown-toggle d-flex align-items-center" id="bd-theme"
           type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
@@ -84,8 +85,8 @@
         </button>
       </li>
     </ul>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
+    <div class="collapse navbar-collapse order-lg-2 justify-content-lg-center" id="navbarNav">
+      <ul class="navbar-nav mx-lg-auto">
         {% for item in site.data.navigation %}
         <li class="nav-item">
           <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
