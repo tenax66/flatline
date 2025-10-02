@@ -19,7 +19,7 @@
 </svg>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light flatline-navbar-container">
-  <div class="container position-relative">
+  <div class="container position-relative align-items-start">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,8 +28,8 @@
       href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
     <a class="navbar-brand p-0 d-none d-lg-block" href="{{ '/' | relative_url }}">{{ site.name | upcase
       }}</a>
-    <div class="d-flex align-items-center ms-auto flex-grow-1 justify-content-end">
-      <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="d-flex align-items-start ms-auto flex-grow-1 justify-content-end flex-wrap">
+      <div class="collapse navbar-collapse mt-2 mt-lg-0" id="navbarNav">
         <ul class="navbar-nav me-lg-3 ms-lg-auto">
           {% for item in site.data.navigation %}
           <li class="nav-item">
@@ -39,6 +39,7 @@
           {% endfor %}
         </ul>
       </div>
+      <div class="w-100 d-lg-none"></div>
       <ul class="navbar-nav align-items-center flex-row">
         <li class="nav-item">
           <button class="btn btn-link nav-link py-2 px-1 px-lg-2 d-flex align-items-center" id="bd-theme" type="button"
