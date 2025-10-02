@@ -26,51 +26,52 @@
     </button>
     <a class="navbar-brand p-0 position-absolute start-50 translate-middle-x d-lg-none"
       href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
-    <a class="navbar-brand p-0 d-none d-lg-block order-lg-1" href="{{ '/' | relative_url }}">{{ site.name | upcase
+    <a class="navbar-brand p-0 d-none d-lg-block" href="{{ '/' | relative_url }}">{{ site.name | upcase
       }}</a>
-    <ul class="navbar-nav ms-auto align-items-center flex-row order-lg-3">
-      <li class="nav-item">
-        <button class="btn btn-link nav-link py-2 px-1 px-lg-3 d-flex align-items-center" id="bd-theme" type="button"
-          aria-label="Toggle theme">
-          <svg class="bi my-1 theme-icon-active">
-            <use href="#circle-half"></use>
-          </svg>
-          <span class="d-lg-none ms-2" id="bd-theme-text"></span>
-        </button>
-        <div class="d-none" aria-hidden="true">
-          <button type="button" data-bs-theme-value="light" aria-pressed="false">
-            <svg class="bi">
-              <use href="#sun-fill"></use>
-            </svg>
-          </button>
-          <button type="button" data-bs-theme-value="dark" aria-pressed="false">
-            <svg class="bi">
-              <use href="#moon-stars-fill"></use>
-            </svg>
-          </button>
-          <button type="button" data-bs-theme-value="auto" aria-pressed="true">
-            <svg class="bi">
+    <div class="d-flex align-items-center ms-auto flex-grow-1 justify-content-end">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-lg-3 ms-lg-auto">
+          {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
+              class="nav-link" {% endif %}>{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <ul class="navbar-nav align-items-center flex-row">
+        <li class="nav-item">
+          <button class="btn btn-link nav-link py-2 px-1 px-lg-3 d-flex align-items-center" id="bd-theme" type="button"
+            aria-label="Toggle theme">
+            <svg class="bi my-1 theme-icon-active">
               <use href="#circle-half"></use>
             </svg>
+            <span class="d-lg-none ms-2" id="bd-theme-text"></span>
           </button>
-        </div>
-      </li>
-      <!-- Search button -->
-      <li class="nav-item ms-2">
-        <button type="button" class="btn bg-graylight font-weight-bold text-muted" data-bs-toggle="modal"
-          data-bs-target="#searchModal">
-          <i class="fas fa-search"></i>
-        </button>
-      </li>
-    </ul>
-    <div class="collapse navbar-collapse order-lg-2 justify-content-lg-center" id="navbarNav">
-      <ul class="navbar-nav mx-lg-auto">
-        {% for item in site.data.navigation %}
-        <li class="nav-item">
-          <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
-            class="nav-link" {% endif %}>{{ item.name }}</a>
+          <div class="d-none" aria-hidden="true">
+            <button type="button" data-bs-theme-value="light" aria-pressed="false">
+              <svg class="bi">
+                <use href="#sun-fill"></use>
+              </svg>
+            </button>
+            <button type="button" data-bs-theme-value="dark" aria-pressed="false">
+              <svg class="bi">
+                <use href="#moon-stars-fill"></use>
+              </svg>
+            </button>
+            <button type="button" data-bs-theme-value="auto" aria-pressed="true">
+              <svg class="bi">
+                <use href="#circle-half"></use>
+              </svg>
+            </button>
+          </div>
         </li>
-        {% endfor %}
+        <li class="nav-item ms-2">
+          <button type="button" class="btn bg-graylight font-weight-bold text-muted" data-bs-toggle="modal"
+            data-bs-target="#searchModal">
+            <i class="fas fa-search"></i>
+          </button>
+        </li>
       </ul>
     </div>
   </div>
