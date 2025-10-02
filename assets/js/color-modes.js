@@ -90,5 +90,16 @@
                 showActiveTheme(theme, true);
             });
         });
+
+        const themeSwitchBtn = document.querySelector("#bd-theme");
+        if (themeSwitchBtn) {
+            themeSwitchBtn.addEventListener("click", () => {
+                const current = getStoredTheme() || getPreferredTheme();
+                const next = current === "dark" ? "light" : "dark";
+                setStoredTheme(next);
+                setTheme(next);
+                showActiveTheme(next, true);
+            });
+        }
     });
 })();
