@@ -36,38 +36,20 @@
 
     const showActiveTheme = (theme, focus = false) => {
         const themeSwitcher = document.querySelector("#bd-theme");
-
-        if (!themeSwitcher) {
-            return;
-        }
+        if (!themeSwitcher) return;
 
         const themeSwitcherText = document.querySelector("#bd-theme-text");
-        const activeThemeIcon = document.querySelector(
-            ".theme-icon-active use"
-        );
-        const btnToActive = document.querySelector(
-            `[data-bs-theme-value="${theme}"]`
-        );
-        const svgOfActiveBtn = btnToActive
-            .querySelector("svg use")
-            .getAttribute("href");
+        const activeThemeIcon = document.querySelector(".theme-icon-active use");
 
-        document
-            .querySelectorAll("[data-bs-theme-value]")
-            .forEach((element) => {
-                element.classList.remove("active");
-                element.setAttribute("aria-pressed", "false");
-            });
-
-        btnToActive.classList.add("active");
-        btnToActive.setAttribute("aria-pressed", "true");
-        activeThemeIcon.setAttribute("href", svgOfActiveBtn);
-        const themeSwitcherLabel = `${themeSwitcherText.textContent} (${btnToActive.dataset.bsThemeValue})`;
-        themeSwitcher.setAttribute("aria-label", themeSwitcherLabel);
-
-        if (focus) {
-            themeSwitcher.focus();
+        const iconHref = theme === "dark" ? "#moon-stars-fill" : theme === "light" ? "#sun-fill" : "#circle-half";
+        if (activeThemeIcon) {
+            activeThemeIcon.setAttribute("href", iconHref);
         }
+
+        const labelSource = (themeSwitcherText && themeSwitcherText.textContent) || "Theme";
+        themeSwitcher.setAttribute("aria-label", `${labelSource} (${theme})`);
+
+        if (focus) themeSwitcher.focus();
     };
 
     window
@@ -82,13 +64,15 @@
     window.addEventListener("DOMContentLoaded", () => {
         showActiveTheme(getPreferredTheme());
 
-        document.querySelectorAll("[data-bs-theme-value]").forEach((toggle) => {
-            toggle.addEventListener("click", () => {
-                const theme = toggle.getAttribute("data-bs-theme-value");
-                setStoredTheme(theme);
-                setTheme(theme);
-                showActiveTheme(theme, true);
+        const themeSwitchBtn = document.querySelector("#bd-theme");
+        if (themeSwitchBtn) {
+            themeSwitchBtn.addEventListener("click", () => {
+                const current = getStoredTheme() || getPreferredTheme();
+                const next = current === "dark" ? "light" : "dark";
+                setStoredTheme(next);
+                setTheme(next);
+                showActiveTheme(next, true);
             });
-        });
+        }
     });
 })();
