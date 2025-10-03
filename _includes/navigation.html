@@ -24,8 +24,8 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand p-0 position-absolute top-50 start-50 translate-middle d-lg-none"
-      href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
+    <a class="navbar-brand p-0 position-fixed start-50 translate-middle-x d-lg-none"
+      style="top: 0.75rem; z-index: 1055;" href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
     <a class="navbar-brand p-0 d-none d-lg-block align-self-lg-center" href="{{ '/' | relative_url }}">{{ site.name |
       upcase
       }}</a>
