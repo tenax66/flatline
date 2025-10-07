@@ -42,3 +42,17 @@ html[data-bs-theme="dark"] {
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
 }
+
+/* Small screens: remove border around hamburger (navbar-toggler) only */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        box-shadow: none !important;
+        outline: none;
+    }
+}
