@@ -74,6 +74,13 @@
               class="nav-link" {% endif %}>{{ item.name }}</a>
           </li>
           {% endfor %}
+          <hr />
+          {% for item in site.data.navigation_external %}
+          <li class="nav-item">
+            <a href="{{ item.link | relative_url }}" {% if page.url==item.link %} class="nav-link active" {% else %}
+              class="nav-link" {% endif %}>{{ item.name }}</a>
+          </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="w-100 d-lg-none"></div>
