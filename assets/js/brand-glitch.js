@@ -46,7 +46,7 @@
 
     if (elements.length === 0) return;
 
-    // State machine: "top" -> normal brand, "min" -> "-" after glitch
+    // State machine: "top" -> normal brand, "min" -> "F" after glitch
     let state = window.scrollY === 0 ? "top" : "min";
     const MIN_SYMBOL = "F"
     let glitchCooldownUntil = 0;
@@ -67,20 +67,76 @@
       const duration = 220 + Math.min(500, deltaHint);
 
       if (cancelLast) cancelLast();
-      // Run glitch once, then set to "-"
+      // Run glitch once, then shrink text one-by-one to MIN_SYMBOL
+      const startShrink = (el, originalText) => {
+        const shrinkDuration = 420; // ms
+        const startedAt = performance.now();
+        let rafId = 0;
+        const tick = (now2) => {
+          const t = Math.min(1, (now2 - startedAt) / shrinkDuration);
+          const remaining = Math.max(1, Math.ceil((1 - t) * originalText.length));
+          if (remaining > 1) {
+            const base = originalText.slice(0, remaining);
+            // add a subtle glitch while shrinking; intensity fades out with t
+            const glitchIntensity = 0.12 * (1 - t);
+            const withGlitch = glitchIntensity > 0.02 ? scramble(base, glitchIntensity) : base;
+            el.textContent = withGlitch;
+          } else {
+            el.textContent = MIN_SYMBOL;
+          }
+          if (t < 1) {
+            rafId = requestAnimationFrame(tick);
+          }
+        };
+        rafId = requestAnimationFrame(tick);
+        return () => cancelAnimationFrame(rafId);
+      };
+
       elements.forEach(({ el, original }) => {
-        cancelLast = animateOnce(el, original, intensity, duration);
-        // After finishing, force to "-"; use a timer slightly longer than duration
+        const cancel = animateOnce(el, original, intensity, duration);
+        // After glitch completes, start shrinking
         window.setTimeout(() => {
-          el.textContent = MIN_SYMBOL;
+          cancel();
+          cancelLast = startShrink(el, original);
         }, duration + 16);
       });
     }
 
-    function transitionToTop() {
-      // Immediately restore original; no glitch at top per spec
+    function transitionToTop(deltaHint = 200) {
+      // Grow from MIN_SYMBOL to full brand text with a subtle glitch
+      const now = performance.now();
+      if (now < glitchCooldownUntil) return;
+      glitchCooldownUntil = now + 400;
+
+      const growDuration = 480; // ms
+
+      if (cancelLast) cancelLast();
+
+      const startGrow = (el, originalText) => {
+        const startedAt = performance.now();
+        let rafId = 0;
+        const tick = (now2) => {
+          const t = Math.min(1, (now2 - startedAt) / growDuration);
+          const count = Math.max(1, Math.ceil(t * originalText.length));
+          const base = originalText.slice(0, count);
+          // subtle glitch that fades as we approach full length
+          const glitchIntensity = 0.10 * (1 - t);
+          const withGlitch = glitchIntensity > 0.02 ? scramble(base, glitchIntensity) : base;
+          el.textContent = withGlitch;
+          if (t < 1) {
+            rafId = requestAnimationFrame(tick);
+          } else {
+            el.textContent = originalText;
+          }
+        };
+        rafId = requestAnimationFrame(tick);
+        return () => cancelAnimationFrame(rafId);
+      };
+
       elements.forEach(({ el, original }) => {
-        el.textContent = original;
+        // Ensure we visually start from the minimal symbol
+        el.textContent = MIN_SYMBOL;
+        cancelLast = startGrow(el, original);
       });
     }
 
@@ -92,8 +148,8 @@
 
       if (y === 0) {
         if (state !== "top") {
+          transitionToTop(delta || 200);
           state = "top";
-          transitionToTop();
         }
         return;
       }
