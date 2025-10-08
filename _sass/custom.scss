@@ -43,6 +43,13 @@ html[data-bs-theme="dark"] {
     --pagefind-ui-tag: #152028;
 }
 
+/* Large screens: add custom right spacer for navbar items to avoid overlap with actions */
+@media (min-width: 992px) {
+    .navbar-nav.nav-right-spacer {
+        padding-right: 4rem;
+    }
+}
+
 /* Small screens: remove border around hamburger (navbar-toggler) only */
 @media (max-width: 991.98px) {
     .navbar-toggler {
