@@ -28,8 +28,15 @@ image: /assets/images/ogp_default.png
   {% endif %}
 
   <div class="archive-item">
-    <span class="archive-author fs-6"><a class="link-reset"
-        href="{{ site.baseurl }}/category/{{ post.author | slugify_author | url_encode }}">{{ post.author }}</a></span>
+    <span class="archive-author fs-6">
+      {% if post.custom_author %}
+      <a class="link-reset" href="{{ site.baseurl }}/category/{{ post.custom_author | slugify_author | url_encode }}">{{
+        post.author }}</a>
+      {% else %}
+      <a class="link-reset" href="{{ site.baseurl }}/category/{{ post.author | slugify_author | url_encode }}">{{
+        post.author }}</a>
+      {% endif %}
+    </span>
     <span class="archive-emoji">{{ post.emoji }} </span>
     <a href="{{ post.url | relative_url }}" class="archive-title fs-5">
       {{ post.title | replace: '<br />', '' | replace: '<br>', '' }}
