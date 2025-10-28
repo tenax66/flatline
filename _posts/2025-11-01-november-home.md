@@ -1,7 +1,7 @@
 ---
 date: "2025-11-01 12:00:00"
 layout: post
-title: 【11月: 家】
+title: "【11月: 家】"
 image: /assets/images/ogp_default.png
 author: flatline
 category: flatline
