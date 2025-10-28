@@ -4,7 +4,7 @@ title: (ここに任意の天体)
 image: /assets/images/ogp_default.png
 author: (ここに任意の架空の流星群)
 custom_author: 池野飛魚
-category: (ここに任意の架空の流星群)
+category: 池野飛魚
 emoji: ♓️
 ---
 
