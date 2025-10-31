@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 募集中: 11 月号
+#### 募集中: 12 月号
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>家</th>
+      <th>-</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>10/25</td>
+      <td>11/25</td>
     </tr>
   </tbody>
 </table>
@@ -36,6 +36,10 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
     </tr>
   </thead>
   <tbody class="table-group-divider">
+  <tr>
+      <td>2025年11月号</td>
+      <td>家</td>
+    </tr>
     <tr>
       <td>2025年10月号</td>
       <td>謎</td>
