@@ -11,7 +11,7 @@ image: /assets/images/ogp_default.png
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>-</th>
+      <th>雪</th>
     </tr>
     <tr>
       <td>形式</td>
