@@ -19,7 +19,7 @@ FLATLINE はインターネット歌会です。
 
 <i class="fa-regular fa-envelope"></i> [投稿フォーム]({{site.baseurl}}/post/)
 
-<i class="fa-brands fa-discord"></i> [DISCORD](https://discord.gg/WyV2XHN6z2)
+<i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 #### 連絡先
 
