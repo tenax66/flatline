@@ -17,10 +17,6 @@ FLATLINE はインターネット歌会です。
 
 #### 投稿方法
 
-<i class="fa-regular fa-envelope"></i> [投稿フォーム]({{site.baseurl}}/post/)
-
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
-#### 連絡先
-
-<i class="fa-brands fa-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)
+<i class="fa-brands fa-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)のDM
