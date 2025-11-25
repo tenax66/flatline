@@ -15,7 +15,7 @@ FLATLINE はインターネット歌会です。
 
 毎月 25 日が投稿の締め切りで、翌月の 1 日に掲載されます。
 
-#### 投稿方法
+#### 投稿先
 
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
