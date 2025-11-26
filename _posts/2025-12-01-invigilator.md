@@ -4,7 +4,7 @@ title: 試験監督
 image: /assets/images/ogp_default.png
 author: 太田葵
 category: 太田葵
-emoji: ☁️
+emoji: 🦋
 ---
 
 <div class="tanka-area"><div class="tanka">

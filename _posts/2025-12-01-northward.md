@@ -4,7 +4,7 @@ title: 北へ
 image: /assets/images/ogp_default.png
 author: 石川瑞希
 category: 石川瑞希
-emoji: 🦉
+emoji: 🔹
 ---
 
 <div class="tanka-area"><div class="tanka">
