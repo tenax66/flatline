@@ -16,7 +16,7 @@ emoji: 🐕
 
 ---
 
-<details><summary>服従</summary>
+<details open><summary>服従</summary>
 雪原の夢を気に病む必要はないのに慰霊碑の町へいく<br />
 燃えている／これから燃える／燃えていた塔だと兵士たちは口々に<br />
 司会者はエスペラントで抵抗をつづけた　あなたはまだ話せます<br />

@@ -23,7 +23,7 @@ emoji: 🏝️
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 島に行く予定が荒んだ生活の頭上で光を放ち続ける<br />
 見たこともない魚とか食べてみたい　いるかと一緒に泳いでみたい<br />
 朝焼けが夜空のふたをこじ開けて旅の実感が胸に飛びこむ<br />

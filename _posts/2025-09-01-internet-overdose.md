@@ -16,7 +16,7 @@ emoji: 🐰
 
 ---
 
-<details><summary>INTERNET OVERDOSE</summary>
+<details open><summary>INTERNET OVERDOSE</summary>
 えーえんとくちからえーえんとくちからゲイリーにありがとうと言って<br />
 つまらないパーティふたりで抜け出して食い尽くし系夫が繁殖<br />
 「運命と出会って愛を知りました。ほらミクちゃん、みんなにご挨拶して」<br />

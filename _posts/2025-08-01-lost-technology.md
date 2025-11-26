@@ -16,7 +16,7 @@ emoji: ♓️
 
 ---
 
-<details><summary>ロストテクノロジー</summary>
+<details open><summary>ロストテクノロジー</summary>
 リリシズム星間飛行の完成に伴い滅びる地球話者<br />
 人工の人間らしさがコンビニに並ぶ時代　無水カフェイン<br />
 火星人→渋谷熱殺蜂球の未来　港区女子は乾杯<br />

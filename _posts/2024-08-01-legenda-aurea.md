@@ -23,7 +23,7 @@ emoji: 🏘️
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 恋人と擦ったユーモアはやがて四国くらいの広さになった<br />
 それとふれあう人生もあったろな基本情報技術者試験<br />
 爪を切る ビキニ環礁みたいだな (何が？ 薄さ？ 遠さ？ 悲しさ？ )<br />

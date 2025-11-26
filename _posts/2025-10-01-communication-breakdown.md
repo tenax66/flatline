@@ -19,7 +19,7 @@ emoji: 🐻‍❄️
 
 ---
 
-<details><summary>通信途絶</summary>
+<details open><summary>通信途絶</summary>
 通信が復帰しました　しばらくはノイズが残ることがあります<br />
 ロード中///<br />
 １００１０／００１／０１０／０１００／０１０／０１／０１０１１／００／<br />

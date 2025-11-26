@@ -16,7 +16,7 @@ emoji: 😑
 
 ---
 
-<details><summary>指示</summary>
+<details open><summary>指示</summary>
 この道をこのまままっすぐ進んだらそのまま下に落ちて死にます<br />
 その代わり8文字前に戻ります8文字前に戻りますその<br />
 あの車を止めるか通過させるかは人差し指に委ねられてる<br />

@@ -22,7 +22,7 @@ emoji: 🧭
 
 ---
 
-<details><summary>やがてわかる</summary>
+<details open><summary>やがてわかる</summary>
 ラジオから知らない曲が流れててひかりの車窓がMVになる<br />
 イヤホンを外して街を聴いてみるやっぱりやめて一マスすすむ<br />
 It's My Life を聞いて全身の筋繊維たちを収縮させる<br />

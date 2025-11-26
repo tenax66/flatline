@@ -22,7 +22,7 @@ emoji: 🎩
 
 ---
 
-<details><summary>バナナの鳴らし方</summary>
+<details open><summary>バナナの鳴らし方</summary>
 バナナの輪郭に沿って指揮棒を振るフリ　今ならなんでも聴こえる<br />
 何が『がらんどう』だよ語感が完全に一斗缶を転がし回してる<br />
 野良猫の喧嘩が聞こえる　一斉に鳴く　　　あ、今のBdim<br />

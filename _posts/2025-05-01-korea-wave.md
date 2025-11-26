@@ -16,7 +16,7 @@ emoji: 🦟
 
 ---
 
-<details><summary>KOREA WAVE</summary>
+<details open><summary>KOREA WAVE</summary>
 航空券を安く取れたらそのときが旅に出るとき２０２５<br />
 花粉症なりかけの姉が今日花粉やばいでしょって適当ほざく<br />
 会釈すれば焼肉屋さんは手をあげた　韓国語でもたぶん分かった<br />

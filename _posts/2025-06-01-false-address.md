@@ -16,7 +16,7 @@ emoji: 🦀
 
 ---
 
-<details><summary>嘘住所</summary>
+<details open><summary>嘘住所</summary>
 天の川銀河オリオン腕太陽系第三惑星ウーバーイーツ<br />
 蟹波市は昔住んでた街になり水平に進むラーメンの熱<br />
 スロットを二回揃えて裏口に蟹の四十二本目の脚<br />

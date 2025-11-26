@@ -27,7 +27,7 @@ emoji: 🦷
 
 ---
 
-<details><summary>ジャングルジムに住む巫女の疑問</summary>
+<details open><summary>ジャングルジムに住む巫女の疑問</summary>
 郊外のレモン工場はすべて星　耳の奥から鳩の声がする<br />
 <br />
 神さまは二段ベッドの上のほうと下のほうならどちらが好きか<br />

@@ -16,7 +16,7 @@ emoji: 🐈
 
 ---
 
-<details><summary>夜間上映</summary>
+<details open><summary>夜間上映</summary>
 返り血のように光を浴びているあなたと共有したい幻肢痛<br />
 空襲のあとの静けさ　果てしない通風口の音が聞こえる<br />
 無菌室　エピローグまでを見届けて何もなかったかのように出た<br />

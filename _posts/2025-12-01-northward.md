@@ -16,7 +16,7 @@ emoji: 🔹
 
 ---
 
-<details><summary>北へ</summary>
+<details open><summary>北へ</summary>
 目に見えぬものから逃げてゆくように言葉を咥えミミズクは飛ぶ<br />
 白という安全すぎる空間にパスワードめく血の一、二滴<br />
 都には夜ばかりあると男らは酒で温めた嗄れ声で<br />

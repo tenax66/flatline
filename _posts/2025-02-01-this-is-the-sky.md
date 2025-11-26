@@ -22,7 +22,7 @@ emoji: 📌
 
 ---
 
-<details><summary>ここは上空</summary>
+<details open><summary>ここは上空</summary>
 暖房で部屋の空気が膨らむと壁が軋んで思考は歪む<br />
 隣人が帰宅したのを建物の揺れで感じてとりあえず立つ<br />
 キッチンの換気扇には轟々と吸いきれないで留まる懸念<br />

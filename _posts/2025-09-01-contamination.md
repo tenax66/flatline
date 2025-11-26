@@ -16,7 +16,7 @@ emoji: 💺
 
 ---
 
-<details><summary>contamination</summary>
+<details open><summary>contamination</summary>
 水鳥の行方をだれもわからない知ろうとしない夜の水底<br />
 湖畔　あのまま立ち止まっていればわたしが産んだであろう神々<br />
 白樺の幹はしらじらと乾いて触れるのならばすべてを愛せ<br />

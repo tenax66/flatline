@@ -16,7 +16,7 @@ emoji: 🌇
 
 ---
 
-<details><summary>おかえり</summary>
+<details open><summary>おかえり</summary>
 真珠へと還るまなこは饐えながら廃屋にみーむみーむと鳴いた<br />
 もう嗄声ゆれはじめても昏倒の地名が全身に書き込まれ<br />
 歴史のように弓を枯らして幽霊船　鏡の間　鏡の間　鏡の間<br />

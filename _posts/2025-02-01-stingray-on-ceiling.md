@@ -22,7 +22,7 @@ emoji: 🍳
 
 ---
 
-<details><summary>天井にエイ</summary>
+<details open><summary>天井にエイ</summary>
 天井にエイが泳いで尾ひれには残響二秒まとって過ぎる<br />
 始まりのD dur忘れた手が触れる衣装のハンガー絡まって鳴る<br />
 禁じられた音の並びは鱗のよう壊れた町を救うのは誰<br />

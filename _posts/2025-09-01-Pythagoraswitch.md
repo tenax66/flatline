@@ -16,7 +16,7 @@ emoji: 👻
 
 ---
 
-<details><summary>ピタゴラスイッチ</summary>
+<details open><summary>ピタゴラスイッチ</summary>
 受精からはじまるピタゴラスイッチを母胎のTVで視聴していた<br />
 風とガーベラ　死者も生者もうけいれるぼくの心はひろい箱庭<br />
 巨大都市のiPhoneへ幾千幾万幾億のFace ID<br />

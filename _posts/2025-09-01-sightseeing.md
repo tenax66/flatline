@@ -16,7 +16,7 @@ emoji: 🌱
 
 ---
 
-<details><summary>見物</summary>
+<details open><summary>見物</summary>
 演劇を見物しよう、喧嘩のシーン罵倒が思わぬ急所に被弾<br />
 競艇を見物しよう、負けそうな艇ばかり買い順当に負け<br />
 花火を見物しよう、音のあと取り残される火花がきれい<br />

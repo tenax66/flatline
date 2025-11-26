@@ -16,7 +16,7 @@ emoji: 🕛
 
 ---
 
-<details><summary>しらかみ様</summary>
+<details open><summary>しらかみ様</summary>
 逃亡はできない冬に雇われた二人の自然保護監視員<br />
 研究は信仰に近い山荘で研究者は信仰を続けた<br />
 天罰ではなかった雪崩　神さまは偶然ひとの味をおぼえた<br />

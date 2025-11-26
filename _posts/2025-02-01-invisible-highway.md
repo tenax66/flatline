@@ -27,7 +27,7 @@ emoji: 🍞
 
 ---
 
-<details><summary>Invisible-Highway</summary>
+<details open><summary>Invisible-Highway</summary>
 ETCカードが挿入されています　無駄な争いを避けるルートです<br />
 透明高速つよくつよく踏み込んでAutomatic Trance密行<br />
 空回るハイウェイラジオ　息継ぎで　人が取り戻すふくらみ　ここから<br />

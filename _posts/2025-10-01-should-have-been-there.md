@@ -16,7 +16,7 @@ emoji: 🐈
 
 ---
 
-<details><summary>あったはずの</summary>
+<details open><summary>あったはずの</summary>
 排気塔　冬の煙を吸い込んで都市は不在を造り続ける<br />
 音のない工場　私でない声が私の身体をすり抜けてゆく<br />
 白地図に這っている指　紡がれる都市外縁部の脆さについて<br />

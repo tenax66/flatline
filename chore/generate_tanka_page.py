@@ -65,7 +65,7 @@ emoji: {emoji}
 
 ---
 
-<details><summary>{title}</summary>
+<details open><summary>{title}</summary>
 {tanka_summary}<br />
 <br />
 </details>

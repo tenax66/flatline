@@ -31,7 +31,7 @@ emoji: 🐕
 #### Notice
 本ページの画像作品は、すべて[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスで提供します。
 
-<details><summary>眠らなければ目覚められない</summary>
+<details open><summary>眠らなければ目覚められない</summary>
 おれたちは海が見たくて逃げてきた　だから天国へは入れない<br />
 苦労して顔を歪める必要はないさ　そのまま立ってればいい<br />
 どれぐらい乗っていたのかわからないけど　未来には着いてなかった<br />

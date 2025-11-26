@@ -16,7 +16,7 @@ emoji: 🎈
 
 ---
 
-<details><summary>空？</summary>
+<details open><summary>空？</summary>
 前後にも両隣にも咲いているオレンジ色の花を気にする<br />
 そういえば最後に高い煙突を見たのはいつか思い出せない<br />
 できるだけ肩甲骨を動かして飛べといわれる日に備えてる<br />

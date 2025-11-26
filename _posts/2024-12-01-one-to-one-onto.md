@@ -22,7 +22,7 @@ emoji: 🎺
 
 ---
 
-<details><summary>one-to-one onto</summary>
+<details open><summary>one-to-one onto</summary>
 海は柔い泡の隘路に編む色を危うい雨にあたら失う<br />
 天高き鷹は敵を集りて叩き熱の水辺に鼠の泥む<br />
 一向に閃く鰭ひらくピラルク昼に手のひら火照りて独り<br />

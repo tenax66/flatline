@@ -16,7 +16,7 @@ emoji: 🌇
 
 ---
 
-<details><summary>ワンダーランドの死前死後</summary>
+<details open><summary>ワンダーランドの死前死後</summary>
 wonder　見つけられなかった従順を仏に濡れて寓意が戻る<br />
 イカサマが反抗している滝壺に雨、雨、ネオテニーの軍歌だ<br />
 奏でゆく比喩のかたちを操縦に遊星をするままの異が咲く<br />

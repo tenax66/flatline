@@ -23,7 +23,7 @@ emoji: 💡
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 われは浮島苔むすかばねしろかねの鷹いで来たりまばゆくもあるか<br />
 このもとに斧ひとつふるみ山ゆり山処鼠の鈴は鳴りつつ<br />
 つみふかきそびらに耳は湿りたりこよひ蟇目のはたてをぞ思ふ<br />

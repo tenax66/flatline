@@ -16,7 +16,7 @@ emoji: 🧊
 
 ---
 
-<details><summary>流動的な地点</summary>
+<details open><summary>流動的な地点</summary>
 いくつもの並行上の立つ世界そちら側での元気をしてる？<br />
 不安な空白を埋めていくような時間をかけた彷徨って歩く<br />
 安全を選ぶ練習積んでいて白だけを踏む横断歩道<br />

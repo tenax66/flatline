@@ -16,7 +16,7 @@ emoji: 🧭
 
 ---
 
-<details><summary>密談</summary>
+<details open><summary>密談</summary>
 まひるまのファミレスで交わす密談の最後抜き出すピストルに花<br />
 眼をとじて思い浮かべた崖の上、魔王の城の空が晴れてる<br />
 太陽のキャラがかけてるサングラス奪って月に渡したら夜<br />

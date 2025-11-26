@@ -22,7 +22,7 @@ emoji: 🧊
 
 ---
 
-<details><summary>膜を張り</summary>
+<details open><summary>膜を張り</summary>
 薄い昼間に目が覚めてぐったりとしている部屋は夜まで沈み<br />
 感情が走り出しては内側の熱がてっぺんに上がり続け<br />
 陽だまりの内に入れず控えめに濃くなる影はただ揺らいで<br />

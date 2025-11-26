@@ -16,7 +16,7 @@ emoji: ♓️
 
 ---
 
-<details><summary>激エモレミオロメン</summary>
+<details open><summary>激エモレミオロメン</summary>
 こなあああああああ〜〜〜！！！<br />
 微塵だよ丁寧に潰しときました　アスファルトで死ぬんじゃねえ粉雪<br />
 循環が森羅万象がタオであり我らが水の惑星地球<br />

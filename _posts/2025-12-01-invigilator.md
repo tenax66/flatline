@@ -16,7 +16,7 @@ emoji: 🦋
 
 ---
 
-<details><summary>試験監督</summary>
+<details open><summary>試験監督</summary>
 業績を称える看板まだあって雪国にいる先輩のこと<br />
 わかるよう真四角の文字を黒板に　舌噛み切ってたと騒ぐ教室<br />
 数学の空気は澄んで粉雪と足に黄金３０青翔<br />

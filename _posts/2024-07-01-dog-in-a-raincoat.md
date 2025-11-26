@@ -23,7 +23,7 @@ emoji: 🏝️
 
 ---
 
-<details><summary>かっぱを着た犬</summary>
+<details open><summary>かっぱを着た犬</summary>
 
 傘も無く受け取る雨の冷たさで自分のおでこの温度が分かる<br />
 人間は川が好きだし太陽も雨を見るのがきっと好きだよ<br />

@@ -22,7 +22,7 @@ emoji: 🧊
 
 ---
 
-<details><summary>薄まっていく</summary>
+<details open><summary>薄まっていく</summary>
 小刻みに吸って吐いてを繰り返し好奇心と空気の回遊<br />
 高揚が薄れてきてはズレているテンポをBGMに引き上げられて<br />
 遠い街の話をきき感情の音が揺れては人も揺れてく<br />

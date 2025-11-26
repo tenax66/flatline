@@ -23,7 +23,7 @@ emoji: 🎸
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 恋人は海のある場所で育った　コンビニの代わりに海がある<br />
 南国で買った木彫りのスーベニア変なポーズが少し流行った<br />
 ブラックに浮かぶ氷の海抜が溜め息混じるCO<sub>2</sub>で<br />

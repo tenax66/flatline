@@ -16,7 +16,7 @@ emoji: ▶️
 
 ---
 
-<details><summary>保護色</summary>
+<details open><summary>保護色</summary>
 つめたさはかなしさだから息をする誰も見えないだけ息をする<br />
 待っててよ雪の結晶はんぶんこするって約束したんだからさ<br />
 手を離す　36といくらかが36.7になってく<br />

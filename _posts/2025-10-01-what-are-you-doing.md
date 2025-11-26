@@ -16,7 +16,7 @@ emoji: 💻
 
 ---
 
-<details><summary>いまなにしてる？</summary>
+<details open><summary>いまなにしてる？</summary>
 EZ WIN　ぼくが最後にリプライを飛ばしてから数世紀がたった<br />
 らくらくフォンって何がらくらくなの⁉️　私は操作性と見てます❓🔍<br />
 深淵に覗かれたいけど覗くべき深淵がどこだかわかんない<br />

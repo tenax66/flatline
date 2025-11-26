@@ -16,7 +16,7 @@ emoji: 🥬
 
 ---
 
-<details><summary>慣習</summary>
+<details open><summary>慣習</summary>
 古ぼけた八月号もいっちょまえに七月に発行されていた<br />
 JAのイメージガール夕顔は綺麗な花も咲くと知ってる<br />
 一方で勝手に生えた花がある　危険を示す黄色い看板<br />

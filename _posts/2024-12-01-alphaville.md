@@ -22,7 +22,7 @@ emoji: 🐕
 
 ---
 
-<details><summary>A都市</summary>
+<details open><summary>A都市</summary>
 幽霊がもし死ぬとして波ひとつない湖で死ぬわけがない<br />
 廊下ではさびしい顔をした人がおおぜい跳ねていて混ざれない<br />
 「右側を向くと魚がくるから」とわたしに言ったあなたはわたし<br />

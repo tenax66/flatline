@@ -22,7 +22,7 @@ emoji: 🦟
 
 ---
 
-<details><summary>夜濯ぎの夜</summary>
+<details open><summary>夜濯ぎの夜</summary>
 夜の川を水は流れて　淡い影　濃い影　ずっと水は流れて<br />
 階段のへりを落ちかけてる蛇をつかんだとたんほそくてたかい<br />
 醒めるまで夜を濯げば大きめの犬や車も振り落とす夜<br />

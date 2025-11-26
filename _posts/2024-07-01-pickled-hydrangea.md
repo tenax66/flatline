@@ -23,7 +23,7 @@ emoji: 🦷
 
 ---
 
-<details><summary>紫陽花のピクルス</summary>
+<details open><summary>紫陽花のピクルス</summary>
 ざんざばら　あなたとアスファルトを叩くどの一粒も迷子アナウンス<br />
 工場で今日もため息をつきながら紫陽花をピクルスにしてゆく<br />
 詮索は (The accident was fatal) しないよ　窓になに書いてても<br />

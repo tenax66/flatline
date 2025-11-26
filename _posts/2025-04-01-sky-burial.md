@@ -16,7 +16,7 @@ emoji: 🐰
 
 ---
 
-<details><summary>鳥葬</summary>
+<details open><summary>鳥葬</summary>
 迷うのがこわくて足を踏み出せず道を指折り数えて暮らす<br />
 陽が落ちてあなたの骨は宝石に　わたしの肉は震える鹿に<br />
 物干し竿にやたら鳥が止まっている多分女が住んでいる部屋<br />

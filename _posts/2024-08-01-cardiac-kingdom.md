@@ -23,7 +23,7 @@ emoji: 🦷
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 ボーイング (そして幽かに) 737-800 (それを聞きました)<br />
 足をもつ者たちが訪れたのを知らせるために泣き砂は泣く<br />
 その島は眼窩に真珠を嵌め込んだ渡り鳥たちの終着点<br />

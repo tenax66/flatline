@@ -16,7 +16,7 @@ emoji: 🐢
 
 ---
 
-<details><summary>謎事件</summary>
+<details open><summary>謎事件</summary>
 心ではなく体で泣いている朝の名探偵の騙されたがり<br />
 硝子犬(嘘の笑顔を見抜くたび冷たく光る悲しき子犬)<br />
 それにしても諦め方のバリエーションが豊富な貴婦人だったな・・・<br />

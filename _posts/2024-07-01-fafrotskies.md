@@ -23,7 +23,7 @@ emoji: 🐕
 
 ---
 
-<details><summary>ファフロツキーズ</summary>
+<details open><summary>ファフロツキーズ</summary>
 
 救い主　ぼくらは濡れたアパートを原則として比喩とみなそう<br />
 この町の天気予報はあたらないらしい　巨人を見たことがない<br />

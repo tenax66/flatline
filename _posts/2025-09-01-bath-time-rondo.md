@@ -16,7 +16,7 @@ emoji: 📌
 
 ---
 
-<details><summary>バスタイムロンド</summary>
+<details open><summary>バスタイムロンド</summary>
 柔らかいシャワーをあてても<ruby>解<rp>（</rp><rt>ほど</rt><rp>）</rp></ruby>けない眉間の奥に湿度を綴じて<br />
 入りたいのに入れないは入りたくないだよシャンプーが白目を撫でた<br />
 ミズクラゲ  痛みはあとからやってくる誰かの謝罪を鼓膜が弾く<br />

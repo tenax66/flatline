@@ -16,7 +16,7 @@ emoji: 🕛
 
 ---
 
-<details><summary>家族葬</summary>
+<details open><summary>家族葬</summary>
 「大往生」の意味を調べる　その中で誰かが泣いている鯨幕<br />
 空調にわずかにゆれる火の向こう、ひかる造花の青から緑<br />
 うつむいた耳に読経の声　白いレースに桜の雪の投影<br />

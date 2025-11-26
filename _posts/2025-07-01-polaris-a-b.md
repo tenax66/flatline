@@ -16,7 +16,7 @@ emoji: 📌
 
 ---
 
-<details><summary>ポラリスA／B</summary>
+<details open><summary>ポラリスA／B</summary>
 性別の中間地点で番台にふたりの牛乳代を払って<br />
 知っていることを知ってる北極星どこだようあそこだようと<ruby>戯<rp>（</rp><rt>じゃ</rt><rp>）</rp></ruby>れる<br />
 指示語だけあれば会話は充分で毎冬に買う揃いのマフラー<br />

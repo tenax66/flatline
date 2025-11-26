@@ -16,7 +16,7 @@ emoji: 🌏
 
 ---
 
-<details><summary>筆箱</summary>
+<details open><summary>筆箱</summary>
 筆箱であるなら喉にジッパーが届いてほしい　見てほしい<br />
 少しずつ下ろしてみてよ俺だけの内なる跡はうつくしいから<br />
 欠けている（正直者が馬鹿を見る）定規　病気にはならない<br />

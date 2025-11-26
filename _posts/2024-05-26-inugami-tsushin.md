@@ -22,7 +22,7 @@ emoji: 🐕
 
 ---
 
-<details><summary>犬神通信</summary>
+<details open><summary>犬神通信</summary>
 
 犬神を連れた少女がタクシーを止めて四ツ谷に帰っていった<br />
 明け方のテレビはとてもおもしろい　寝椅子に沈む横に犬神<br />

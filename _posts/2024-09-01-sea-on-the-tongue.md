@@ -23,7 +23,7 @@ emoji: 🦷
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 鬼罌粟の涙にわれはさぶらひきわたつみのはたて恋しうおぼゆれ<br />
 s=シート、t=タブレットの略だよと波打つ舌のような色の海<br />
 けぶりあふさざなみのごと銀煙管懶惰なる日を闌けたまふとぞ<br />

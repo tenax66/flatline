@@ -16,7 +16,7 @@ emoji: 🪽
 
 ---
 
-<details><summary>家、滞留</summary>
+<details open><summary>家、滞留</summary>
 浅い瀬にいるような肩　鍋のない台所目をやるだけの今<br />
 この家で肩甲骨は日を浴びて大きく翳るだから遮る<br />
 魚肉ただ身をよじれないそのらしさ消えたからだをスーパーにおき<br />
