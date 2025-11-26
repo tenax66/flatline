@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 募集中: 12 月号
+#### 募集中: 1 月号「火」
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>雪</th>
+      <th>火</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>11/25</td>
+      <td>12/27</td>
     </tr>
   </tbody>
 </table>
@@ -40,7 +40,11 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
-  <tr>
+    <tr>
+      <td>2025年12月号</td>
+      <td>雪</td>
+    </tr>
+    <tr>
       <td>2025年11月号</td>
       <td>家</td>
     </tr>
