@@ -39,7 +39,11 @@ category: flatline
 
 [バスルームに棲む星座]({{ site.baseurl }}/the-constellation-dwelling-in-the-bathroom) - nes
 
+[新地シンチレーション]({{ site.baseurl }}/shinchi-scintillation) - 八谷のり
+
 [こんこ]({{ site.baseurl }}/konko) - ヒミツー
+
+[雪見]({{ site.baseurl }}/snow-viewing) - 福住電
 
 [記憶が合流する場所]({{ site.baseurl }}/where-memories-converge) - マミ
 
