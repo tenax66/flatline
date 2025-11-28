@@ -389,6 +389,14 @@ html[data-bs-theme="dark"] blockquote {
     width: 1em;
     height: 1em;
     border: 1px solid;
-    font-size: 1em;     /* 基準となる文字サイズ */
-    line-height: 1;     /* 余計な高さを付けない */
+}
+
+.boxed-text__glyph {
+    display: inline-block;
+    transform: translateY(-0.08em);
+}
+
+.boxed-text__glyph-vertical {
+    display: inline-block;
+    transform: translateX(0.08em);
 }
