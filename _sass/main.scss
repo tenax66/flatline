@@ -381,3 +381,14 @@ html[data-bs-theme="dark"] blockquote {
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+.boxed-text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1em;
+    height: 1em;
+    border: 1px solid;
+    font-size: 1em;     /* 基準となる文字サイズ */
+    line-height: 1;     /* 余計な高さを付けない */
+}
