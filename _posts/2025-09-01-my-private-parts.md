@@ -16,7 +16,7 @@ emoji: 👁️
 
 ---
 
-<details><summary>俺の恥部は共感性羞恥</summary>
+<details open><summary>俺の恥部は共感性羞恥</summary>
 見目良きに「我がよ<ruby>誰<rp>（</rp><rt>たれ</rt><rp>）</rp></ruby>そ」と恥部を開け「我が名はアシタカ」「名前はまだない」<br />
 ナニ見せる狂人二度見て三度見よポークビッツがぶらぶら揺れて<br />
 目の泳ぐ狂人美人破廉恥よ強靭・無敵・最強なりや<br />

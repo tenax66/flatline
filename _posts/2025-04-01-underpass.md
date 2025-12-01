@@ -16,7 +16,7 @@ emoji: 🎈
 
 ---
 
-<details><summary>アンダーパス</summary>
+<details open><summary>アンダーパス</summary>
 バターにもジャムにもたどり着かないね満水のダムまでの国道<br />
 天井のアンダーパスですれ違う大きな影は銀河の仮眠<br />
 灯台の光を道と呼べ君が飛び方を忘れるはずはない<br />

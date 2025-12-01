@@ -16,7 +16,7 @@ emoji: 🎈
 
 ---
 
-<details><summary>何もない</summary>
+<details open><summary>何もない</summary>
 十畳のフローリングの寝室にシングルベットひとつだけある<br />
 この家に時計は二十二個あると書いた手紙の記憶はあった<br />
 新しい電池に替えた時計から知らない星の雨音がする<br />

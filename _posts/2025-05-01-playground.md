@@ -16,7 +16,7 @@ emoji: 📌
 
 ---
 
-<details><summary>Playground</summary>
+<details open><summary>Playground</summary>
 毛布さえ敷けば陣地が決まるので大きい毛布を買ってとねだる<br />
 アパートを出発点に地図を描き流水にカルピス川と名付けた<br />
 どうしてもチューイングガムが必要、と説明できずに当日の夜<br />

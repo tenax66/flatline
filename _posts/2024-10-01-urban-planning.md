@@ -22,7 +22,7 @@ emoji: 💉
 
 ---
 
-<details><summary>都市計画</summary>
+<details open><summary>都市計画</summary>
 サーバーと2Ghzでつながれたスマート樹木の開花予定日<br />
 実家ではパキラが枯れたと聞いてから息苦しさに拍車がかかり<br />
 あいつだけ野菜だなんだとハブられたスイカも木にしてあげればよかった<br />

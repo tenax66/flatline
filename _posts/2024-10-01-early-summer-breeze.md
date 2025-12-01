@@ -22,7 +22,7 @@ emoji: 🕯️
 
 ---
 
-<details><summary>緑風そぞろ</summary>
+<details open><summary>緑風そぞろ</summary>
 艶やかな森の行進塞き止めて四畳半の砂場で踊る<br />
 透明であることを誇る楡の木が眼科のビルに囚われる<br />
 けやき開けばユートピア西日にも溶かせぬ憂鬱抱きしめて<br />

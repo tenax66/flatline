@@ -16,7 +16,7 @@ emoji: 🕛
 
 ---
 
-<details><summary>apologize</summary>
+<details open><summary>apologize</summary>
 劣化したＶＨＳ不自然な紙ヒコーキの軌道を追えば<br />
 たいていの儀式は失敗に終わります。制裁を繰り返します。<br />
 棒立ちの後ろ姿が次に見たときに　林檎の切られる音が<br />

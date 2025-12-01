@@ -23,7 +23,7 @@ emoji: 🏝️
 
 ---
 
-<details><summary>カニを見てピース</summary>
+<details open><summary>カニを見てピース</summary>
 熱海行き電車と今日もすれ違いBluetoothの潮騒さわやか<br />
 カニを見てピースをする人でよかった 自由に愛して良いと思った<br />
 ホリゾンタルブルーはすっかりオレンジで波のリズムに揺れるスカート<br />

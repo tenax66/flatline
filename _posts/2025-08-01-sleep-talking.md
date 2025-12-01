@@ -16,7 +16,7 @@ emoji: 🛝
 
 ---
 
-<details><summary>寝言</summary>
+<details open><summary>寝言</summary>
 本来は何をしたっていい。ただし、寝言に返事をしてはいけない<br />
 いつの日かレム睡眠に頼らずに自力で君を殺してみたい<br />
 「死ぬ前に聞いておきたいことはある？」「俺の顔ってThis Man似かな」<br />

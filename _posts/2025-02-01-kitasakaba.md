@@ -22,7 +22,7 @@ emoji: 💡
 
 ---
 
-<details><summary>北酒場</summary>
+<details open><summary>北酒場</summary>
 <ruby>鋒鏤鍍<rp>（</rp><rt>HALT</rt><rp>）</rp></ruby>　なほも各骰没圏にて空転⋯⋯、その静けさ⋯⋯　<ruby>囂<rp>（</rp><rt>GO</rt><rp>）</rp></ruby><br />
 組合の酵母にモーツアルトらの量子もつれを仕込みさへすれ<br />
 おのれ危めつつ木枯らしのてんぽ（せめて⋯⋯）（さきへ⋯⋯）酒（⋯⋯噫）（⋯⋯木霊に供花）<br />

@@ -16,7 +16,7 @@ emoji: 🍞
 
 ---
 
-<details><summary>雪国BB</summary>
+<details open><summary>雪国BB</summary>
 白煙のこもるバイパスを抜けると雪国<ruby>BB<rp>（</rp><rt>ブルーバック</rt><rp>）</rp></ruby>であった<br />
 描画負荷軽減チェーンのめがね屋におんなじ顔の親子が親子が<br />
 後ろから僕のつむじを見ている僕は今何に見られているだろう<br />

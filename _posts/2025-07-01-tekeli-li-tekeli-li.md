@@ -16,7 +16,7 @@ emoji: 🌇
 
 ---
 
-<details><summary>Tekeli-li, Tekeli-li</summary>
+<details open><summary>Tekeli-li, Tekeli-li</summary>
 あめんぼのような光化学スモッグを背負う島流しの聴牌か？<br />
 自傷の奪取　０をラブと言い換えながらひたすらに鳴く上級蚯蚓<br />
 希少なまでの根腐れを待つわたしまたぐるぐると廻廊の腕うごく<br />

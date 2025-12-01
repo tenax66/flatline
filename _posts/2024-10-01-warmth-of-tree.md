@@ -22,7 +22,7 @@ emoji: 💡
 
 ---
 
-<details><summary>木の温もり</summary>
+<details open><summary>木の温もり</summary>
 本棚を買ってからすぐに本棚がいらなくなった至福のひととき<br />
 洗足の池へ燃え立つ教会へ伝統的な輓馬行列<br />
 ジルドレがやってたように両面に黙黙と彫る高雄曼荼羅<br />

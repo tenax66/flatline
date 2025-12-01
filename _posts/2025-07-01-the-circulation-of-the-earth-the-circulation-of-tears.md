@@ -16,7 +16,7 @@ emoji: 🌊
 
 ---
 
-<details><summary>地球の巡り、涙の巡り</summary>
+<details open><summary>地球の巡り、涙の巡り</summary>
 巡っては二度と戻らぬこの星で密かに祝う<ruby>詩<rp>（</rp><rt>うた</rt><rp>）</rp></ruby>の交換<br />
 1年が過ぎゆく間にあなたにも私の知らない1年があった<br />
 乾燥機使わせてよと友人が部屋へ上がりこみ梅雨が始まる<br />

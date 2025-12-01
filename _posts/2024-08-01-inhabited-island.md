@@ -23,7 +23,7 @@ emoji: 🐕
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 不合理なむかし話を目印に砕氷船は北へすすんだ<br />
 ディアスポラ　曲がった路地のあちこちに花をもつ手が見えるのはなぜ？<br />
 明瞭でない発音で早口でだれともしてはいけないことを<br />

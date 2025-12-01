@@ -16,7 +16,7 @@ emoji: 💡
 
 ---
 
-<details><summary>水飴</summary>
+<details open><summary>水飴</summary>
 現在与えることは許されている事前に考えるということも<br />
 ヴァージニアウルフが書いたすばらしい脚本カラフルなポップコーン<br />
 死んだ教皇を密閉する音が印象的な冒頭でした<br />

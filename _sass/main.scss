@@ -381,3 +381,22 @@ html[data-bs-theme="dark"] blockquote {
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+.boxed-text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1em;
+    height: 1em;
+    border: 1px solid;
+}
+
+.boxed-text__glyph {
+    display: inline-block;
+    transform: translateY(-0.08em);
+}
+
+.boxed-text__glyph-vertical {
+    display: inline-block;
+    transform: translateX(0.08em);
+}

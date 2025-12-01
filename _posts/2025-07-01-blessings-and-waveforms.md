@@ -16,7 +16,7 @@ emoji: 🕛
 
 ---
 
-<details><summary>祝福と波形</summary>
+<details open><summary>祝福と波形</summary>
 狼と演算、「カノン進行」と聞いても正直わからなかった<br />
 暁と控訴、背中に手を当ててあなたが眠るまであと五分<br />
 雷と悪手、落下する直前の数秒で手はつなげるのかな<br />

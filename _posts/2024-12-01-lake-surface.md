@@ -22,7 +22,7 @@ emoji: 🐰
 
 ---
 
-<details><summary>湖面</summary>
+<details open><summary>湖面</summary>
 身の内に世界のすべてを閉じ込めて光る小さな湖だった<br />
 愛されないようにだれもを愛さない　張り詰めている猛烈な凪<br />
 ほんとうの孤独の温度も知らないで指の先からほろほろ滅ぶ<br />

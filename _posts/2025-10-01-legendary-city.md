@@ -16,7 +16,7 @@ emoji: 🦭
 
 ---
 
-<details><summary>伝説の都市</summary>
+<details open><summary>伝説の都市</summary>
 ビッカメのマッサージチェアで眠ってるthismanみたいな顔のおじさん<br />
 遠征に向かうバド部のヨネックス　きさらぎ駅で急行を待つ<br />
 新しい転校生のカズ君は信じてくれたフリーメイソン<br />

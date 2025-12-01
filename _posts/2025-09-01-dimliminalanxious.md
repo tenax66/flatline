@@ -16,7 +16,7 @@ emoji: 🧝‍♂️
 
 ---
 
-<details><summary>dimliminalanxious-見ていられない！-</summary>
+<details open><summary>dimliminalanxious-見ていられない！-</summary>
 投企された点 黄色い壁紙へ「在る」が果てなく吸われてゆく<br />
 そこに居る階下の固い冷蔵庫 俯く時に前にある足<br />
 目を閉じて髪をあらうね鏡の御前 あたまの後ろが煮凝って、顔<br />

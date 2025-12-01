@@ -16,7 +16,7 @@ emoji: 🕯️
 
 ---
 
-<details><summary>旅の端のかき揚げ</summary>
+<details open><summary>旅の端のかき揚げ</summary>
 式典で閉館してたアウシュヴィッツ　ポテチ食みSPEC観ながらバスを待つ<br />
 ダイチャリで地元民に食らいつく街灯のない冬夜の鴨川<br />
 揚々に長靴履いて旅出れば蒸される足と三泊四日<br />

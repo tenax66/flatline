@@ -16,7 +16,7 @@ emoji: 💻
 
 ---
 
-<details><summary>ジブリフォビア</summary>
+<details open><summary>ジブリフォビア</summary>
 夢だけど夢じゃねンだわネコバスの座席の隙間にカードが落ちる<br />
 どの豚もマジでお前に見えてくる　生前のジーザス・クライスト<br />
 ジジ、それは祝日　ジジ、それは<ruby>金<rp>（</rp><rt>かね</rt><rp>）</rp></ruby>　ジジ、あれは病気のおとな<br />

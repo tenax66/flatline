@@ -16,7 +16,7 @@ emoji: 🤫
 
 ---
 
-<details><summary>脳道</summary>
+<details open><summary>脳道</summary>
 パリピ達がマリカーで公道を疾走　キノコはあと2秒効く<br />
 ムエットを嗅いだ　ここは迷宮　回廊を往くのはさよなライオン<br />
 先生の脳裏に浮かぶしたり顔。氏名空欄進路希望紙。<br />

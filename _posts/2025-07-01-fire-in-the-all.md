@@ -16,7 +16,7 @@ emoji: 🧝‍♂️
 
 ---
 
-<details><summary>Fire in the all</summary>
+<details open><summary>Fire in the all</summary>
 ゲジゲジのゲジゲジしてるとこ全部 抜けば閃くフラッシュバン GO!<br />
 おめでとうクラッカー引くおめでとう1000本鳴っても君は爆ぜない<br />
 ダイナマイトパーティーナイト踊り切れ ジジイになっても白色矮星 <br />

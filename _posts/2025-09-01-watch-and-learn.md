@@ -16,7 +16,7 @@ emoji: 💻
 
 ---
 
-<details><summary>Watch and Learn</summary>
+<details open><summary>Watch and Learn</summary>
 泣いてんの？ 泣いてるように見えるけどマナをアンタップしてドロー　だ<br />
 どのくらい人は鏡の前に立つ　ナイフのような切れ味のナイフ<br />
 お金が減る　お金を使って暮らすから　ますます頑張りたいねほんとに<br />

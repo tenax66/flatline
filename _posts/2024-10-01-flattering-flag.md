@@ -22,7 +22,7 @@ emoji: 🕯️
 
 ---
 
-<details><summary>旗はためいて又束ねられ</summary>
+<details open><summary>旗はためいて又束ねられ</summary>
 虎の糞パンダの型でくりぬいてチーズかければ栄一は舞う<br />
 太陽に<span>&copy;</span>つけて矢のごとく偏光レンズを売り捌く<br />
 納税をせず購った8万のギターでかちわれ資本主義<br />

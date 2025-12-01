@@ -23,7 +23,7 @@ emoji: 💉
 
 ---
 
-<details><summary></summary>
+<details open><summary></summary>
 沸き上がる黒い血潮を許せるか赤い岩肌認められるか<br />
 ことごとく水捌けの良い土だから血よりも薄い液体がない<br />
 この先の海がまあるく干上がった奥に誰かが生きているらしい<br />

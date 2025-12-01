@@ -30,7 +30,7 @@ emoji: 🧝‍♂️
 </p>
 ---
 
-<details><summary>Sufferings as Journey</summary>
+<details open><summary>Sufferings as Journey</summary>
 日が昇り　投げた言葉の影は濃い<br />茨の落ちた丘を背に発つ<br />
 <ruby>Patriōs sardonychēs vendit<rp>（</rp><rt>祖国の紅縞瑪瑙を売りに出す</rt><rp>）</rp></ruby>,<br />
 <ruby>perlūcidam fābulam facit<rp>（</rp><rt>昔話が透明になる</rt><rp>）</rp></ruby><br />

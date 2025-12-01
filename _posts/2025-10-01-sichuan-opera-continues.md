@@ -16,7 +16,7 @@ emoji: 🧝‍♂️
 
 ---
 
-<details><summary>川劇はつづく</summary>
+<details open><summary>川劇はつづく</summary>
 立ち寄った地下水族館のすべての目のある魚 こちらを見ている<br />
 軽薄なジョークだけ出る<ruby>自動人形<rp>（</rp><rt>オートマタ</rt><rp>）</rp></ruby>くしゃみするときくしゃみって言う<br />
 語用論 鋏の多い文具店「そんなん言うなら臟見せてよ」<br />

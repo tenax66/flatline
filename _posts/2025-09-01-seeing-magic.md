@@ -16,7 +16,7 @@ emoji: 🐢
 
 ---
 
-<details><summary>見る魔法</summary>
+<details open><summary>見る魔法</summary>
 前方後円墳みたいな彼女だな　瞳の奥に鍵穴がある<br />
 切り口で愛を語ってばかりいると破滅しますよ　UNO<br />
 なるほど見るタイプの魔法なんだね　産婦人科の薄桃の壁<br />

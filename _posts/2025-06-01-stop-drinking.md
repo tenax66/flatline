@@ -16,7 +16,7 @@ emoji: 🫗
 
 ---
 
-<details><summary>断酒</summary>
+<details open><summary>断酒</summary>
 夕焼けが跳ね返らないビル群の中の三叉路青くゆらいで<br />
 遠朝にセブンイレブンの浮かぶ海　凪いで漁港の始まるきらめき<br />
 音速の傘を光が透過して傘に4人も入れなくて嘘<br />

@@ -22,7 +22,7 @@ emoji: 💻
 
 ---
 
-<details><summary>池崎はサンシャインなのか</summary>
+<details open><summary>池崎はサンシャインなのか</summary>
 have a nice day 木を切れば木が倒れそれで暮らしてる人のいること<br />
 街中がヨドバシカメラの明るさだ　もう永いこと息をしてない<br />
 人々の股から正の字がこぼれ justice の中を満たした juice<br />

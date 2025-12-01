@@ -22,7 +22,7 @@ emoji: 💡
 
 ---
 
-<details><summary>BUTTHAI ⊕ MACHINE</summary>
+<details open><summary>BUTTHAI ⊕ MACHINE</summary>
 当面ダンジョン内螺階にて黒い白鳥の蝋化がみられます<br />
 夜の底が灯台守の爪さきにふれると長いトンネルだった<br />
 排他的非殻さんらんぽわぱらぼろいやる和蛸ロデオ陸弾<br />

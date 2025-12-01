@@ -16,7 +16,7 @@ emoji: 👻
 
 ---
 
-<details><summary>地球史の春</summary>
+<details open><summary>地球史の春</summary>
 ぼくたちは寝相がわるいからやがてスーパームーンになってしまった<br />
 <ruby>龍魚<rp>（</rp><rt>アロワナ</rt><rp>）</rp></ruby>のせなかにゆびをすべらせる感覚だけを信じるために<br />
 ほんとうにごめん　便箋をまるめて羊のように数えつづけた<br />

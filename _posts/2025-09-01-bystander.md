@@ -16,7 +16,7 @@ emoji: 🧭
 
 ---
 
-<details><summary>傍観</summary>
+<details open><summary>傍観</summary>
 土砂降りの廃ビル、吹雪のコテージや、嵐の孤島に行きたくないな<br />
 大袈裟に笑ったあとに一拍の静寂がありそれから殴る<br />
 対立が激化してゆく最中にも呼び出し音が鳴りつづけてる<br />

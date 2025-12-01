@@ -13,6 +13,8 @@ image: /assets/images/ogp_default.png
 
 ♓️ 池野飛魚
 
+🔹 [石川瑞希](https://x.com/mizki_ishikawa){:target="_blank"}
+
 💉 [犬の注射](https://x.com/kanetomo_seihyo){:target="_blank"}
 
 🐟 魚石ひかり
@@ -27,9 +29,15 @@ image: /assets/images/ogp_default.png
 
 🍳 [江間あやせ](https://x.com/emma_sama_sama){:target="_blank"}
 
+🛋️ えりーぬ
+
+🦋 太田葵
+
 🪴 [奥園](https://x.com/okuzono___){:target="_blank"}
 
 🧢 [おざわ](https://www.instagram.com/gay.tanka/){:target="_blank"}
+
+👶 音羽
 
 🪲 [尾内甲太郎](https://goki.her.jp/){:target="_blank"}
 
@@ -74,6 +82,8 @@ image: /assets/images/ogp_default.png
 🌏 田中記念館
 
 💻 [太朗千尋](https://x.com/Tarou_Chihiro){:target="_blank"}
+
+🥛 たんころぶ
 
 🎠 [特上あいう](https://x.com/SF_nek0){:target="_blank"}
 

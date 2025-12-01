@@ -16,7 +16,7 @@ emoji: 🍞
 
 ---
 
-<details><summary>離れてゆく心臓に朝焼けが</summary>
+<details open><summary>離れてゆく心臓に朝焼けが</summary>
 <ruby>世界の嵐に揺れないままでいるどうしようもなくそこにあなたは<rp>（</rp><rt>いますぐは</rt><rp>）</rp></ruby><br />
 <ruby>振りほどく風が鳴る朝焼けが他の世界の炎のゆらめきだった<rp>（</rp><rt>わからないのと</rt><rp>）</rp></ruby><br />
 <ruby>振りほどく手の小さくて朝焼けが宿る離れてゆく心臓に<rp>（</rp><rt>わずらえば</rt><rp>）</rp></ruby><br />

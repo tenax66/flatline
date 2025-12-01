@@ -16,7 +16,7 @@ emoji: ▶️
 
 ---
 
-<details><summary>成仏してやらない</summary>
+<details open><summary>成仏してやらない</summary>
 監視下でかかしとなるか詩歌たち　しかし、しかして隠す絵画　<ruby>彁<rp>（</rp><rt>か</rt><rp>）</rp></ruby><br />
 ルールたる｢知る｣｢見る｣｢分かる｣はあるべきる　ハテナを誤字る、るるる　ごめん　<ruby>槞<rp>（</rp><rt>る</rt><rp>）</rp></ruby><br />
 常人が情に乗ずる条件は非情であること、冗談よ　<ruby>蟐<rp>（</rp><rt>じょう</rt><rp>）</rp></ruby><br />

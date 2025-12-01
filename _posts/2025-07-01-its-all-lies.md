@@ -16,7 +16,7 @@ emoji: 🤫
 
 ---
 
-<details><summary>全部嘘</summary>
+<details open><summary>全部嘘</summary>
 帰りたくなくてとにかく遠回り　死因：有酸素運動です<br />
 慌てつつ、他人の空似と母が言い、確率が収束した父。<br />
 王子のくちづけで目覚める予定の女の髪でお香を作る<br />

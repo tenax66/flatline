@@ -16,7 +16,7 @@ emoji: 💺
 
 ---
 
-<details><summary>どゆあんだすたん</summary>
+<details open><summary>どゆあんだすたん</summary>
 夢みたい　からの分岐はふたつだけ脱衣所の扇風機の強さ<br />
 スパイシータコスの店でHIKAKINの水道代の動画　テレビで<br />
 黙っても伝わらなくて夜の公園　夜の公園　夜の公園<br />
