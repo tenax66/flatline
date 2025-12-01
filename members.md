@@ -31,7 +31,7 @@ image: /assets/images/ogp_default.png
 
 🛋️ えりーぬ
 
-🦋 太田葵
+🦋 [太田葵](https://x.com/gay_pika2093){:target="_blank"}
 
 🪴 [奥園](https://x.com/okuzono___){:target="_blank"}
 
