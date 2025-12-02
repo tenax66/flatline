@@ -68,6 +68,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>レンタルスペース</td>
       <td>-</td>
     </tr>
+    <tr>
       <td>4</td>
       <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
       <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
