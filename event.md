@@ -48,7 +48,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>1</td>
       <td><a href="/event/flatline-1">偶然短歌ドラフト</a></td>
       <td><a href="https://x.com/g57577">偶然短歌</a>からドラフト形式で連作をつくります。</td>
-      <td>2024-11-26 19:00~23:00</td>
+      <td>2024-11-26</td>
       <td><a href="https://maps.app.goo.gl/B7PyzZxTCvZpaeU48">PASSAGE bis! BOOKS &amp; CAFE</a></td>
       <td><a href="/guzen-tanka-draft">イベント記録: 偶然短歌ドラフト</a></td>
     </tr>
@@ -56,7 +56,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>2</td>
       <td><a href="/event/flatline-2">最遅新年会</a></td>
       <td>新年を祝い、短歌などの話をします</td>
-      <td>2025-02-13 19:00~23:00</td>
+      <td>2025-02-13</td>
       <td><a href="https://maps.app.goo.gl/B7PyzZxTCvZpaeU48">PASSAGE bis! BOOKS &amp; CAFE</a></td>
       <td>-</td>
     </tr>
@@ -72,7 +72,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>4</td>
       <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
       <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
-      <td>9/20</td>
+      <td>2025-09-20</td>
       <td>レンタルスペース</td>
       <td>-</td>
     </tr>
