@@ -10,7 +10,7 @@ emoji: 👻
 <div class="tanka-area"><div class="tanka">
 <p>棺桶をみっつかかえた魔法使いが苦しまぎれに言うメラ・ゾーマ</p>
 <p>夢のなかではなにしてもいいんだよ西陽のあたる工場跡で</p>
-<p>かしこいから賢者(…Loading…)名で体を表せたならよかったのにな</p>
+<p>かしこいから賢者(<span class="left-align-vertical">︙</span>Loading<span class="left-align-vertical">︙</span>)名で体を表せたならよかったのにな</p>
 <p>今はまだエレキギターになることを湖畔でのぞむ<ruby>赤楊<rp>（</rp><rt>ハンノキ</rt><rp>）</rp></ruby>の群れ</p>
 <p>ピグマリオン　ぼくが勇者になることを応援上映らしく信じて</p></div></div>
 
