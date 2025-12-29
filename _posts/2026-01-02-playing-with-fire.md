@@ -4,7 +4,7 @@ title: 火遊び
 image: /assets/images/ogp_default.png
 author: 雨音依月
 category: 雨音依月
-emoji: ❓
+emoji: 🌙
 ---
 
 <div class="tanka-area"><div class="tanka">

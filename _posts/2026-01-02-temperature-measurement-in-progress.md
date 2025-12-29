@@ -4,7 +4,7 @@ title: 検温中
 image: /assets/images/ogp_default.png
 author: 押田桧凪
 category: 押田桧凪
-emoji: ❓
+emoji: ⛵️
 ---
 
 <div class="tanka-area"><div class="tanka">
