@@ -51,6 +51,8 @@ category: flatline
 
 [新年、たくさんのめでたきこと]({{ site.baseurl }}/new-year-many-auspicious-things) - のい（noigashira）
 
+[契約者たち]({{ site.baseurl }}/contract-holders) - 八谷のり
+
 [命　ロウソク　火　検索]({{ site.baseurl }}/life-candle-fire-search) - ヒミツー
 
 [FIREPOWER]({{ site.baseurl }}/firepower) - 福住電
