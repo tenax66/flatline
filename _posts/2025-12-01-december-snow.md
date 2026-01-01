@@ -7,7 +7,7 @@ author: flatline
 category: flatline
 ---
 
-[フラットライン・コンストラクツ]({{ site.baseurl }}/flatline-constructs) - 青野ゆらぎ
+[かつ、そのときに限り]({{ site.baseurl }}/and-only-if) - 青野ゆらぎ
 
 [激エモレミオロメン]({{ site.baseurl }}/geki-emo-remioromen) - 池野飛魚
 

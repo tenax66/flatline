@@ -1,6 +1,6 @@
 ---
 layout: post
-title: フラットライン・コンストラクツ
+title: かつ、そのときに限り
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
@@ -16,7 +16,7 @@ emoji: 🐕
 
 ---
 
-<details open><summary>フラットライン・コンストラクツ</summary>
+<details open><summary>かつ、そのときに限り</summary>
 雪の降る町ではそれから幽霊になぜ死んだのか聞かなくなった<br />
 雪の降る町のレクチャー　ボートにはつがいの詩人しか乗れないよ<br />
 雪の降る町であなたはいくつもの命をもらう　ゲームが好きだ<br />
