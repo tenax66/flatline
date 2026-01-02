@@ -20,7 +20,7 @@ image: /assets/images/ogp_default.png
   <tbody class="table-group-divider">
     <tr>
       <td>5</td>
-      <td>短歌・短歌・短歌</td>
+      <td><a href="/event/flatline-5">短歌・短歌・短歌</a></td>
       <td>歌会をしたり、飲んだり食べたりして春を待ちます。</td>
       <td>2026-2-22</td>
       <td>調整中</td>
