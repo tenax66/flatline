@@ -19,11 +19,11 @@ image: /assets/images/ogp_default.png
   </thead>
   <tbody class="table-group-divider">
     <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>5</td>
+      <td>短歌・短歌・短歌</td>
+      <td>歌会をしたり、飲んだり食べたりして春を待ちます。</td>
+      <td>2026-2-22</td>
+      <td>調整中</td>
     </tr>
   </tbody>
 </table>
