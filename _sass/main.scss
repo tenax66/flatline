@@ -400,3 +400,9 @@ html[data-bs-theme="dark"] blockquote {
     display: inline-block;
     transform: translateX(0.08em);
 }
+
+/* 縦書き内での左寄せ（上方向） */
+.tanka .left-align-vertical {
+    position: relative;
+    left: -0.3em; /* マイナスで「左」に寄る */
+}
