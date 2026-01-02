@@ -9,6 +9,8 @@ image: /assets/images/ogp_default.png
 
 💅 味爪もも
 
+🌙 雨音依月
+
 ☔️ 雨森百合子
 
 ♓️ 池野飛魚
@@ -36,6 +38,8 @@ image: /assets/images/ogp_default.png
 🪴 [奥園](https://x.com/okuzono___){:target="_blank"}
 
 🧢 [おざわ](https://www.instagram.com/gay.tanka/){:target="_blank"}
+
+⛵️ 押田桧凪
 
 👶 音羽
 
@@ -95,6 +99,8 @@ image: /assets/images/ogp_default.png
 
 🐢 なかの
 
+🔑 中村祐希
+
 🌟 ナクキザシ
 
 🐔 新戸鴎二
@@ -118,6 +124,8 @@ image: /assets/images/ogp_default.png
 💡 [福住電](https://x.com/fukuzumiden){:target="_blank"}
 
 🦟 福田六個
+
+🧹 放棄未完
 
 🌱 まえり
 
