@@ -23,7 +23,7 @@ image: https://images.tanka.cc/flatline-5.png
 
 #### 場所
 
-都内のレンタルスペース（詳細未定）
+レンタルスペース（17:00~23:00、大久保駅近辺）
 
 #### タイムテーブル
 <table class="table table-bordered">

@@ -19,7 +19,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 
 #### 場所
 
-レンタルスペース（17:00~23:00、新大久保駅近辺）
+レンタルスペース（17:00~23:00、大久保駅近辺）
 
 #### 実施要項
 
