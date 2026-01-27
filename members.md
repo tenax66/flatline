@@ -49,9 +49,11 @@ image: /assets/images/ogp_default.png
 
 🎸 [オルター堂](https://x.com/_reijio){:target="_blank"}
 
-🛝 加藤荷空
+🛝 木本公介
 
 🦀 神乃
+
+🧱 黄身塚つみき
 
 🍑 㐂子
 
@@ -146,6 +148,8 @@ image: /assets/images/ogp_default.png
 🖱️ 唯織明
 
 🧊 [夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}
+
+🥥 遊佐裕
 
 🍡 ゆるもちゆ
 

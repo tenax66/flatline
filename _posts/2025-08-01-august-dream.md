@@ -17,7 +17,7 @@ category: flatline
 
 [何もない]({{ site.baseurl }}/nothing-there) - 宇祖田都子
 
-[寝言]({{ site.baseurl }}/sleep-talking) - 加藤荷空
+[寝言]({{ site.baseurl }}/sleep-talking) - 木本公介
 
 [溶液]({{ site.baseurl }}/_solution) - 神乃
 
