@@ -4,7 +4,7 @@ title: 一億年
 image: /assets/images/ogp_default.png
 author: 黄身塚つみき
 category: 黄身塚つみき
-emoji: 🧱
+emoji: 🐾
 ---
 
 <div class="tanka-area"><div class="tanka">
