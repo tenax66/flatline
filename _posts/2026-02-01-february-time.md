@@ -11,7 +11,7 @@ category: flatline
 
 [TEMPUS VASCULARE]({{ site.baseurl }}/tempus-vasculare) - 石川瑞希
 
-[だってぶっちゃけニートだもん]({{ site.baseurl }}/honestly-im-a-neet.) - 池野飛魚
+[だってぶっちゃけニートだもん]({{ site.baseurl }}/honestly-im-a-neet) - 池野飛魚
 
 [左岸から]({{ site.baseurl }}/from-rive-gauche) - 宇祖田都子
 

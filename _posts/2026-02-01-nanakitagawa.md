@@ -4,7 +4,7 @@ title: 七北田川《ななきたがわ》
 image: /assets/images/ogp_default.png
 author: 遊佐裕
 category: 遊佐裕
-emoji: ❓
+emoji: 🥥
 ---
 
 <div class="tanka-area"><div class="tanka">
