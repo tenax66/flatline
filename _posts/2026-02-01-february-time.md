@@ -15,6 +15,8 @@ category: flatline
 
 [左岸から]({{ site.baseurl }}/from-rive-gauche) - 宇祖田都子
 
+[時のコンビニ]({{ site.baseurl }}/time-konbini) - 太田葵
+
 [モラトリアムが終わらない]({{ site.baseurl }}/endless-moratorium) - 奥園
 
 [記念受験]({{ site.baseurl }}/sitting-the-exam-just-to-try) - 押田桧凪
@@ -37,15 +39,21 @@ category: flatline
 
 [I県の史跡探訪]({{ site.baseurl }}/historic-sites-of-prefecture-i) - 田中記念館
 
+[タイマー]({{ site.baseurl }}/timer) - 太朗千尋
+
 [クッション]({{ site.baseurl }}/cushion) - 中村祐希
 
 [螺旋]({{ site.baseurl }}/helix) - nes
+
+[星座]({{ site.baseurl }}/constellation) - 彦凪　至
 
 [タイム イズ マター]({{ site.baseurl }}/time-is-matter) - ヒミツー
 
 [間接照準]({{ site.baseurl }}/indirect-fire) - 福住電
 
 [線分に戻す過程]({{ site.baseurl }}/the-process-of-reverting-to-a-line-segment) - 放棄未完
+
+[ギャルゲーと墓標]({{ site.baseurl }}/gal-games-and-tombstones) - 間際
 
 [ライオンもパンを食べる]({{ site.baseurl }}/even-lions-eat-bread) - 町田永久
 
