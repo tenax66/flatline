@@ -45,6 +45,8 @@ category: flatline
 
 [螺旋]({{ site.baseurl }}/helix) - nes
 
+[invaders<ruby>→□<rp>（</rp><rt>must</rt><rp>）</rp></ruby>die]({{ site.baseurl }}/invaders-must-die) - 八谷のり
+
 [星座]({{ site.baseurl }}/constellation) - 彦凪　至
 
 [タイム イズ マター]({{ site.baseurl }}/time-is-matter) - ヒミツー
