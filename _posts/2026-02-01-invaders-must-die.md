@@ -11,7 +11,7 @@ emoji: 🍞
 <p>ハビタブルゾーンに生きる名字がない君と名字があるまま生きる</p>
 <p><ruby><span class="rotate-positive">◊</span><span class="rotate-positive">￢</span>die <span class="rotate-negative safari-no-rotate">→</span> <span class="rotate-positive">￢</span>invaders<rp>（</rp><rt>必ずしも死ぬわけではない者ならば侵略しない</rt><rp>）</rp></ruby>と証明された</p>
 <p>星人は死を遠ざける習慣を知らない　保険証はくれるよ</p>
-<p><ruby>invaders ∨ <span class="rotate-positive">￢</span>invaders<rp>（</rp><rt>侵略者／非侵略者ともになり得る</rt><rp>）</rp></ruby>者による非侵略を知るときが迫って</p>
+<p><ruby><span class="rotate-positive">◊</span>invaders ∧ <span class="rotate-positive">◊</span><span class="rotate-positive">￢</span>invaders<rp>（</rp><rt>侵略者／非侵略者ともになり得る者</rt><rp>）</rp></ruby>による非侵略を知るとき</p>
 <p>星上のあらゆる人を管理する岩から氏名を削る触腕</p></div></div>
 
 ---
@@ -20,7 +20,7 @@ emoji: 🍞
 ハビタブルゾーンに生きる名字がない君と名字があるまま生きる<br />
 <ruby>◊￢die → ￢invaders<rp>（</rp><rt>必ずしも死ぬわけではない者ならば侵略しない</rt><rp>）</rp></ruby>と証明された<br />
 星人は死を遠ざける習慣を知らない　保険証はくれるよ<br />
-<ruby>invaders ∨ ￢invaders<rp>（</rp><rt>侵略者／非侵略者ともになり得る</rt><rp>）</rp></ruby>者による非侵略を知るときが迫って<br />
+<ruby>◊invaders ∧ ◊¬invaders<rp>（</rp><rt>侵略者／非侵略者ともになり得る者</rt><rp>）</rp></ruby>による非侵略を知るとき<br />
 星上のあらゆる人を管理する岩から氏名を削る触腕<br />
 <br />
 </details>
