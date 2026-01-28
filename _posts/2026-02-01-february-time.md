@@ -61,6 +61,6 @@ category: flatline
 
 [狸親父]({{ site.baseurl }}/tanuki-oyaji) - 山本コヤ
 
-[七北田川《ななきたがわ》]({{ site.baseurl }}/nanakitagawa) - 遊佐裕
+[<ruby>七北田川<rp>（</rp><rt>ななきたがわ</rt><rp>）</rp></ruby>]({{ site.baseurl }}/nanakitagawa) - 遊佐裕
 
 [3.5次元上の力学]({{ site.baseurl }}/3-point-5-dimensional-dynamics) - 留留留

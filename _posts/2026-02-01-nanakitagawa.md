@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 七北田川《ななきたがわ》
+title: <ruby>七北田川<rp>（</rp><rt>ななきたがわ</rt><rp>）</rp></ruby>
 image: /assets/images/ogp_default.png
 author: 遊佐裕
 category: 遊佐裕
@@ -10,16 +10,16 @@ emoji: 🌿
 <div class="tanka-area"><div class="tanka">
 <p>レジェンズの最終回の次の日が卒業式か　雪降るかなあ</p>
 <p>二学期に現れたから僕よりも出席番号遅い伊勢くん</p>
-<p>日の暮れた国道をみんなで歩いた　白い花　制服　七北田川《ななきたがわ》</p>
+<p>日の暮れた国道をみんなで歩いた　白い花　制服　<ruby>七北田川<rp>（</rp><rt>ななきたがわ</rt><rp>）</rp></ruby></p>
 <p>自由帳開けたら落書きされていてその後のことは覚えていない</p>
 <p>五千円　午前零時の御霊前ごめん全然泣けなかったな</p></div></div>
 
 ---
 
-<details open><summary>七北田川《ななきたがわ》</summary>
+<details open><summary><ruby>七北田川<rp>（</rp><rt>ななきたがわ</rt><rp>）</rp></ruby></summary>
 レジェンズの最終回の次の日が卒業式か　雪降るかなあ<br />
 二学期に現れたから僕よりも出席番号遅い伊勢くん<br />
-日の暮れた国道をみんなで歩いた　白い花　制服　七北田川《ななきたがわ》<br />
+日の暮れた国道をみんなで歩いた　白い花　制服　<ruby>七北田川<rp>（</rp><rt>ななきたがわ</rt><rp>）</rp></ruby><br />
 自由帳開けたら落書きされていてその後のことは覚えていない<br />
 五千円　午前零時の御霊前ごめん全然泣けなかったな<br />
 <br />
