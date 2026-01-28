@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 募集中: 2 月号「時」
+#### 募集中: 3 月号「窓」
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>時</th>
+      <th>窓</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>1/25</td>
+      <td>2/25</td>
     </tr>
   </tbody>
 </table>
@@ -40,6 +40,10 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2026年2月号</td>
+      <td>時</td>
+    </tr>
     <tr>
       <td>2026年1月号</td>
       <td>火</td>
