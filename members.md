@@ -149,7 +149,7 @@ image: /assets/images/ogp_default.png
 
 🧊 [夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}
 
-🥥 遊佐裕
+🌿 遊佐裕
 
 🍡 ゆるもちゆ
 
