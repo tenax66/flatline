@@ -322,6 +322,11 @@ _::-webkit-full-page-media, _:future, :root .safari-rotate {
     display: inline-block;
   }
 
+  _::-webkit-full-page-media, _:future, :root .safari-no-rotate {
+    transform: rotate(0deg);
+    display: inline-block;
+  }
+
   _::-webkit-full-page-media, _:future, :root .safari-rotate-positive {
     transform: rotate(90deg);
     display: inline-block;

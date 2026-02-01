@@ -2,8 +2,8 @@
 layout: post
 title: 寝言
 image: /assets/images/ogp_default.png
-author: 加藤荷空
-category: 加藤荷空
+author: 木本公介
+category: 木本公介
 emoji: 🛝
 ---
 
@@ -25,4 +25,4 @@ emoji: 🛝
 <br />
 </details>
 
-加藤荷空
+木本公介

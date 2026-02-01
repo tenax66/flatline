@@ -2,8 +2,8 @@
 layout: post
 title: あり得ない話
 image: /assets/images/ogp_default.png
-author: 加藤荷空
-category: 加藤荷空
+author: 木本公介
+category: 木本公介
 emoji: 🛝
 ---
 
@@ -24,4 +24,4 @@ emoji: 🛝
 この嘘が君の死体に響いたらレターパックで現金送れ<br />
 </details>
 
-加藤荷空
+木本公介
