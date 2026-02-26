@@ -63,7 +63,17 @@ html[data-bs-theme="dark"] .navbar {
 
 /* footer */
 .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+.footer-logo {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .footer-icons {
