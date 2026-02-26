@@ -4,7 +4,7 @@ title: 走馬灯
 image: /assets/images/ogp_default.png
 author: 浜塚ノカ
 category: 浜塚ノカ
-emoji: ✈️
+emoji: 🍥
 ---
 
 <div class="tanka-area"><div class="tanka">

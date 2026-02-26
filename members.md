@@ -117,7 +117,7 @@ image: /assets/images/ogp_default.png
 
 🍞 [八谷のり](https://x.com/noriko_kenkou){:target="_blank"}
 
-✈️ 浜塚ノカ
+🍥 浜塚ノカ
 
 🦷 [東川夢物語](https://x.com/m_p_d_w){:target="_blank"}
 
