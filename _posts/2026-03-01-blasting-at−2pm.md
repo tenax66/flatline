@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2p.m.ぶち鳴らし
+title: 2 p.m.ぶち鳴らし
 image: /assets/images/ogp_default.png
 author: 太田葵
 category: 太田葵
@@ -16,7 +16,7 @@ emoji: 🦋
 
 ---
 
-<details open><summary>2p.m.ぶち鳴らし</summary>
+<details open><summary>2 p.m.ぶち鳴らし</summary>
 折れ曲がるブラインドからぶち鳴らし暴走族のアラームが鳴る<br />
 一時間一本通る　木製で白い駅舎のぶち鳴らすピアノ<br />
 鍵盤はひどく震えて凍てついて脅して動く　午後の大雪<br />
