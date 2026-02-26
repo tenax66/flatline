@@ -23,7 +23,7 @@ image: /assets/images/ogp_default.png
 
 👁️ vol de M∀_beau(JP)
 
-🐰 [宇佐田灰加](https://twitter.com/_duckengineer){:target="_blank"}
+🐰 [宇佐ふゆき](https://twitter.com/_duckengineer){:target="_blank"}
 
 🎈 宇祖田都子
 
