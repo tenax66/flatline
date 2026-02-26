@@ -70,11 +70,16 @@ html[data-bs-theme="dark"] .navbar {
 }
 
 .footer-logo {
-    width: 100%;
-    max-width: min(25vw, 96px);
+    width: 2.5rem;
     height: auto;
     display: block;
     margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        width: 3rem;
+    }
 }
 
 .footer-logo-dark {
