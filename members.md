@@ -105,6 +105,8 @@ image: /assets/images/ogp_default.png
 
 🌟 ナクキザシ
 
+📎 [成町まりな](https://x.com/narimachimarina){:target="_blank"}
+
 🐔 新戸鴎二
 
 🎩 鵺沼こもり
@@ -114,6 +116,8 @@ image: /assets/images/ogp_default.png
 🌷 のい（noigashira）
 
 🍞 [八谷のり](https://x.com/noriko_kenkou){:target="_blank"}
+
+✈️ 浜塚ノカ
 
 🦷 [東川夢物語](https://x.com/m_p_d_w){:target="_blank"}
 
@@ -149,7 +153,7 @@ image: /assets/images/ogp_default.png
 
 🧊 [夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}
 
-🌿 遊佐裕
+🌿 [遊佐裕](https://x.com/yusathemandrake){:target="_blank"}
 
 🍡 ゆるもちゆ
 
