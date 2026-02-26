@@ -1,6 +1,15 @@
 <footer class="footer mt-auto py-3">
   <div class="container footer-container">
-    <img src="{{ '/assets/images/flatline_transparent.png' | relative_url }}" alt="Flatline" class="footer-logo" />
+    <img
+      src="{{ '/assets/images/flatline_transparent.svg' | relative_url }}"
+      alt="Flatline QR Code"
+      class="footer-logo footer-logo-light"
+    />
+    <img
+      src="{{ '/assets/images/flatline_transparent_dark.svg' | relative_url }}"
+      alt="Flatline QR Code"
+      class="footer-logo footer-logo-dark"
+    />
     <div class="footer-icons-wrap">{% include svg_icons.html %}</div>
   </div>
 </footer>
