@@ -70,7 +70,8 @@ html[data-bs-theme="dark"] .navbar {
 }
 
 .footer-logo {
-    max-width: 80px;
+    width: 100%;
+    max-width: min(25vw, 96px);
     height: auto;
     display: block;
     margin-bottom: 0.5rem;
