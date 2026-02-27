@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ソリテール（'95）
+title: ソリテール（'95 Original Edition）
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ

@@ -7,7 +7,7 @@ author: flatline
 category: flatline
 ---
 
-[ソリテール（'95）]({{ site.baseurl }}/solitaire-95) - 青野ゆらぎ
+[ソリテール（'95 Original Edition）]({{ site.baseurl }}/solitaire-95-original-edition) - 青野ゆらぎ
 
 [猫になったんだよな君は]({{ site.baseurl }}/so-you-became-a-cat) - 池野飛魚
 
@@ -50,6 +50,8 @@ category: flatline
 [クレセント]({{ site.baseurl }}/crescent) - 成町まりな
 
 [対角線上の独裁]({{ site.baseurl }}/diagonal-dictatorship) - nes
+
+[ことわりは全てを知っているはずだ]({{ site.baseurl }}/the-principle-knows-all) - 八谷のり
 
 [走馬灯]({{ site.baseurl }}/life-flashes) - 浜塚ノカ
 
