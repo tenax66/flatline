@@ -28,7 +28,7 @@ image: /assets/images/ogp_default.png
 
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
-<i class="fa-brands fa-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)のDM
+<i class="fa-brands fa-x-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)のDM
 
 #### 過去のテーマ
 
