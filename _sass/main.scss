@@ -69,6 +69,18 @@ html[data-bs-theme="dark"] .navbar {
     text-align: center;
 }
 
+.footer-logo-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 0;
+}
+
+.footer-logo-link:hover,
+.footer-logo-link:focus-visible {
+    opacity: 0.85;
+}
+
 .footer-logo {
     width: 3rem;
     height: auto;
@@ -438,4 +450,31 @@ html[data-bs-theme="dark"] blockquote {
 .tanka .left-align-vertical {
     position: relative;
     left: -0.3em; /* マイナスで「左」に寄る */
+}
+
+/* sticker download page */
+.sticker-download {
+    text-align: center;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sticker-download__preview {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bs-body-bg);
+    border-radius: 0.5rem;
+}
+
+.sticker-download__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sticker-download__btn {
+    display: inline-flex;
+    align-items: center;
 }

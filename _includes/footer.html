@@ -1,15 +1,17 @@
 <footer class="footer mt-auto py-3">
   <div class="container footer-container">
-    <img
-      src="{{ '/assets/images/flatline_transparent.svg' | relative_url }}"
-      alt="Flatline QR Code"
-      class="footer-logo footer-logo-light"
-    />
-    <img
-      src="{{ '/assets/images/flatline_transparent_dark.svg' | relative_url }}"
-      alt="Flatline QR Code"
-      class="footer-logo footer-logo-dark"
-    />
+    <a href="{{ '/sticker/' | relative_url }}" class="footer-logo-link" aria-label="ステッカーをダウンロード">
+      <img
+        src="{{ '/assets/images/flatline_transparent.svg' | relative_url }}"
+        alt="Flatline QR Code"
+        class="footer-logo footer-logo-light"
+      />
+      <img
+        src="{{ '/assets/images/flatline_transparent_dark.svg' | relative_url }}"
+        alt="Flatline QR Code"
+        class="footer-logo footer-logo-dark"
+      />
+    </a>
     <div class="footer-icons-wrap">{% include svg_icons.html %}</div>
   </div>
 </footer>
