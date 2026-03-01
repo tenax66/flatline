@@ -20,15 +20,33 @@
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
     background-color: rgba(var(--bs-body-bg-rgb-opaque)); /* 半透明な白 */
-    backdrop-filter: blur(10px); /* 背景のぼかし */
-    -webkit-backdrop-filter: blur(10px); /* Safari対応 */
 }
 
-/* ダークモード用に背景色を暗めに調整 */
+.navbar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: 28px;
+    pointer-events: none;
+}
+
+.navbar::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 28px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    filter: url(#glass-distortion);
+    -webkit-filter: url(#glass-distortion);
+    isolation: isolate;
+    pointer-events: none;
+}
+/* ダークモード時は背景と完全に揃える（色差をなくす） */
 html[data-bs-theme="dark"] .navbar {
-    background-color: rgba(var(--bs-body-bg-rgb-opaque));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(var(--bs-body-bg-rgb-opaque)); /* body と全く同じ値 */
 }
 
 .flatline-navbar-container {
