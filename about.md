@@ -7,13 +7,14 @@ image: /assets/images/ogp_default.png
 
 <img src="/assets/images/ogp_default.png" alt="Mattel-Aquarius-Computer-FL" class="responsive-img">
 
-FLATLINE はインターネット歌会です。
+FLATLINE はインターネット短歌会です。
 
 #### 活動
 
-月に一度のペースで、[テーマ]({{site.baseurl}}/theme/)を決めて短歌連作（5 首、タイトルつき）を参加者から募ってサイトに掲載しています。
+月に一度のペースで、[テーマ]({{site.baseurl}}/theme/)を決めて短歌連作 1 首を募集しています。
+応募された作品はすべてサイト上に掲載されます。
 
-毎月 25 日が投稿の締め切りで、翌月の 1 日に掲載されます。
+毎月25日が投稿の締め切りで、翌月の1日に掲載されます。
 
 #### 投稿先
 
