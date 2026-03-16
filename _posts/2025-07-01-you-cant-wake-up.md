@@ -20,7 +20,7 @@ emoji: 🐕
 
 ---
 
-#### Attribution
+### Attribution
 
 1枚目: <a href="https://commons.wikimedia.org/wiki/File:Vatnsskar%C3%B0,_Iceland_2019_-02.jpg">Hornstrandir1</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons  
 2枚目: <a href="https://commons.wikimedia.org/wiki/File:%C3%9Eingeyri,_Iceland,_Aug._2022_06.jpg">Hornstrandir1</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons  
@@ -28,7 +28,7 @@ emoji: 🐕
 4枚目: <a href="https://commons.wikimedia.org/wiki/File:%C3%8Dsafjar%C3%B0ardj%C3%BAp_by_ship_07.jpg">Hornstrandir1</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons  
 5枚目: <a href="https://commons.wikimedia.org/wiki/File:Scandinavia_in_June_2019_13.jpg">Hornstrandir1</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
-#### Notice
+### Notice
 本ページの画像作品は、すべて[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)ライセンスで提供します。
 
 <details open><summary>眠らなければ目覚められない</summary>

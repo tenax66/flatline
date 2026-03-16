@@ -5,7 +5,7 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-#### 募集中: 4 月号「顔」
+## 募集中: 4 月号「顔」
 
 <table class="table table-striped table-bordered">
   <tbody>
@@ -24,13 +24,13 @@ image: /assets/images/ogp_default.png
   </tbody>
 </table>
 
-##### 提出方法
+### 提出方法
 
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 <i class="fa-brands fa-x-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)のDM
 
-#### 過去のテーマ
+## 過去のテーマ
 
 <table class="table table-striped table-bordered">
   <thead>
@@ -127,7 +127,7 @@ image: /assets/images/ogp_default.png
   </tbody>
 </table>
 
-##### テーマ詠について
+### テーマ詠について
 
 ここでは、「与えられたテーマを連想させる短歌をつくること」をテーマ詠といいます。
 テーマの言葉そのものが短歌に含まれている必要はありません。

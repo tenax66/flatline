@@ -5,7 +5,7 @@ permalink: /event/flatline-3/
 image: /assets/images/ogp_default.png
 ---
 
-#### 趣旨
+## 趣旨
 <figure>
 <img src="https://images.tanka.cc/dog_meeting.JPG" alt="a sitting dog" class="responsive-img">
 <figcaption style="text-align: center;">みと♀ 1歳</figcaption>
@@ -15,15 +15,15 @@ image: /assets/images/ogp_default.png
 
 気候がよくなってきたので、~~昼は犬とピクニックをして~~、夜は屋根のあるところで歌会をします。
 
-#### 参加方法
+## 参加方法
 
 Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
-#### 日程
+## 日程
 
 2025-05-24
 
-#### 開催要項
+## 開催要項
 
 <u>昼: 代々木公園</u>
 
@@ -40,20 +40,20 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
 - 参加者からスペース料を徴収します
   - ¥1500程度の見込みです
 
-#### 歌会について
+## 歌会について
 
 - 当日17時までに一首を主催者（青野ゆらぎ）に提出ください
 - テーマ: **犬**
 
-#### 犬に関する注意事項
+## 犬に関する注意事項
 
 基本フレンドリーな犬ですが、以下の項目にはご注意ください。
 
-##### 一般的なもの
+### 一般的なもの
 
 - チョコレート、レーズン、ネギ類などの犬が食べると死ぬ食べものや、アクセサリーなど誤飲の可能性があるものには注意してください。
 - 犬との親密なふれあいが予想されるため、汚れてもいい服装をおすすめします。
 
-##### この犬特有のもの
+### この犬特有のもの
 
 - 牛肉・牛乳のアレルギーをもっているため、あげられないおやつがあります。
