@@ -5,7 +5,7 @@ permalink: /event/
 image: /assets/images/ogp_default.png
 ---
 
-#### Active Events
+## Active Events
 
 <table class="table table-striped table-bordered">
   <thead>
@@ -18,19 +18,12 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
-    <tr>
-      <td>5</td>
-      <td><a href="/event/flatline-5">短歌・短歌・短歌</a></td>
-      <td>歌会をしたり、飲んだり食べたりして春を待ちます。</td>
-      <td>2026-2-22</td>
-      <td>レンタルスペース</td>
-    </tr>
   </tbody>
 </table>
 
 Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
-#### Past Events
+## Past Events
 
 <table class="table table-striped table-bordered">
   <thead>
@@ -73,6 +66,14 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td><a href="/event/flatline-4">晩夏の短歌会</a></td>
       <td>歌会をしたり、飲んだり食べたりして夏の終わりを感じます。</td>
       <td>2025-09-20</td>
+      <td>レンタルスペース</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="/event/flatline-5">短歌・短歌・短歌</a></td>
+      <td>歌会をしたり、飲んだり食べたりして春を待ちます。</td>
+      <td>2026-2-22</td>
       <td>レンタルスペース</td>
       <td>-</td>
     </tr>
