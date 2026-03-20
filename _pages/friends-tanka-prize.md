@@ -6,8 +6,8 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 ---
 
 <figure>
-<img src="https://images.tanka.cc/friends-tanka-prize.png" alt="Riding a bike early in the morning on a foggy day" class="responsive-img">
-<figcaption style="text-align: center;"></figcaption>
+<img src="https://images.tanka.cc/friends-tanka-prize.png" alt="Dalian, Liaoning, China: Two elderly Chinese guys enjoying the sea at Xinghai Bay" class="responsive-img">
+<figcaption style="text-align: center;"><a href="https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Two-Chinese-at-Xinghai-Bay-01.jpg">Photo by CEphoto, Uwe Aranas</a></figcaption>
 </figure>
 
 このたび、短歌を投稿できるサイトFLATLINEで「知り合いが審査する短歌賞」を開催します。  
