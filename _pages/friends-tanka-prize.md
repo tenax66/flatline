@@ -19,12 +19,14 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 ## 審査員: [小林銅蟲](https://x.com/doom_k)
 
+![小林銅蟲 アイコン](https://images.tanka.cc/negineesan_icon.jpeg){: .tanka-member-icon}
+
 漫画家。代表作に「[ねぎ姉さん](https://negineesan.com/)」「寿司 虚空編」「めしにしましょう」など。  
 2025年1月よりコミックDAYSで「[めしにしましょう 出張食い倒れ編](https://comic-days.com/episode/2550912964856712848)」を新連載。
 
-### 審査員からのコメント
+{: .tanka-member-icon-clear}
 
-! ここにアイコンを挿入 !
+**審査員からのコメント**
 
 短歌マジでわかりません　よろしくお願いします
 
@@ -46,7 +48,7 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 以下のGoogle Formから提出してください。
 
-!準備中!
+*＜準備中＞*
 
 ## 募集開始
 

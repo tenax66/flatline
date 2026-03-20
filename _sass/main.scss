@@ -295,6 +295,30 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     margin: 0 auto; /* 中央揃えにする場合 */
 }
 
+/* icon (small, left aligned, responsive) */
+.tanka-member-icon {
+  float: left; /* 左寄せ：以降の文章が右に回り込む */
+  width: clamp(56px, 8vw, 92px);
+  height: auto;
+  display: block;
+  margin: 0 0.75rem 0.5rem 0;
+  object-fit: contain;
+}
+
+.tanka-member-icon-clear {
+  clear: left; /* 左寄せの float を解除して下に回す */
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .tanka-member-icon {
+    width: clamp(44px, 16vw, 72px);
+    margin: 0 0.6rem 0.5rem 0;
+  }
+}
+
 /* misc */
 .invisible {
     visibility: hidden;
