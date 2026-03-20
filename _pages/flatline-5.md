@@ -4,6 +4,7 @@ title: 短歌・短歌・短歌
 permalink: /event/flatline-5/
 image: https://images.tanka.cc/flatline-5.png
 ---
+
 <figure>
 <img src="https://images.tanka.cc/flatline-5.png" alt="a lying dog" class="responsive-img">
 <figcaption style="text-align: center;">みと♀ 2歳</figcaption>
