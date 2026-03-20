@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 知り合いが審査する短歌賞（提出締切&colon; 2026/06/25）
+title: 知り合いが審査する短歌賞（応募締切&colon; 2026/06/25）
 permalink: /event/friends-tanka-prize/
 image: https://images.tanka.cc/friends-tanka-prize.png
 ---
@@ -44,11 +44,13 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 選考方法は審査員に一任します。  
 応募作はFLATLINE7月号に掲載された状態で審査されるため、作者は判明した状態での審査となります。
 
-## 提出方法
+## 応募方法
 
-以下のGoogle Formから提出してください。
+以下のGoogle Formから応募してください。
 
 *＜準備中＞*
+
+応募にかんする注意点についてForm内に記載していますので、ご確認の上ご応募ください。
 
 ## 募集開始
 
