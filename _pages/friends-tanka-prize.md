@@ -52,8 +52,6 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 *＜準備中＞*
 
-応募にかんする注意点についてForm内に記載していますので、ご確認の上ご応募ください。
-
 ## 募集開始
 
 2026年4月1日
