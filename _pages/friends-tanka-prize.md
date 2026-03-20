@@ -13,6 +13,8 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 このたび、短歌を投稿できるサイトFLATLINEで「知り合いが審査する短歌賞」を開催します。  
 主催者（青野ゆらぎ）の知り合いが、独自の基準で短歌を審査します。  
 
+[FLATLINEについて](/about/)
+
 ## 開催理由
 
 短歌を、短歌をやっていない人に読んでもらうといいかなと思ったためです。
@@ -37,7 +39,7 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 - 短歌連作5首
 - 既発表作品も可
 - 応募はひとり1作品まで
-- 応募作はFLATLINE（本サイト）の7月更新ぶんとしてウェブ上に掲載されます
+- 応募作はFLATLINE（本サイト）の7月号としてウェブ上に掲載されます
 
 ### 2. 選考方法
 
