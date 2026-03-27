@@ -16,7 +16,7 @@ emoji: 🐕
 
 ---
 
-<details open><summary>ソリテール（'95）</summary>
+<details open><summary>ソリテール（'95 Original Edition）</summary>
 油彩画に隠されている雪原が描かれている　うそだと思う<br />
 病室のふたつの窓に逆位置の飛行のカード／小人のカード<br />
 善意からのトレパネーション　裏向きの鏡になにが映るか言える？<br />

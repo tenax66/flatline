@@ -54,7 +54,7 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 ## 募集開始
 
-2026年4月1日
+2026年4月2日
 
 ## 締切
 
