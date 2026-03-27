@@ -4,7 +4,7 @@ import os
 
 def main():
     if len(sys.argv) != 4:
-        print("使い方: python generate_markdown.py YYYY-MM-DD '【月: テーマ】' input.txt")
+        print("使い方: python generate_month_page.py YYYY-MM-DD '【月: テーマ】' input.txt")
         return
 
     date_arg = sys.argv[1]
