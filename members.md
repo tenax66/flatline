@@ -141,7 +141,7 @@ image: /assets/images/ogp_default.png
 
 🐈 [間際](https://x.com/magiwa_hako){:target="_blank"}
 
-🧑‍🧑‍🧒 孫浦一京
+🥝 孫浦一京
 
 📌 [町田永久](https://x.com/gabyo_p){:target="_blank"}
 
