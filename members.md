@@ -49,6 +49,8 @@ image: /assets/images/ogp_default.png
 
 🎸 [オルター堂](https://x.com/_reijio){:target="_blank"}
 
+🦕 亀田巧
+
 🛝 木本公介
 
 🦀 神乃
@@ -72,6 +74,8 @@ image: /assets/images/ogp_default.png
 ▶️ [再生](https://x.com/p1aybacker){:target="_blank"}
 
 🪽 鷺なみ子
+
+📱 篠田留々家
 
 ⚗️ [セブルス・スネイプ](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%96%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%B9%E3%83%8D%E3%82%A4%E3%83%97){:target="_blank"}
 
@@ -136,6 +140,8 @@ image: /assets/images/ogp_default.png
 🌱 まえり
 
 🐈 [間際](https://x.com/magiwa_hako){:target="_blank"}
+
+🧑‍🧑‍🧒 孫浦一京
 
 📌 [町田永久](https://x.com/gabyo_p){:target="_blank"}
 
