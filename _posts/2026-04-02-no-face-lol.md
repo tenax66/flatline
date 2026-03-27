@@ -4,7 +4,7 @@ title: 顔ないｗｗ
 image: /assets/images/ogp_default.png
 author: 孫浦一京
 category: 孫浦一京
-emoji: ❓
+emoji: 🧑‍🧑‍🧒
 ---
 
 <div class="tanka-area"><div class="tanka">
