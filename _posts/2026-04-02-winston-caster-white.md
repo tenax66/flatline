@@ -4,7 +4,7 @@ title: ウィンストン・キャスター・ホワイト
 image: /assets/images/ogp_default.png
 author: 篠田留々家
 category: 篠田留々家
-emoji: 📱
+emoji: 🦑
 ---
 
 <div class="tanka-area"><div class="tanka">

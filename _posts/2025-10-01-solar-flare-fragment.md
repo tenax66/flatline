@@ -4,7 +4,7 @@ title: 太陽フレア（断片）
 image: /assets/images/ogp_default.png
 author: 宇佐田灰加
 category: 宇佐田灰加
-emoji: 🐰
+emoji: 🐇
 ---
 
 <div class="tanka-area"><div class="tanka">

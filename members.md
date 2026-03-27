@@ -23,7 +23,7 @@ image: /assets/images/ogp_default.png
 
 👁️ vol de M∀_beau(JP)
 
-🐰 [宇佐ふゆき](https://twitter.com/_duckengineer){:target="_blank"}
+🐇 [宇佐ふゆき](https://twitter.com/_duckengineer){:target="_blank"}
 
 🎈 宇祖田都子
 
@@ -75,7 +75,7 @@ image: /assets/images/ogp_default.png
 
 🪽 鷺なみ子
 
-📱 篠田留々家
+🦑 篠田留々家
 
 ⚗️ [セブルス・スネイプ](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%96%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%B9%E3%83%8D%E3%82%A4%E3%83%97){:target="_blank"}
 
