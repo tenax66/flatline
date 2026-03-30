@@ -41,6 +41,8 @@ category: flatline
 
 [鏡の前で]({{ site.baseurl }}/in-front-of-the-mirror) - 髙山准
 
+[帳]({{ site.baseurl }}/note) - 田中記念館
+
 [フェイス]({{ site.baseurl }}/face) - 太朗千尋
 
 [顔のサーカス]({{ site.baseurl }}/a-circus-of-faces) - なかの
