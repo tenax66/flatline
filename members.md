@@ -49,7 +49,7 @@ image: /assets/images/ogp_default.png
 
 🎸 [オルター堂](https://x.com/_reijio){:target="_blank"}
 
-🦕 亀田巧
+📸 亀田巧
 
 🛝 木本公介
 
