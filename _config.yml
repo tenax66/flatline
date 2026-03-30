@@ -59,6 +59,7 @@ plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-paginate
+  - jekyll-redirect-from
 
 jekyll-archives:
   enabled:

@@ -18,6 +18,13 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>1</td>
+      <td><a href="/event/friends-tanka-award/">知り合いが審査する短歌賞</a></td>
+      <td>FLATLINE主催の短歌賞です。</td>
+      <td>2026-06-25</td>
+      <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfclp7uvdgRqst3G5qGhHFiXvCPYFxcv4bOGysq0tn6PXfrjg/viewform?usp=header">応募フォーム</a></td>
+    </tr>
   </tbody>
 </table>
 

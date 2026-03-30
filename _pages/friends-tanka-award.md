@@ -1,12 +1,12 @@
 ---
 layout: page
 title: 知り合いが審査する短歌賞（応募締切&colon; 2026/06/25）
-permalink: /event/friends-tanka-prize/
-image: https://images.tanka.cc/friends-tanka-prize.png
+permalink: /event/friends-tanka-award/
+image: https://images.tanka.cc/friends-tanka-award.png
 ---
 
 <figure>
-<img src="https://images.tanka.cc/friends-tanka-prize.png" alt="Dalian, Liaoning, China: Two elderly Chinese guys enjoying the sea at Xinghai Bay" class="responsive-img">
+<img src="https://images.tanka.cc/friends-tanka-award.png" alt="Dalian, Liaoning, China: Two elderly Chinese guys enjoying the sea at Xinghai Bay" class="responsive-img">
 <figcaption style="text-align: center;"><a href="https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Two-Chinese-at-Xinghai-Bay-01.jpg">Photo by CEphoto, Uwe Aranas</a></figcaption>
 </figure>
 
@@ -15,7 +15,7 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 [FLATLINEについて](/about/)
 
-## 開催理由
+## 開催の理由
 
 短歌を、短歌をやっていない人に読んでもらうといいかなと思ったためです。
 
@@ -50,7 +50,7 @@ image: https://images.tanka.cc/friends-tanka-prize.png
 
 以下のGoogle Formから応募してください。
 
-*＜準備中＞*
+[知り合いが審査する短歌賞　応募フォーム](https://docs.google.com/forms/d/e/1FAIpQLSfclp7uvdgRqst3G5qGhHFiXvCPYFxcv4bOGysq0tn6PXfrjg/viewform?usp=header)
 
 ## 募集開始
 
