@@ -133,11 +133,15 @@ html[data-bs-theme="dark"] .footer-logo-dark {
     height: 1.25rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    display: block;
 }
 
 .footer-icon-links {
     text-decoration: none;
     color: #212529;
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
 }
 
 .footer-icon-links:hover,

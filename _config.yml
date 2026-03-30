@@ -50,7 +50,7 @@ defaults:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: tenax66/flatline
+  discord: https://discord.gg/WyV2XHN6z2
   rss: rss # just type anything here for a working RSS icon
 
 plugins:
