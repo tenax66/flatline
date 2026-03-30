@@ -18,10 +18,10 @@ FLATLINE はインターネット短歌会です。
 
 ## 場所
 
-<i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
-
 各月の投稿の募集や、編集作業についてはDiscordサーバー上でお知らせしています。
 投稿せずに様子を見るだけ、も歓迎です。お気軽にご参加ください。
+
+<i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
 ## 投稿先
 
