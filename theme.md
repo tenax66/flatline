@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-## 募集中: 4 月号「歩」
+## 募集中: 5 月号「劇」
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>歩</th>
+      <th>劇</th>
     </tr>
     <tr>
       <td>形式</td>
