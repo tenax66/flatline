@@ -53,6 +53,8 @@ category: flatline
 
 [罅割れに世界樹]({{ site.baseurl }}/the-world-tree-in-the-crack) - nes
 
+[VOTEDOUT.]({{ site.baseurl }}/votedout) - 八谷のり
+
 [朝顔]({{ site.baseurl }}/morning-glory) - 彦凪　至
 
 [雲母、石英、加工顔]({{ site.baseurl }}/mica-quartz-an-edited-face) - ヒミツー
