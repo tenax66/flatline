@@ -173,11 +173,11 @@
         return;
       }
 
-      // 左スワイプ（dx<0）で「次（古い記事）」、右スワイプ（dx>0）で「前（新しい記事）」
-      if (dx < 0 && nextUrl) {
-        finishSwipeAndNavigate(nextUrl, dx);
-      } else if (dx > 0 && prevUrl) {
+      // 左スワイプ（dx<0）で「前（新しい記事）」、右スワイプ（dx>0）で「次（古い記事）」
+      if (dx < 0 && prevUrl) {
         finishSwipeAndNavigate(prevUrl, dx);
+      } else if (dx > 0 && nextUrl) {
+        finishSwipeAndNavigate(nextUrl, dx);
       } else if (lockedAxis === "x") {
         resetSwipeVisual();
       }
