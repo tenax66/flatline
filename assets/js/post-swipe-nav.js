@@ -18,6 +18,10 @@
   const LOCK_DX_PX = 10; // 横スワイプ開始判定（小さすぎると誤爆するので控えめに）
   const INTENT_RATIO = 1.5; // |dx| が |dy| のこの倍以上なら横スワイプ意図とみなす
   const LOCK_RATIO = 1.2; // ロック判定は少し緩め
+  const HINT_KEY = "flatline_swipe_hint_v1";
+  const HINT_DELAY_MS = 650;
+  const HINT_DURATION_MS = 900;
+  const HINT_PEAK_DX_PX = 42;
 
   let startX = 0;
   let startY = 0;
@@ -25,6 +29,9 @@
   let lockedAxis = null; // null | "x"
   let lastDx = 0;
   let shadeEl = null;
+  let hintTimer = null;
+  let hintRaf = 0;
+  let hintCanceled = false;
 
   const isInteractiveTarget = (el) => {
     if (!el || !(el instanceof Element)) return false;
@@ -91,6 +98,68 @@
     root.addEventListener("transitionend", onEnd);
   };
 
+  const isLikelyPhone = () => {
+    const coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    const small = Math.min(window.innerWidth || 0, window.innerHeight || 0) <= 820;
+    return coarse && small;
+  };
+
+  const prefersReducedMotion = () => {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  };
+
+  const cancelHint = () => {
+    hintCanceled = true;
+    if (hintTimer != null) {
+      window.clearTimeout(hintTimer);
+      hintTimer = null;
+    }
+    if (hintRaf) {
+      window.cancelAnimationFrame(hintRaf);
+      hintRaf = 0;
+    }
+  };
+
+  const runSwipeHintOnce = () => {
+    if (!isLikelyPhone()) return;
+    if (prefersReducedMotion()) return;
+    try {
+      if (window.localStorage && localStorage.getItem(HINT_KEY) === "1") return;
+    } catch (_) {
+      // localStorage が使えない環境でも動作自体は継続
+    }
+
+    // ユーザー操作の邪魔をしないよう、少し待ってから一瞬だけ「スワイプっぽい動き→戻る」
+    hintTimer = window.setTimeout(() => {
+      if (hintCanceled) return;
+
+      const dir = prevUrl ? -1 : 1; // ある方向だけでも「横に動く」を見せれば十分
+      const peak = dir * HINT_PEAK_DX_PX;
+      const start = performance.now();
+
+      const tick = (now) => {
+        if (hintCanceled) return;
+        const t = Math.min(1, (now - start) / HINT_DURATION_MS);
+        // easeInOutSine: 0→1→0 の往復
+        const s = Math.sin(Math.PI * t);
+        setSwipeVisual(peak * s);
+        if (t < 1) {
+          hintRaf = window.requestAnimationFrame(tick);
+        } else {
+          hintRaf = 0;
+          resetSwipeVisual();
+          try {
+            if (window.localStorage) localStorage.setItem(HINT_KEY, "1");
+          } catch (_) {
+            // ignore
+          }
+        }
+      };
+
+      hintRaf = window.requestAnimationFrame(tick);
+    }, HINT_DELAY_MS);
+  };
+
   const finishSwipeAndNavigate = (url, dx) => {
     const dir = dx < 0 ? -1 : 1;
     const w = Math.max(1, window.innerWidth || 1);
@@ -109,6 +178,7 @@
   root.addEventListener(
     "touchstart",
     (e) => {
+      cancelHint();
       if (!e.touches || e.touches.length !== 1) return;
       if (isInteractiveTarget(e.target)) return;
 
@@ -124,6 +194,9 @@
     },
     { passive: true }
   );
+
+  // 「初回だけスワイプできる」ヒント（ユーザーが触ったら即中止）
+  runSwipeHintOnce();
 
   root.addEventListener(
     "touchmove",
