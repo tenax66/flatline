@@ -406,6 +406,11 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     display: inline-block;
 }
 
+/* modal */
+.modal-header {
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
+}
+
 /* Safari */
 _::-webkit-full-page-media, _:future, :root .safari-rotate {
     transform: rotate(-90deg);
