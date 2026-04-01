@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1>{{ page.title }}</h1>
-  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %y" }}
+  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %Y" }}
     {% if page.custom_author %}
     <a href="{{ site.baseurl }}/category/{{ page.custom_author | slugify_author | url_encode }}">{{ page.author }}</a>
     {% else %}
