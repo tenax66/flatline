@@ -38,6 +38,7 @@ image: https://images.tanka.cc/friends-tanka-award.png
 
 - 短歌連作5首
 - 既発表作品も可
+  - 他の賞で入賞したことのある作品や、二重投稿は不可
 - 応募はひとり1作品まで
 - 応募作はFLATLINE（本サイト）の7月号としてウェブ上に掲載されます
 
@@ -60,4 +61,4 @@ image: https://images.tanka.cc/friends-tanka-award.png
 
 2026年6月25日 24時
 
-（主催者　青野ゆらぎ）
+（応募に関するご質問は、青野ゆらぎ（`aonoyuragi@gmail.com`）までお願いいたします）
