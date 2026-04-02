@@ -4,14 +4,19 @@ layout: default
 
 <div class="post">
   <h1>{{ page.title }}</h1>
-  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %y" }}
+  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %Y" }}
     {% if page.custom_author %}
     <a href="{{ site.baseurl }}/category/{{ page.custom_author | slugify_author | url_encode }}">{{ page.author }}</a>
     {% else %}
     <a href="{{ site.baseurl }}/category/{{ page.author | slugify_author | url_encode }}">{{ page.author }}</a>
     {% endif %}
   </span>
-  <div class="mt-4">{{ content }}</div>
+  <div
+    id="postSwipeRoot"
+    class="mt-4"
+    data-swipe-next-url="{% if page.next %}{{ page.next.url | relative_url }}{% endif %}"
+    data-swipe-prev-url="{% if page.previous %}{{ page.previous.url | relative_url }}{% endif %}"
+  >{{ content }}</div>
   <div>
     <a href="https://twitter.com/intent/tweet?text={{page.title}}%0A{{site.url}}{{page.url}}" data-show-count="false">
       <i class="fa-brands fa-x-twitter footer-icons"></i>
@@ -21,18 +26,20 @@ layout: default
   <hr>
 
   <div class="d-flex justify-content-between">
-    {% if page.previous %}
-    <a href="{{ page.previous.url }}"><i class="fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
+    {% if page.next %}
+    <a href="{{ page.next.url }}"><i class="fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
     {% else %}
-    <a href="{{ page.previous.url }}"><i class="invisible fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.next.url }}"><i class="invisible fa-solid fa-left-long fa-2xl transition-arrow"></i></a>
     {% endif %}
 
     <a href="{{ site.url }}" class="fs-5">HOME</a>
 
-    {% if page.next %}
-    <a href="{{ page.next.url }}"><i class="fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}"><i class="fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
     {% else %}
-    <a href="{{ page.next.url }}"><i class="invisible fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
+    <a href="{{ page.previous.url }}"><i class="invisible fa-solid fa-right-long fa-2xl transition-arrow"></i></a>
     {% endif %}
   </div>
 </div>
+
+<script src="{{ '/assets/js/post-swipe-nav.js' | relative_url }}" defer></script>

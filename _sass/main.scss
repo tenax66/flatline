@@ -133,11 +133,15 @@ html[data-bs-theme="dark"] .footer-logo-dark {
     height: 1.25rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    display: block;
 }
 
 .footer-icon-links {
     text-decoration: none;
     color: #212529;
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
 }
 
 .footer-icon-links:hover,
@@ -400,6 +404,11 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 .rotate-positive {
     transform: rotate(90deg);
     display: inline-block;
+}
+
+/* modal */
+.modal-header {
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
 }
 
 /* Safari */

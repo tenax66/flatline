@@ -4,7 +4,7 @@ title: 初見さんこんにちゎ໒꒰ྀི⸝⸝´ ˘ `⸝⸝꒱ྀིა
 image: /assets/images/ogp_default.png
 author: 宇佐ふゆき
 category: 宇佐ふゆき
-emoji: 🐰
+emoji: 🐇
 ---
 
 <div class="tanka-area"><div class="tanka">
