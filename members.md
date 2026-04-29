@@ -61,6 +61,8 @@ image: /assets/images/ogp_default.png
 
 🕛 [京野正午](https://x.com/kyono_shogo){:target="_blank"}
 
+⬛ くらやみお姉さん
+
 🐹 黒田なな
 
 🐉 げきりん
@@ -74,6 +76,8 @@ image: /assets/images/ogp_default.png
 ▶️ [再生](https://x.com/p1aybacker){:target="_blank"}
 
 🪽 鷺なみ子
+
+🔼 しかくさんかく
 
 🦑 篠田留々家
 
@@ -141,7 +145,7 @@ image: /assets/images/ogp_default.png
 
 🐈 [間際](https://x.com/magiwa_hako){:target="_blank"}
 
-🥝 孫浦一京
+🥝 [孫浦一京](https://x.com/sobo_mago){:target="_blank"}
 
 📌 [町田永久](https://x.com/gabyo_p){:target="_blank"}
 

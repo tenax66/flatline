@@ -482,6 +482,16 @@ html[data-bs-theme="dark"] blockquote {
     -webkit-tap-highlight-color: transparent;
 }
 
+/* keep link color, remove underline */
+.link-no-underline,
+.link-no-underline:visited,
+.link-no-underline:hover,
+.link-no-underline:active,
+.link-no-underline:focus,
+.link-no-underline:focus-visible {
+    text-decoration: none;
+}
+
 .boxed-text {
     display: inline-flex;
     justify-content: center;
