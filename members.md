@@ -143,7 +143,7 @@ image: /assets/images/ogp_default.png
 
 🌱 まえり
 
-🐈 [間際](https://x.com/magiwa_hako){:target="_blank"}
+🐈 [真木轍](https://x.com/magiwa_hako){:target="_blank"}
 
 🥝 [孫浦一京](https://x.com/sobo_mago){:target="_blank"}
 

@@ -5,21 +5,21 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-## 募集中: 6 月号「境」
+## 募集中: 7 月号 知り合いが審査する短歌賞
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>境</th>
+      <th>自由詠</th>
     </tr>
     <tr>
       <td>形式</td>
-      <td>連作五首・タイトルつき</td>
+      <td>こちらの<a href="https://docs.google.com/forms/d/1bDqaLjJ2dj49sTr2hib4ygfhQClk-rZkbmpMKLcyf9Q/edit">Google Form</a>から</td>
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>5/25</td>
+      <td>6/25</td>
     </tr>
   </tbody>
 </table>
@@ -40,6 +40,11 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2026年6月号</td>
+      <td>境</td>
+    </tr>
+    <tr>
     <tr>
       <td>2026年5月号</td>
       <td>劇</td>

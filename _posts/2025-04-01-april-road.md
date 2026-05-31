@@ -49,7 +49,7 @@ category: flatline
 
 [何もない日にたとえば家を出ることによって]({{ site.baseurl }}/by-leaving-the-house/) - 福田六個
 
-[澪筋]({{ site.baseurl }}/waterway/) - 間際
+[澪筋]({{ site.baseurl }}/waterway/) - 真木轍
 
 [連行]({{ site.baseurl }}/drag-away/) - 三好しほ
 

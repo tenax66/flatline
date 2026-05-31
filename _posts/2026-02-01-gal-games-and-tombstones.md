@@ -2,8 +2,8 @@
 layout: post
 title: ギャルゲーと墓標
 image: /assets/images/ogp_default.png
-author: 間際
-category: 間際
+author: 真木轍
+category: 真木轍
 emoji: 🐈
 ---
 
@@ -25,4 +25,4 @@ emoji: 🐈
 <br />
 </details>
 
-間際
+真木轍
