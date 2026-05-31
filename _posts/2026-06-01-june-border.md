@@ -7,6 +7,8 @@ author: flatline
 category: flatline
 ---
 
+[そして彼はそれに従った]({{ site.baseurl }}/and-he-obeyed) - 青野ゆらぎ
+
 [↔︎]({{ site.baseurl }}/double-arrow) - 池野飛魚
 
 [濡れた靴]({{ site.baseurl }}/wet-shoes) - 宇祖田都子
