@@ -133,6 +133,8 @@ image: /assets/images/ogp_default.png
 
 🤫 [ヒミツー](https://x.com/secret_of_himi2){:target="_blank"}
 
+🦊 伏見すず
+
 🫗 ほぐし水サワー
 
 💡 [福住電](https://x.com/fukuzumiden){:target="_blank"}
