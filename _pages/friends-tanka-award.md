@@ -61,4 +61,4 @@ image: https://images.tanka.cc/friends-tanka-award.png
 
 2026年6月25日 24時
 
-（応募に関するご質問は、青野ゆらぎ（`aonoyuragi@gmail.com`）までお願いいたします）
+（応募に関するご質問は、青野ゆらぎ `aonoyuragi@gmail.com` までお願いいたします）
