@@ -55,7 +55,7 @@ category: flatline
 
 [線分に戻す過程]({{ site.baseurl }}/the-process-of-reverting-to-a-line-segment) - 放棄未完
 
-[ギャルゲーと墓標]({{ site.baseurl }}/gal-games-and-tombstones) - 間際
+[ギャルゲーと墓標]({{ site.baseurl }}/gal-games-and-tombstones) - 真木轍
 
 [ライオンもパンを食べる]({{ site.baseurl }}/even-lions-eat-bread) - 町田永久
 

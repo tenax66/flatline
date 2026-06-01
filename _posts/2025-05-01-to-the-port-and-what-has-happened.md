@@ -2,8 +2,8 @@
 layout: post
 title: 港へ、そしてそれまでのこと
 image: /assets/images/ogp_default.png
-author: 間際
-category: 間際
+author: 真木轍
+category: 真木轍
 emoji: 🐈
 ---
 
@@ -24,4 +24,4 @@ emoji: 🐈
 花ふりの音に抱かれる今だけは不協和音の岸を離れて<br />
 </details>
 
-間際
+真木轍

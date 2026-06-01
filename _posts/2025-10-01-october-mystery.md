@@ -49,7 +49,7 @@ category: flatline
 
 [ブレス]({{ site.baseurl }}/breath) - 福住電
 
-[あったはずの]({{ site.baseurl }}/should-have-been-there) - 間際
+[あったはずの]({{ site.baseurl }}/should-have-been-there) - 真木轍
 
 [シキ]({{ site.baseurl }}/siki) - 山田やまめ
 

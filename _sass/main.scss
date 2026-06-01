@@ -511,10 +511,30 @@ html[data-bs-theme="dark"] blockquote {
     transform: translateX(0.08em);
 }
 
+.tanka a {
+    text-decoration: none;
+}
+
 /* 縦書き内での左寄せ（上方向） */
 .tanka .left-align-vertical {
     position: relative;
     left: -0.3em; /* マイナスで「左」に寄る */
+}
+
+.tanka-mirror-line {
+    transform: scaleX(-1);
+    display: inline-block;
+}
+
+.tanka p.tanka-mirror-line {
+    display: block;
+}
+
+.tanka-mirror-line-yoko {
+    display: inline-block;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    transform: scaleX(-1);
 }
 
 /* sticker download page */
