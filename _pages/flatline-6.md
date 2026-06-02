@@ -27,7 +27,7 @@ image: https://images.tanka.cc/flatline-6.png
 
 ## 場所
 
-レンタルスペース（16:00~22:30、大久保駅近辺）
+レンタルスペース（16:00~23:00、大久保駅近辺）
 
 ## タイムテーブル
 
@@ -44,6 +44,10 @@ image: https://images.tanka.cc/flatline-6.png
     <tr>
       <td>20時〜22時半</td>
       <td>歓談②</td>
+    </tr>
+    <tr>
+      <td>23時</td>
+      <td>撤収</td>
     </tr>
   </tbody>
 </table>
