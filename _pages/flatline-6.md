@@ -1,45 +1,47 @@
 ---
 layout: page
-title: 短歌・短歌・短歌
-permalink: /event/flatline-5/
-image: https://images.tanka.cc/flatline-5.png
+title: 短歌への扉
+permalink: /event/flatline-6/
+image: https://images.tanka.cc/flatline-6.png
 ---
 
 <figure>
-<img src="https://images.tanka.cc/flatline-5.png" alt="a lying dog" class="responsive-img">
-<figcaption style="text-align: center;">みと♀ 2歳</figcaption>
+<img src="https://images.tanka.cc/flatline-6.png" alt="" class="responsive-img">
+<figcaption style="text-align: center;">みと♀ 2歳半</figcaption>
 </figure>
 
 ## 趣旨
 
-歌会をしたり、飲んだり食べたりして春を待ちます。
+歓談をしてから歌会をして、再び歓談をします。
 
 ## 参加方法
 
-主催者（[青野ゆらぎ](https://x.com/aonoyuragi)）まで、<i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)もしくはXのDMでご連絡ください
+主催者まで、[Discord](https://discord.gg/WyV2XHN6z2)もしくは[X（青野ゆらぎ）](https://x.com/aonoyuragi)のDMでご連絡ください
 
 ## 日程
 
-**2026-02-22 17:00~23:00**
+**2026-07-04 16:00~22:30**
+
+（時間内は出入り自由です）
 
 ## 場所
 
-レンタルスペース（17:00~23:00、大久保駅近辺）
+レンタルスペース（16:00~22:30、大久保駅近辺）
 
 ## タイムテーブル
 
 <table class="table table-bordered">
   <tbody>
     <tr>
-      <td>17時〜19時</td>
+      <td>16時〜18時</td>
       <td>歓談①</td>
     </tr>
     <tr>
-      <td>19時〜21時</td>
+      <td>18時〜20時</td>
       <td>歌会</td>
     </tr>
     <tr>
-      <td>21時〜23時</td>
+      <td>20時〜22時半</td>
       <td>歓談②</td>
     </tr>
   </tbody>
@@ -47,15 +49,14 @@ image: https://images.tanka.cc/flatline-5.png
 
 ## イベント詳細
 
-- 時間内は出入り自由です
 - 飲食物は持ち寄り形式です
 - 参加者からスペース料を徴収します
-  - ¥2000~3000 程度の見込みです
+  - ¥2000 程度の見込みです
 
 ### 歌会について
 
-- 前日までに一首を主催者（青野ゆらぎ）に提出してください
-- テーマ: **窓**
+- 前日までに一首を主催者（青野ゆらぎ）まで提出してください
+- テーマ: **泡**
   - テーマを連想させる短歌であればよく、この漢字そのものが短歌の中に含まれている必要はありません。
 
 ### 犬について

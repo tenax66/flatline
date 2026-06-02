@@ -45,7 +45,6 @@ image: /assets/images/ogp_default.png
       <td>境</td>
     </tr>
     <tr>
-    <tr>
       <td>2026年5月号</td>
       <td>劇</td>
     </tr>

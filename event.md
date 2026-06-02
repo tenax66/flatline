@@ -25,6 +25,13 @@ image: /assets/images/ogp_default.png
       <td>2026-06-25</td>
       <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfclp7uvdgRqst3G5qGhHFiXvCPYFxcv4bOGysq0tn6PXfrjg/viewform?usp=header">応募フォーム</a></td>
     </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="/event/flatline-6">短歌への扉</a></td>
+      <td>オフラインで歌会をしたり歓談したりします</td>
+      <td>2026-07-04</td>
+      <td>レンタルスペース</td>
+    </tr>
   </tbody>
 </table>
 
