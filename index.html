@@ -3,7 +3,7 @@ layout: default
 image: /assets/images/ogp_default.png
 ---
 
-<div class="text-center specimen-label">📣 <a href="/event/friends-tanka-award/">知り合いが審査する短歌賞</a> 〜6/25</div>
+<div class="text-center site-notice">📣 <a href="/event/friends-tanka-award/">知り合いが審査する短歌賞</a> 〜6/25</div>
 <hr>
 
 <div class="archive">
@@ -20,7 +20,7 @@ image: /assets/images/ogp_default.png
 
   {% if currMonth != dateMonth %}
   {% if dateMonth != "" %}
-  <hr>
+  <hr class="archive-month-divider">
   {% endif %}
   <h2 class="archive-month">{{ currYear }}.{{ currMonth }}</h2>
   {% assign dateMonth = currMonth %}

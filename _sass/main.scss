@@ -76,6 +76,13 @@ hr {
     /* フラットな紙＋下辺ヘアライン罫 */
     background-color: var(--bs-body-bg);
     border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+
+    /* リンクはインク 65%、ホバーで 100%、現在ページはテラコッタ */
+    --bs-navbar-color: rgba(var(--bs-body-color-rgb), 0.65);
+    --bs-navbar-hover-color: var(--bs-body-color);
+    --bs-navbar-active-color: var(--fl-accent);
+    --bs-navbar-brand-color: var(--bs-body-color);
+    --bs-navbar-brand-hover-color: var(--bs-body-color);
 }
 
 .flatline-navbar-container {
@@ -84,11 +91,118 @@ hr {
     padding-right:0;
 }
 
+/* 字間: 標本ラベルと同じ 0.08em、題字はやや広く */
+.navbar .nav-link {
+    letter-spacing: 0.08em;
+}
+
+.navbar .navbar-brand {
+    letter-spacing: 0.12em;
+}
+
+/* ホバー: テラコッタ 15% の面（ページネーションと同じ規約） */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+    background-color: rgba(var(--fl-accent-rgb), 0.15);
+}
+
+/* モバイル題字の固定位置: ハンバーガーの中心線（17.5px）に揃える */
+.flatline-brand-mobile {
+    top: 5.5px;
+    line-height: 1.2;
+    z-index: 1055;
+}
+
+/* アイコンボタン: モバイルはハンバーガーと同じ高さ（19px）、
+   デスクトップは従来寸（py-2 + my-1 相当） */
+.navbar-icon-btn {
+    padding: 0.09375rem 0.25rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-btn {
+        padding: 0.75rem 0.5rem;
+    }
+}
+
+/* ハンバーガー: インク色 1px のヘアライン3本 */
+.flatline-toggler-icon {
+    display: block;
+    width: 1.375rem;
+    height: 11px;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    background-image: linear-gradient(
+        rgba(var(--bs-body-color-rgb), 0.6),
+        rgba(var(--bs-body-color-rgb), 0.6)
+    );
+    background-size: 100% 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 内部リンクと外部リンクの区切り罫 */
+.navbar .nav-divider {
+    list-style: none;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-divider {
+        border-top: 0;
+        border-left: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+        margin: 0.5rem 0.75rem;
+    }
+}
+
+/* モバイル展開メニュー: 行間を広げて標本ラベルの並びに */
+@media (max-width: 991.98px) {
+    /* 上パディングと揃えて、ハンバーガー行を上下対称にする */
+    .flatline-navbar-container {
+        padding-bottom: 0.5rem;
+    }
+
+    .navbar-collapse .nav-link {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+}
+
 /* archive */
+
+/* 月見出し: 下線なし（区切りは直上の一重罫が担う）
+   .body h2 より詳細度を上げて下線・余白を打ち消す */
+.body h2.archive-month {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 月と月の境の一重罫 */
+hr.archive-month-divider {
+    border-bottom: 0;
+    height: 0;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+    margin: 1rem 0 0;
+}
 
 .archive-year {
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+/* トップページのお知らせ */
+.site-notice {
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
+/* お知らせ直下の罫線は間隔を詰める */
+.site-notice + hr {
+    margin-top: 0.5rem;
 }
 
 /* 標本ラベル（作者名・日付・欄外注記の共通書式） */
@@ -202,14 +316,6 @@ pre.highlight {
 .text-gray-dependent {
     color: rgba(var(--bs-body-color-rgb), 0.5);
 }
-
-/* dark mode */
-
-html[data-bs-theme="dark"] .navbar {
-    --bs-navbar-brand-color: var(--bs-body-color);
-    --bs-navbar-active-color: var(--bs-body-color);
-}
-
 
 /* tanka */
 .tanka-area {
@@ -433,6 +539,11 @@ html[data-bs-theme="dark"] .navbar {
   display: inline-block;
   padding: 2px 8px;
   font-size: 0.9rem;
+}
+
+/* 前後ページ送りの矢印 */
+.transition-arrow {
+  color: var(--fl-accent);
 }
 
 .rotate-negative {
