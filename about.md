@@ -23,8 +23,12 @@ FLATLINE はインターネット短歌会です。
 
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV2XHN6z2)
 
-## 投稿先
+## 投稿方法
 
 主催者（青野ゆらぎ）のDiscord、もしくはXのDMまで直接ご投稿ください。
 
 <i class="fa-brands fa-x-twitter"></i> [青野ゆらぎ](https://x.com/aonoyuragi)のDM
+
+### その他連絡先
+
+主催者へDM以外でのご連絡が必要な場合は、`aonoyuragi@gmail.com` までお願いいたします。
