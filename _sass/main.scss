@@ -24,6 +24,50 @@ hr {
     opacity: 1;
 }
 
+/* 見出し: サイズは抑え、罫線と字間で階層を示す */
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5,
+.body h6 {
+    font-weight: normal;
+    letter-spacing: 0.08em;
+}
+
+.body h1 {
+    font-size: 1.5rem;
+}
+
+/* プレート見出し: hr と同じ細い二重罫を下に敷く */
+.body h1::after {
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: 0.6rem;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+}
+
+.body h2 {
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+}
+
+.body h3 {
+    font-size: 1.05rem;
+    margin-top: 2rem;
+}
+
+.body h4,
+.body h5,
+.body h6 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
 .navbar {
     font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
