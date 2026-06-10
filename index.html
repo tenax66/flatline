@@ -27,7 +27,7 @@ image: /assets/images/ogp_default.png
   {% endif %}
 
   <div class="archive-item">
-    <span class="archive-author fs-6">
+    <span class="archive-author">
       {% if post.custom_author %}
       <a class="link-reset" href="{{ site.baseurl }}/category/{{ post.custom_author | slugify_author | url_encode }}">{{
         post.author }}</a>
