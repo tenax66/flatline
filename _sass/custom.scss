@@ -14,6 +14,13 @@
     /* terracotta accent */
     --fl-accent: #b0593a;
     --fl-accent-rgb: 176, 89, 58;
+
+    --pagefind-ui-primary: var(--bs-link-color);
+    --pagefind-ui-text: var(--bs-body-color);
+    --pagefind-ui-background: var(--bs-body-bg);
+    --pagefind-ui-border: rgba(var(--bs-body-color-rgb), 0.3);
+    --pagefind-ui-tag: rgba(var(--bs-body-color-rgb), 0.08);
+    --pagefind-ui-border-radius: 4px;
 }
 
 html[data-bs-theme="light"] {
@@ -44,11 +51,12 @@ html[data-bs-theme="dark"] {
     --fl-accent: #d28e6b;
     --fl-accent-rgb: 210, 142, 107;
 
-    --pagefind-ui-primary: #eeeeee;
-    --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #152028;
-    --pagefind-ui-tag: #152028;
+    --pagefind-ui-primary: var(--bs-link-color);
+    --pagefind-ui-text: var(--bs-body-color);
+    --pagefind-ui-background: var(--bs-body-bg);
+    --pagefind-ui-border: rgba(var(--bs-body-color-rgb), 0.3);
+    --pagefind-ui-tag: rgba(var(--bs-body-color-rgb), 0.08);
+    --pagefind-ui-border-radius: 4px;
 }
 
 /* 紙の質感＋薄い方眼グリッド（ライト=製図用紙、ダーク=青写真の白線方眼） */

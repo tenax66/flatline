@@ -47,6 +47,13 @@ hr {
     margin-bottom: 1rem;
 }
 
+/* 標本ラベル（作者名・日付・欄外注記の共通書式） */
+.specimen-label {
+    font-size: 1.25rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
 /* 標本ラベル風の作者名 */
 .archive-author {
     float: right;
@@ -66,7 +73,7 @@ hr {
 }
 
 .archive-title {
-    color: #212529;
+    color: var(--bs-body-color);
 }
 
 /* footer */
@@ -128,7 +135,7 @@ html[data-bs-theme="dark"] .footer-logo-dark {
 
 .footer-icon-links {
     text-decoration: none;
-    color: #212529;
+    color: var(--bs-body-color);
     display: inline-flex;
     align-items: center;
     line-height: 0;
@@ -137,7 +144,7 @@ html[data-bs-theme="dark"] .footer-logo-dark {
 .footer-icon-links:hover,
 .footer-icon-links:focus {
     text-decoration: none;
-    color: #212529;
+    color: var(--bs-body-color);
 }
 
 .highlight {
@@ -149,7 +156,7 @@ pre.highlight {
 }
 
 .text-gray-dependent {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(var(--bs-body-color-rgb), 0.5);
 }
 
 /* dark mode */
@@ -159,24 +166,6 @@ html[data-bs-theme="dark"] .navbar {
     --bs-navbar-active-color: var(--bs-body-color);
 }
 
-html[data-bs-theme="dark"] .footer-icon-links {
-    text-decoration: none;
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .footer-icon-links:hover,
-.footer-icon-links:focus {
-    text-decoration: none;
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .archive-title {
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .text-gray-dependent {
-    color: rgba(255, 255, 255, 0.5);
-}
 
 /* tanka */
 .tanka-area {
@@ -280,6 +269,28 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 }
 
 
+/* 図版（プレート）: ヘアライン枠＋下にキャプション */
+.plate {
+    margin: 1.5rem auto;
+    max-width: 640px;
+}
+
+.plate img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+}
+
+.plate figcaption {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
 /* image */
 .responsive-img {
     width: 100%; /* 親要素の幅に合わせて画像を調整 */
@@ -324,7 +335,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 
 .archive-page-container h2 {
   margin-top: 2rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
   padding-bottom: 0.5rem;
 }
 
@@ -343,7 +354,7 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 .archive-page-date {
   display: inline-block;
   min-width: 100px;
-  color: #666;
+  color: rgba(var(--bs-body-color-rgb), 0.65);
   margin-right: 1rem;
 }
 
@@ -396,7 +407,15 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     display: inline-block;
 }
 
-/* modal */
+/* modal: 不透明な紙＋ヘアライン枠、影なし */
+.modal-content {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
 .modal-header {
   border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
 }
@@ -421,26 +440,17 @@ _::-webkit-full-page-media, _:future, :root .safari-rotate {
     border-color: var(--bs-border-color);
 }
 
-/* blockquote styles */
+/* 引用: 上下の単線ヘアラインで挟む（図譜の欄外注） */
 blockquote {
   margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  border-left: 4px solid var(--bs-link-color);
-  background-color: rgba(var(--bs-body-bg-rgb), 0.5);
-  border-radius: 0 4px 4px 0;
-  font-style: italic;
-  position: relative;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+  border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
 }
 
 blockquote p {
   margin: 0;
   line-height: 1.6;
-}
-
-/* ダークモード対応 */
-html[data-bs-theme="dark"] blockquote {
-  background-color: rgba(var(--bs-body-bg-rgb), 0.3);
-  border-left-color: var(--bs-link-color);
 }
 
 .responsive-iframe-container {
@@ -539,7 +549,7 @@ html[data-bs-theme="dark"] blockquote {
     margin-bottom: 1.5rem;
     padding: 1rem;
     background: var(--bs-body-bg);
-    border-radius: 0.5rem;
+    border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
 }
 
 .sticker-download__image {
