@@ -474,6 +474,19 @@ pre.highlight {
     margin: 0 auto; /* 中央揃えにする場合 */
 }
 
+/* theme-dependent images (.responsive-img の display:block より後に置いて上書きする) */
+.theme-img-dark {
+    display: none;
+}
+
+html[data-bs-theme="dark"] .theme-img-light {
+    display: none;
+}
+
+html[data-bs-theme="dark"] .theme-img-dark {
+    display: block;
+}
+
 /* icon (small, left aligned, responsive) */
 .tanka-member-icon {
   float: left; /* 左寄せ：以降の文章が右に回り込む */
