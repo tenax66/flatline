@@ -30,6 +30,7 @@ include: ["_pages"]
 
 # Files not to publish to _site
 exclude:
+  - CLAUDE.md
   - DESIGN.md
   - README.md
   - LICENSE.txt
