@@ -3,17 +3,19 @@
 :root {
     --bs-body-color: #140d00;
     --bs-body-color-rgb: 20, 13, 0;
-    --bs-body-bg: #f5e8d5;
-    --bs-body-bg-rgb: 245, 232, 213;
-    --bs-body-bg-rgb-opaque: 245, 232, 213, 0.25;
+    --bs-body-bg: #f6efdf;
+    --bs-body-bg-rgb: 246, 239, 223;
+    --bs-body-bg-rgb-opaque: 246, 239, 223, 0.25;
     --bs-link-color: #2940b3;
     --bs-link-color-rgb: 41, 64, 179;
     --bs-primary-bg-subtle: #6C81EB;
     --bs-primary-bg-subtle-rgb: 108, 129, 235;
     --bs-border-color: #140d00;
-    /* terracotta accent */
-    --fl-accent: #b0593a;
-    --fl-accent-rgb: 176, 89, 58;
+    /* terracotta accent (WCAG AA: 4.5:1 on paper) */
+    --fl-accent: #a95538;
+    --fl-accent-rgb: 169, 85, 56;
+    /* 製図用紙の淡青方眼罫 */
+    --fl-grid: rgba(41, 64, 179, 0.12);
 
     --pagefind-ui-primary: var(--bs-link-color);
     --pagefind-ui-text: var(--bs-body-color);
@@ -26,14 +28,15 @@
 html[data-bs-theme="light"] {
     --bs-body-color: #140d00;
     --bs-body-color-rgb: 20, 13, 0;
-    --bs-body-bg: #f5e8d5;
-    --bs-body-bg-rgb: 245, 232, 213;
-    --bs-body-bg-rgb-opaque: 245, 232, 213, 0.25;
+    --bs-body-bg: #f6efdf;
+    --bs-body-bg-rgb: 246, 239, 223;
+    --bs-body-bg-rgb-opaque: 246, 239, 223, 0.25;
     --bs-link-color: #2940b3;
     --bs-link-color-rgb: 41, 64, 179;
     --bs-border-color: #140d00;
-    --fl-accent: #b0593a;
-    --fl-accent-rgb: 176, 89, 58;
+    --fl-accent: #a95538;
+    --fl-accent-rgb: 169, 85, 56;
+    --fl-grid: rgba(41, 64, 179, 0.12);
 }
 /*
  * ---------- Dark Mode ------------------------------------------------------
@@ -42,14 +45,16 @@ html[data-bs-theme="dark"] {
     --bs-body-color: #f5e8d5;
     --bs-body-color-rgb: 245, 232, 213;
     /* cyanotype prussian blue */
-    --bs-body-bg: #11294d;
-    --bs-body-bg-rgb: 17, 41, 77;
-    --bs-body-bg-rgb-opaque: 17, 41, 77, 0.25;
-    --bs-link-color: #9cc3ff;
-    --bs-link-color-rgb: 156, 195, 255;
+    --bs-body-bg: #0a2e63;
+    --bs-body-bg-rgb: 10, 46, 99;
+    --bs-body-bg-rgb-opaque: 10, 46, 99, 0.25;
+    --bs-link-color: #a6c8f7;
+    --bs-link-color-rgb: 166, 200, 247;
     --bs-border-color: #f5e8d5;
-    --fl-accent: #d28e6b;
-    --fl-accent-rgb: 210, 142, 107;
+    --fl-accent: #dd9670;
+    --fl-accent-rgb: 221, 150, 112;
+    /* 青写真の白線方眼 */
+    --fl-grid: rgba(234, 242, 250, 0.07);
 
     --pagefind-ui-primary: var(--bs-link-color);
     --pagefind-ui-text: var(--bs-body-color);
@@ -63,8 +68,8 @@ html[data-bs-theme="dark"] {
 body {
     background-image:
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"),
-        linear-gradient(rgba(var(--bs-body-color-rgb), 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(var(--bs-body-color-rgb), 0.05) 1px, transparent 1px);
+        linear-gradient(var(--fl-grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--fl-grid) 1px, transparent 1px);
     background-size: 160px 160px, 28px 28px, 28px 28px;
 }
 
