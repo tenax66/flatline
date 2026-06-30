@@ -4,11 +4,11 @@ layout: default
 
 <div class="post">
   <h1>{{ page.title }}</h1>
-  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %Y" }}
+  <span class="specimen-label">{{ page.date | date: "%Y.%m.%d" }}
     {% if page.custom_author %}
-    <a href="{{ site.baseurl }}/category/{{ page.custom_author | slugify_author | url_encode }}">{{ page.author }}</a>
+    <a class="link-reset" href="{{ site.baseurl }}/category/{{ page.custom_author | slugify_author | url_encode }}">{{ page.author }}</a>
     {% else %}
-    <a href="{{ site.baseurl }}/category/{{ page.author | slugify_author | url_encode }}">{{ page.author }}</a>
+    <a class="link-reset" href="{{ site.baseurl }}/category/{{ page.author | slugify_author | url_encode }}">{{ page.author }}</a>
     {% endif %}
   </span>
   <div

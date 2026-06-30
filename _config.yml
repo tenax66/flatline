@@ -28,6 +28,19 @@ baseurl: ""
 
 include: ["_pages"]
 
+# Files not to publish to _site
+exclude:
+  - CLAUDE.md
+  - DESIGN.md
+  - README.md
+  - LICENSE.txt
+  - tmp/
+  - chore/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
 # global author information
 author: aonoyuragi
 

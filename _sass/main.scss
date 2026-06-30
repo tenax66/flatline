@@ -1,10 +1,17 @@
 /* general */
 .body {
+    /* navbar 高（61px）＋ 17px。モバイルは navbar が低いぶん詰める */
     margin-top: 78px;
     font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
+}
+
+@media (max-width: 991.98px) {
+    .body {
+        margin-top: 60px;
+    }
 }
 
 .bi {
@@ -14,39 +21,79 @@
     fill: currentcolor;
 }
 
+/* 図譜のプレート罫（細い二重線） */
+hr {
+    border: 0;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    height: 5px;
+    background: none;
+    opacity: 1;
+}
+
+/* 記事本文内（縦書き短歌と横書き短歌の間）の罫線は一重 */
+#postSwipeRoot hr {
+    border-bottom: 0;
+    height: 0;
+}
+
+/* 見出し: サイズは抑え、罫線と字間で階層を示す */
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5,
+.body h6 {
+    font-weight: normal;
+    letter-spacing: 0.08em;
+}
+
+.body h1 {
+    font-size: 1.5rem;
+}
+
+/* プレート見出し: hr と同じ細い二重罫を下に敷く */
+.body h1::after {
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: 0.6rem;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+}
+
+.body h2 {
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.body h3 {
+    font-size: 1.05rem;
+    margin-top: 2rem;
+}
+
+.body h4,
+.body h5,
+.body h6 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
 .navbar {
     font-family: "lores-12", "dotgothic16", system-ui, -apple-system, "Segoe UI",
         Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
-    background-color: rgba(var(--bs-body-bg-rgb-opaque)); /* 半透明な白 */
-}
+    /* フラットな紙＋下辺ヘアライン罫 */
+    background-color: var(--bs-body-bg);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
 
-.navbar::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    border-radius: 28px;
-    pointer-events: none;
-}
-
-.navbar::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    border-radius: 28px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    filter: url(#glass-distortion);
-    -webkit-filter: url(#glass-distortion);
-    isolation: isolate;
-    pointer-events: none;
-}
-/* ダークモード時は背景と完全に揃える（色差をなくす） */
-html[data-bs-theme="dark"] .navbar {
-    background-color: rgba(var(--bs-body-bg-rgb-opaque)); /* body と全く同じ値 */
+    /* リンクはインク 65%、ホバーで 100%、現在ページはテラコッタ */
+    --bs-navbar-color: rgba(var(--bs-body-color-rgb), 0.65);
+    --bs-navbar-hover-color: var(--bs-body-color);
+    --bs-navbar-active-color: var(--fl-accent);
+    --bs-navbar-brand-color: var(--bs-body-color);
+    --bs-navbar-brand-hover-color: var(--bs-body-color);
 }
 
 .flatline-navbar-container {
@@ -55,16 +102,148 @@ html[data-bs-theme="dark"] .navbar {
     padding-right:0;
 }
 
+/* 字間: 標本ラベルと同じ 0.08em、題字はやや広く */
+.navbar .nav-link {
+    letter-spacing: 0.08em;
+}
+
+.navbar .navbar-brand {
+    letter-spacing: 0.12em;
+}
+
+/* ホバー: テラコッタ 15% の面（ページネーションと同じ規約） */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+    background-color: rgba(var(--fl-accent-rgb), 0.15);
+}
+
+/* モバイル題字の固定位置: ハンバーガーの中心線（21.5px）に揃える */
+.flatline-brand-mobile {
+    top: 8px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    z-index: 1055;
+}
+
+/* アイコンボタン: モバイルはハンバーガーと同じ高さ（27px）、
+   デスクトップは従来寸（py-2 + my-1 相当） */
+.navbar-icon-btn {
+    padding: 0.21875rem 0.375rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-btn {
+        padding: 0.75rem 0.5rem;
+    }
+}
+
+/* ハンバーガー: インク色 1px のヘアライン3本 */
+.flatline-toggler-icon {
+    display: block;
+    width: 1.625rem;
+    height: 15px;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.6);
+    background-image: linear-gradient(
+        rgba(var(--bs-body-color-rgb), 0.6),
+        rgba(var(--bs-body-color-rgb), 0.6)
+    );
+    background-size: 100% 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 内部リンクと外部リンクの区切り罫 */
+.navbar .nav-divider {
+    list-style: none;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-divider {
+        border-top: 0;
+        border-left: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+        margin: 0.5rem 0.75rem;
+    }
+}
+
+/* モバイル展開メニュー: 行間を広げて標本ラベルの並びに */
+@media (max-width: 991.98px) {
+    /* 上パディングと揃えて、ハンバーガー行を上下対称にする */
+    .flatline-navbar-container {
+        padding-bottom: 0.5rem;
+    }
+
+    .navbar-collapse .nav-link {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+
+    /* ハンバーガーの押下域を広げる（高さ 15 + 12 = 27px） */
+    .navbar-toggler {
+        padding-top: 0.375rem;
+        padding-bottom: 0.375rem;
+    }
+
+    /* アイコンを 20px に拡大（ボタン高はハンバーガーと同じ 27px） */
+    .navbar-icon-btn .bi {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
 /* archive */
+
+/* 月見出し: 下線なし（区切りは直上の一重罫が担う）
+   .body h2 より詳細度を上げて下線・余白を打ち消す */
+.body h2.archive-month {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 月と月の境の一重罫 */
+hr.archive-month-divider {
+    border-bottom: 0;
+    height: 0;
+    border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+    margin: 1rem 0 0;
+}
 
 .archive-year {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
+/* トップページのお知らせ */
+.site-notice {
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
+/* お知らせ直下の罫線は間隔を詰める */
+.site-notice + hr {
+    margin-top: 0.5rem;
+}
+
+/* 標本ラベル（作者名・日付・欄外注記の共通書式） */
+.specimen-label {
+    font-size: 1.25rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
+/* 標本ラベル風の作者名 */
 .archive-author {
     float: right;
     margin-left: 1rem;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
 }
 
 .archive-item {
@@ -76,7 +255,7 @@ html[data-bs-theme="dark"] .navbar {
 }
 
 .archive-title {
-    color: #212529;
+    color: var(--bs-body-color);
 }
 
 /* footer */
@@ -138,7 +317,7 @@ html[data-bs-theme="dark"] .footer-logo-dark {
 
 .footer-icon-links {
     text-decoration: none;
-    color: #212529;
+    color: var(--bs-body-color);
     display: inline-flex;
     align-items: center;
     line-height: 0;
@@ -147,7 +326,7 @@ html[data-bs-theme="dark"] .footer-logo-dark {
 .footer-icon-links:hover,
 .footer-icon-links:focus {
     text-decoration: none;
-    color: #212529;
+    color: var(--bs-body-color);
 }
 
 .highlight {
@@ -159,33 +338,7 @@ pre.highlight {
 }
 
 .text-gray-dependent {
-    color: rgba(0, 0, 0, 0.5);
-}
-
-/* dark mode */
-
-html[data-bs-theme="dark"] .navbar {
-    --bs-navbar-brand-color: var(--bs-body-color);
-    --bs-navbar-active-color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .footer-icon-links {
-    text-decoration: none;
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .footer-icon-links:hover,
-.footer-icon-links:focus {
-    text-decoration: none;
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .archive-title {
-    color: var(--bs-body-color);
-}
-
-html[data-bs-theme="dark"] .text-gray-dependent {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(var(--bs-body-color-rgb), 0.5);
 }
 
 /* tanka */
@@ -298,6 +451,28 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 }
 
 
+/* 図版（プレート）: ヘアライン枠＋下にキャプション */
+.plate {
+    margin: 1.5rem auto;
+    max-width: 640px;
+}
+
+.plate img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+}
+
+.plate figcaption {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+}
+
 /* image */
 .responsive-img {
     width: 100%; /* 親要素の幅に合わせて画像を調整 */
@@ -305,6 +480,19 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     height: auto; /* アスペクト比を維持 */
     display: block; /* 行間の隙間を防ぐため */
     margin: 0 auto; /* 中央揃えにする場合 */
+}
+
+/* theme-dependent images (.responsive-img の display:block より後に置いて上書きする) */
+.theme-img-dark {
+    display: none;
+}
+
+html[data-bs-theme="dark"] .theme-img-light {
+    display: none;
+}
+
+html[data-bs-theme="dark"] .theme-img-dark {
+    display: block;
 }
 
 /* icon (small, left aligned, responsive) */
@@ -342,26 +530,20 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 
 .archive-page-container h2 {
   margin-top: 2rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
   padding-bottom: 0.5rem;
-}
-
-.archive-page-container h3 {
-  margin-top: 1.5rem;
-  margin-left: 1rem;
-  font-size: 1.2rem;
 }
 
 .archive-page-list {
   list-style-type: none;
-  padding-left: 2rem;
+  padding-left: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .archive-page-date {
   display: inline-block;
   min-width: 100px;
-  color: #666;
+  color: rgba(var(--bs-body-color-rgb), 0.65);
   margin-right: 1rem;
 }
 
@@ -384,24 +566,29 @@ html[data-bs-theme="dark"] .text-gray-dependent {
 }
 
 .pagination-button:hover {
-  background-color: var(--bs-primary-bg-subtle);
-  color: white;
+  background-color: rgba(var(--fl-accent-rgb), 0.15);
+  color: var(--bs-body-color);
 }
 
 .current-page {
   display: inline-block;
   padding: 2px 8px;
-  border: 1px solid var(--bs-link-color);
+  border: 1px solid var(--fl-accent);
   border-radius: 4px;
   font-size: 0.9rem;
-  background-color: var(--bs-link-color);
-  color: white;
+  background-color: var(--fl-accent);
+  color: var(--bs-body-bg);
 }
 
 .pagination-ellipsis {
   display: inline-block;
   padding: 2px 8px;
   font-size: 0.9rem;
+}
+
+/* 前後ページ送りの矢印 */
+.transition-arrow {
+  color: var(--fl-accent);
 }
 
 .rotate-negative {
@@ -414,7 +601,15 @@ html[data-bs-theme="dark"] .text-gray-dependent {
     display: inline-block;
 }
 
-/* modal */
+/* modal: 不透明な紙＋ヘアライン枠、影なし */
+.modal-content {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
 .modal-header {
   border-bottom: var(--bs-border-width) solid var(--bs-border-color-translucent);
 }
@@ -439,26 +634,17 @@ _::-webkit-full-page-media, _:future, :root .safari-rotate {
     border-color: var(--bs-border-color);
 }
 
-/* blockquote styles */
+/* 引用: 上下の単線ヘアラインで挟む（図譜の欄外注） */
 blockquote {
   margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  border-left: 4px solid var(--bs-link-color);
-  background-color: rgba(var(--bs-body-bg-rgb), 0.5);
-  border-radius: 0 4px 4px 0;
-  font-style: italic;
-  position: relative;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
+  border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
 }
 
 blockquote p {
   margin: 0;
   line-height: 1.6;
-}
-
-/* ダークモード対応 */
-html[data-bs-theme="dark"] blockquote {
-  background-color: rgba(var(--bs-body-bg-rgb), 0.3);
-  border-left-color: var(--bs-link-color);
 }
 
 .responsive-iframe-container {
@@ -557,7 +743,7 @@ html[data-bs-theme="dark"] blockquote {
     margin-bottom: 1.5rem;
     padding: 1rem;
     background: var(--bs-body-bg);
-    border-radius: 0.5rem;
+    border: 1px solid rgba(var(--bs-body-color-rgb), 0.3);
 }
 
 .sticker-download__image {
