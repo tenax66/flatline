@@ -7,6 +7,9 @@ author: 青野ゆらぎ
 category: 青野ゆらぎ
 ---
 
+<img src="/assets/images/flatline_symbol.svg" alt="FLATLINE" class="responsive-img theme-img-light">
+<img src="/assets/images/flatline_symbol_dark.svg" alt="FLATLINE" class="responsive-img theme-img-dark">
+
 みなさんこんにちは。FLATLINEを管理している青野です。  
 このたびは「[知り合いが審査する短歌賞](https://tanka.cc/event/friends-tanka-award/)」にご応募いただきありがとうございました。  
 本日、全応募作を公開いたします。応募総数は114作品でした。
