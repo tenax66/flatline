@@ -396,6 +396,14 @@ pre.highlight {
     text-combine-upright: all;
 }
 
+/* Chromium(Blink)では dotgothic16 の縦中横グリフが右にズレるため左へ視覚補正。
+   em 指定なのでフォントサイズが変わるレスポンシブ環境でも追従する。
+   .is-blink クラスは default.html の head 内インラインJSで付与 */
+.is-blink .tate-chu-yoko-upright {
+    display: inline-block;
+    transform: translateX(-0.2em);
+}
+
 @media (max-width: 768px) {
     .tanka p:nth-child(n + 2) {
         padding-right: 10vw !important;

@@ -12,6 +12,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- The page supports both dark and light color schemes, and the page author prefers / default is light. -->
   <meta name="color-scheme" content="dark light" />
+  <script>
+    (function () {
+      var ua = navigator.userAgent;
+      if (/iPhone|iPad|iPod/.test(ua)) return;
+      var isBlink = !!navigator.userAgentData || /Chrome\/\d/.test(ua);
+      if (isBlink) document.documentElement.classList.add('is-blink');
+    })();
+  </script>
   <!-- PageFind-->
   <link href="{{site.baseurl}}/pagefind/pagefind-ui.css" rel="stylesheet">
   <script src="{{site.baseurl}}/pagefind/pagefind-ui.js"></script>
