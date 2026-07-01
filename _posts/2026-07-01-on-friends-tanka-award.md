@@ -1,7 +1,7 @@
 ---
 date: "2026-07-01 11:59:59"
 layout: post
-title: 知り合いが審査する短歌賞　発表にあたって
+title: 知り合いが審査する短歌賞　公開にあたって
 image: /assets/images/ogp_default.png
 author: 青野ゆらぎ
 category: 青野ゆらぎ
