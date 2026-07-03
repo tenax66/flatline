@@ -117,7 +117,7 @@ image: /assets/images/ogp_default.png
 
 🐔 新戸鴎二
 
-🎩 鵺沼こもり
+🎩 [鵺沼こもり](https://x.com/__6x3x2x3)
 
 🌇 [nes](https://x.com/nes_mochir){:target="_blank"}
 
