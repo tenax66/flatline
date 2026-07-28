@@ -31,6 +31,8 @@ category: flatline
 
 [軽い汚い]({{ site.baseurl }}/light-dirty) - 再生
 
+[日々是泡日]({{ site.baseurl }}/every-day-is-a-bubble-day) - しかくさんかく
+
 [それは泡]({{ site.baseurl }}/that-is-a-bubble) - 雀100
 
 [そこにないならない]({{ site.baseurl }}/if-not-there) - 髙山准
