@@ -37,6 +37,8 @@ category: flatline
 
 [そこにないならない]({{ site.baseurl }}/if-not-there) - 髙山准
 
+[泡にまつわるエトセトラ]({{ site.baseurl }}/electric-bubble-fever) - 田中記念館
+
 [ラテ]({{ site.baseurl }}/latte) - 太朗千尋
 
 [夢を見ている]({{ site.baseurl }}/dreaming) - なかの
@@ -44,6 +46,8 @@ category: flatline
 [ぷかぷか]({{ site.baseurl }}/puka-puka) - 鵺沼こもり
 
 [形状記憶の庭]({{ site.baseurl }}/the-shape-memory-garden) - nes
+
+[バブリング]({{ site.baseurl }}/bubbling) - 八谷のり
 
 [石鹸]({{ site.baseurl }}/soap) - 彦凪　至
 
