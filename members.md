@@ -169,4 +169,6 @@ image: /assets/images/ogp_default.png
 
 🍡 ゆるもちゆ
 
+💠 [夜片なぎ](https://x.com/azisai_nagi){:target="_blank"}
+
 🕯️ [留留留](https://x.com/hyellypan)
