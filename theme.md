@@ -5,13 +5,13 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-## 募集中: 8 月号 泡
+## 募集中: 9 月号 星
 
 <table class="table table-striped table-bordered">
   <tbody>
     <tr>
       <th>テーマ</th>
-      <th>泡</th>
+      <th>星</th>
     </tr>
     <tr>
       <td>形式</td>
@@ -19,7 +19,7 @@ image: /assets/images/ogp_default.png
     </tr>
     <tr>
       <td>提出締め切り</td>
-      <td>7/25</td>
+      <td>8/25</td>
     </tr>
   </tbody>
 </table>
@@ -40,6 +40,10 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>2026年8月号</td>
+      <td>泡</td>
+    </tr>
     <tr>
       <td>2026年7月号</td>
       <td>自由詠（<a href="{{site.baseurl}}/event/friends-tanka-award/">知り合いが審査する短歌賞</a>）</td>
