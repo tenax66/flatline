@@ -15,7 +15,7 @@ category: 青野ゆらぎ
 
 <div class="dialogue">
 <div class="dialogue-line dialogue-line-doom">
-<span class="dialogue-speaker"><img class="dialogue-icon" src="https://images.tanka.cc/negineesan_icon.jpeg" alt="小林銅蟲"><span class="dialogue-name">銅蟲</span></span>
+<span class="dialogue-speaker"><img class="dialogue-icon" src="https://images.tanka.cc/negineesan_icon.jpeg" alt="小林銅蟲"><span class="dialogue-name">小林銅蟲</span></span>
 <p class="dialogue-text">（ここにセリフ）</p>
 </div>
 </div>
