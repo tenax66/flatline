@@ -21,6 +21,8 @@ category: flatline
 
 [ALL THE LOVE]({{ site.baseurl }}/all-the-love) - 音羽
 
+[ボルツマン先生、黄金郷を旅する]({{ site.baseurl }}/professor-boltzmann-travels-to-el-dorado) - かくサトウ
+
 [スリル]({{ site.baseurl }}/thrill) - 亀田巧
 
 [ずっと]({{ site.baseurl }}/forever) - 神乃
@@ -60,6 +62,8 @@ category: flatline
 [セレモニー]({{ site.baseurl }}/ceremony) - 福住電
 
 [火種、あるいは種火]({{ site.baseurl }}/a-spark-or-an-ember) - 放棄未完
+
+[北海道〇〇郡××町　8月23日23時20分〜8月24日0時35分]({{ site.baseurl }}/hokkaido-oo-district-xx-town-august-23-23-20-00-00-35) - 孫浦一京
 
 [レースカーテン]({{ site.baseurl }}/sheer-curtains) - 抹茶ダム
 
