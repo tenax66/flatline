@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 北海道〇〇郡××町　8月23日23時20分〜8月24日0時35分
+title: 北海道〇〇郡××町 2026年8月23日23時20分〜8月24日0時35分
 image: /assets/images/ogp_default.png
 author: 孫浦一京
 category: 孫浦一京
