@@ -4,7 +4,7 @@ title: stars gift stars
 image: /assets/images/ogp_default.png
 author: 田中毬音
 category: 田中毬音
-emoji: 🎁
+emoji: 🧀
 ---
 
 <div class="tanka-area"><div class="tanka">

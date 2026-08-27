@@ -53,6 +53,8 @@ category: flatline
 
 [ペンタグラム]({{ site.baseurl }}/pentagram) - 半田基
 
+[このほしの重力]({{ site.baseurl }}/the-gravity-of-this-world) - 光安在
+
 [あったかダイソン球]({{ site.baseurl }}/the-cozy-dyson-sphere) - ヒミツー
 
 [セレモニー]({{ site.baseurl }}/ceremony) - 福住電
@@ -62,8 +64,6 @@ category: flatline
 [レースカーテン]({{ site.baseurl }}/sheer-curtains) - 抹茶ダム
 
 [夏の星空]({{ site.baseurl }}/summer-stars) - 三日月李衣
-
-[このほしの重力]({{ site.baseurl }}/the-gravity-of-this-world) - 光安在
 
 [願わない]({{ site.baseurl }}/i-shall-not-wish) - 夜片なぎ
 
