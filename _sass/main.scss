@@ -526,6 +526,85 @@ html[data-bs-theme="dark"] .theme-img-dark {
   }
 }
 
+/* dialogue（対話）: 左にアイコン（プレート枠＋ラベル）、右に発言。長い発言はアイコンの下に回り込む */
+.dialogue {
+  margin: 1.5rem 0;
+}
+
+.dialogue::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.dialogue-line {
+  --fl-dialogue-mark: rgba(var(--bs-body-color-rgb), 0.65);
+  clear: left; /* 前の発言の float を解除して、話者ごとに行を起こす */
+}
+
+/* clear で生じる clearance が margin を食うため padding で間隔をとる */
+.dialogue-line + .dialogue-line {
+  padding-top: 1.25rem;
+}
+
+/* 話者（アイコン＋名前ラベル）: float して発言が右に回り込む */
+.dialogue-speaker {
+  float: left;
+  width: clamp(56px, 8vw, 84px);
+  margin: 0 0.9rem 0.4rem 0;
+  line-height: 0; /* img 下のベースライン隙間を消す */
+}
+
+.dialogue-icon {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  padding: 3px;
+  border: 1px solid var(--fl-dialogue-mark);
+  background-color: var(--bs-body-bg);
+}
+
+.dialogue-name {
+  display: block;
+  margin-top: 0.35rem;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--fl-dialogue-mark);
+}
+
+.dialogue-text {
+  margin: 0;
+}
+
+.dialogue-text + .dialogue-text {
+  margin-top: 0.5rem;
+}
+
+/* 話者ごとの差し色（枠とラベル） */
+.dialogue-line-aono {
+  --fl-dialogue-mark: var(--fl-accent);
+}
+
+.dialogue-line-doom {
+  --fl-dialogue-mark: var(--bs-link-color);
+}
+
+@media (max-width: 480px) {
+  .dialogue-speaker {
+    width: clamp(44px, 16vw, 64px);
+    margin: 0 0.6rem 0.4rem 0;
+  }
+
+  .dialogue-name {
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
+  }
+}
+
 /* misc */
 .invisible {
     visibility: hidden;
