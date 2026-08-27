@@ -4,7 +4,7 @@ title: 遠くても海、近くても星
 image: /assets/images/ogp_default.png
 author: 遠藤ミサキ
 category: 遠藤ミサキ
-emoji: 🏖️
+emoji: 🍺
 ---
 
 <div class="tanka-area"><div class="tanka">
