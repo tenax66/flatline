@@ -43,6 +43,8 @@ category: flatline
 
 [サイクル]({{ site.baseurl }}/cycle) - 髙山准
 
+[月と月餅]({{ site.baseurl }}/the-moon-and-the-mooncake) - 田中記念館
+
 [stars gift stars]({{ site.baseurl }}/stars-gift-stars) - 田中毬音
 
 [こんにちは]({{ site.baseurl }}/hi) - 太朗千尋
