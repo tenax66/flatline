@@ -5,7 +5,7 @@ permalink: /theme/
 image: /assets/images/ogp_default.png
 ---
 
-## 募集中: 10 月号 知
+## 募集中: 10 月号 「知」
 
 <table class="table table-striped table-bordered">
   <tbody>
