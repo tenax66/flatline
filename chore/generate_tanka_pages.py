@@ -123,7 +123,10 @@ def generate_tanka_html(title, author, tanka):
         "半田基":"🍅",
         "遠藤ミサキ":"🍺",
         "田中毬音": "🧀",
-        "かくサトウ": "🔭"
+        "かくサトウ": "🔭",
+        "矢野光希": "🦢",
+        "Motoshi": "🔔",
+        "ソウメンモドキ": "👓",
     }
     emoji = emoji_map.get(author, "❓")
 
