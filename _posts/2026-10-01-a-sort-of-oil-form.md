@@ -10,7 +10,7 @@ emoji: 👓
 <div class="tanka-area"><div class="tanka">
 <p>このナスをお好きなように料理するのが結構好きだったらしい</p>
 <p>まん丸の月が手の甲光らせて手垢をメガネ越しに触る</p>
-<p>ランキング第25位　円周率80桁の暗記をする</p>
+<p>ランキング第<span class="tate-chu-yoko-upright">25</span>位　円周率<span class="tate-chu-yoko-upright">80</span>桁の暗記をする</p>
 <p>豆知識ひとつ　教養うんちくの間に投げ込んでみて祈る</p>
 <p>「知ったかぶりをするな」と私【だまれ】「愚かな私」と呟く私</p></div></div>
 
