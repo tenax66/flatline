@@ -35,6 +35,7 @@ image: /assets/images/ogp_default.png
 
 🛋️ えりーぬ
 
+🍺 遠藤ミサキ
 
 🦋 [太田葵](https://x.com/gay_pika2093){:target="_blank"}
 
