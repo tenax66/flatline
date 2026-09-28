@@ -7,6 +7,8 @@ image: /assets/images/ogp_default.png
 
 🐕 [青野ゆらぎ](https://x.com/aonoyuragi){:target="_blank"}
 
+🪼 朝永瑤
+
 💅 味爪もも
 
 🌙 雨音依月
@@ -33,6 +35,7 @@ image: /assets/images/ogp_default.png
 
 🛋️ えりーぬ
 
+
 🦋 [太田葵](https://x.com/gay_pika2093){:target="_blank"}
 
 🪴 [奥園](https://x.com/okuzono___){:target="_blank"}
@@ -48,6 +51,8 @@ image: /assets/images/ogp_default.png
 ⛪️ 織原禾
 
 🎸 [オルター堂](https://x.com/_reijio){:target="_blank"}
+
+🔭 かくサトウ
 
 📸 亀田巧
 
@@ -87,6 +92,8 @@ image: /assets/images/ogp_default.png
 
 😑 [雀100](https://x.com/suzumedancing){:target="_blank"}
 
+👓 ソウメンモドキ
+
 🎪 高橋寧
 
 💺[髙山准](https://x.com/m99ejxj){:target="_blank"}
@@ -95,17 +102,25 @@ image: /assets/images/ogp_default.png
 
 🌏 田中記念館
 
+🧀 田中毬音
+
 💻 [太朗千尋](https://x.com/Tarou_Chihiro){:target="_blank"}
 
 🥛 たんころぶ
 
+🏃 千邦歩
+
 🎠 [特上あいう](https://x.com/SF_nek0){:target="_blank"}
+
+🐻‍❄️ 兎田ファルク
 
 🎺 [冨岡正太郎](https://twitter.com/left_ov){:target="_blank"}
 
 🏝️ [domeki](https://x.com/d0030m){:target="_blank"}
 
 🐦 永井文鳥
+
+🛣️ 나
 
 🐢 なかの
 
@@ -127,7 +142,11 @@ image: /assets/images/ogp_default.png
 
 🍥 浜塚ノカ
 
+🍅 半田基
+
 🦷 [東川夢物語](https://x.com/m_p_d_w){:target="_blank"}
+
+🐧 光安在
 
 🧭 [彦凪　至](https://x.com/hiko6240){:target="_blank"}
 
@@ -151,15 +170,23 @@ image: /assets/images/ogp_default.png
 
 📌 [町田永久](https://x.com/gabyo_p){:target="_blank"}
 
+🍵 抹茶ダム
+
 🌊 マミ
 
+✨ 三日月李衣
+
 🫖 [三好しほ](https://x.com/myss_025){:target="_blank"}
+
+🔔 Motoshi
 
 🐪 やまぐちわたる
 
 🌀 山田やまめ
 
 🦭 山本コヤ
+
+🦢 矢野光希
 
 🖱️ 唯織明
 
