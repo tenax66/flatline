@@ -9,7 +9,7 @@ emoji: 🤫
 
 <div class="tanka-area"><div class="tanka">
 <p>残されたQuizKnockはあと２人。スフィンクスには人は無力だ。</p>
-<p>魔が差す↓示談↓慰謝料請求書　「悪法もまた法なり」つってね。。。</p>
+<p>魔が差す<span class="rotate-negative safari-no-rotate">→</span>示談<span class="rotate-negative safari-no-rotate">→</span>慰謝料請求書　「悪法もまた法なり」つってね。。。</p>
 <p>兄いわく、見ざる聞かざる言わざるは、知らざると云う一体でした。</p>
 <p>ねるねるねるねを練っている間だけは転校のこと忘れられる</p>
 <p>AIのIQがもう300をこえてしまってさびしそうなの</p></div></div>

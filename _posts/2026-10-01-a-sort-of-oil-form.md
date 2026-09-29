@@ -4,7 +4,7 @@ title: 一応の油膜
 image: /assets/images/ogp_default.png
 author: ソウメンモドキ
 category: ソウメンモドキ
-emoji: 👓
+emoji: 🫧
 ---
 
 <div class="tanka-area"><div class="tanka">

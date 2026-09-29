@@ -4,7 +4,7 @@ title: 知らぬまま夏
 image: /assets/images/ogp_default.png
 author: Motoshi
 category: Motoshi
-emoji: 🔔
+emoji: ☕
 ---
 
 <div class="tanka-area"><div class="tanka">

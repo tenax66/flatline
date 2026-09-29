@@ -43,6 +43,8 @@ category: flatline
 
 [酸化のつゞき]({{ site.baseurl }}/oxidation-continued) - nes
 
+[プラチカ]({{ site.baseurl }}/pratica) - 八谷のり
+
 [知らない人]({{ site.baseurl }}/a-stranger) - 半田基
 
 [隣にいる]({{ site.baseurl }}/next-to-you) - 光安在

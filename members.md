@@ -93,7 +93,7 @@ image: /assets/images/ogp_default.png
 
 😑 [雀100](https://x.com/suzumedancing){:target="_blank"}
 
-👓 ソウメンモドキ
+🫧 ソウメンモドキ
 
 🎪 高橋寧
 
@@ -179,7 +179,7 @@ image: /assets/images/ogp_default.png
 
 🫖 [三好しほ](https://x.com/myss_025){:target="_blank"}
 
-🔔 Motoshi
+☕ Motoshi
 
 🐪 やまぐちわたる
 
@@ -187,7 +187,7 @@ image: /assets/images/ogp_default.png
 
 🦭 山本コヤ
 
-🦢 矢野光希
+🦒 矢野光希
 
 🖱️ 唯織明
 
