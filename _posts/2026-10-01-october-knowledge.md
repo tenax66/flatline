@@ -7,6 +7,8 @@ author: flatline
 category: flatline
 ---
 
+[水曜日のやり方]({{ site.baseurl }}/how-we-do-wednesday) - 青野ゆらぎ
+
 [たぶん天国に胃もたれはない]({{ site.baseurl }}/you-probably-do-not-get-indigestion-in-heaven) - 朝永瑤
 
 [示談]({{ site.baseurl }}/settlement) - 池野飛魚
