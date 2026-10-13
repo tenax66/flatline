@@ -191,7 +191,7 @@ image: /assets/images/ogp_default.png
 
 🖱️ 唯織明
 
-🧊 [夕凪らこ](https://x.com/yunagi0ra){:target="_blank"}
+🧊 [さくら子](https://x.com/yatuo0){:target="_blank"}
 
 🌿 [遊佐裕](https://x.com/yusathemandrake){:target="_blank"}
 
