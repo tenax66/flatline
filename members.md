@@ -83,6 +83,8 @@ image: /assets/images/ogp_default.png
 
 🪽 鷺なみ子
 
+🧊 [さくら子](https://x.com/yatuo0){:target="_blank"}
+
 🔼 しかくさんかく
 
 🦑 篠田留々家
@@ -190,8 +192,6 @@ image: /assets/images/ogp_default.png
 🦒 矢野光希
 
 🖱️ 唯織明
-
-🧊 [さくら子](https://x.com/yatuo0){:target="_blank"}
 
 🌿 [遊佐裕](https://x.com/yusathemandrake){:target="_blank"}
 
