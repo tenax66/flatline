@@ -5,9 +5,20 @@ image: /assets/images/ogp_default.png
 author: くらやみお姉さん
 category: くらやみお姉さん
 emoji: ⬛
+disable_swipe_nav: true
 ---
 
 <style>
+  .tanka-area {
+    overflow-x: auto;
+  }
+  .tanka-area .tanka {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* 改行を含む第三・第四首の内部だけを詰め、歌間の余白は通常どおり保つ。 */
   .tanka p.kurayami-multiline {
     line-height: 1.5;
