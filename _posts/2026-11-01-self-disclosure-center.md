@@ -7,7 +7,7 @@ author: 青野ゆらぎ
 category: 青野ゆらぎ
 ---
 
-<img class="responsive-image" src="https://images.tanka.cc/self_disclosure_center_flyer.png" alt="上坂あゆ美の自己開示センター フライヤー" style="max-width: 100%; height: auto;">
+<img class="responsive-image" src="https://images.tanka.cc/self_disclosure_center_flyer.png" alt="上坂あゆ美の自己開示センター フライヤー" style="width: 480px; max-width: 100%; height: auto;">
 
 <style>
   /* この告知限定：日時・会場・予約先を細い罫線の案内票にまとめる。 */
