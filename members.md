@@ -9,7 +9,7 @@ image: /assets/images/ogp_default.png
 
 🪼 朝永瑤
 
-💊 あたくる
+🤯 あたくる
 
 💅 味爪もも
 
@@ -143,7 +143,7 @@ image: /assets/images/ogp_default.png
 
 🌷 のい（noigashira）
 
-🌾 野和小麦
+🍩 野和小麦
 
 🍞 [八谷のり](https://x.com/noriko_kenkou){:target="_blank"}
 

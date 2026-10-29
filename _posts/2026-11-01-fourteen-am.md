@@ -4,7 +4,7 @@ title: 午前十四時
 image: /assets/images/ogp_default.png
 author: 野和小麦
 category: 野和小麦
-emoji: 🌾
+emoji: 🍩
 ---
 
 <div class="tanka-area"><div class="tanka">
