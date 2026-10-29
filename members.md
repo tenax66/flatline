@@ -9,6 +9,8 @@ image: /assets/images/ogp_default.png
 
 🪼 朝永瑤
 
+💊 あたくる
+
 💅 味爪もも
 
 🌙 雨音依月
@@ -141,6 +143,8 @@ image: /assets/images/ogp_default.png
 
 🌷 のい（noigashira）
 
+🌾 野和小麦
+
 🍞 [八谷のり](https://x.com/noriko_kenkou){:target="_blank"}
 
 🍥 浜塚ノカ
@@ -165,6 +169,8 @@ image: /assets/images/ogp_default.png
 
 🧹 放棄未完
 
+🚰 亡命ラニアン
+
 🌱 まえり
 
 🐈 [真木轍](https://x.com/magiwa_hako){:target="_blank"}
@@ -183,13 +189,13 @@ image: /assets/images/ogp_default.png
 
 ☕ Motoshi
 
+🦒 矢野光希
+
 🐪 やまぐちわたる
 
 🌀 山田やまめ
 
 🦭 山本コヤ
-
-🦒 矢野光希
 
 🖱️ 唯織明
 

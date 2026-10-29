@@ -12,8 +12,8 @@ def read_tanka_blocks(input_file, english_titles):
     if len(set(english_titles)) != len(english_titles):
         raise ValueError("英題が重複しています")
     for slug in english_titles:
-        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
-            raise ValueError(f"英題は英小文字・数字をハイフンで区切ってください: {slug!r}")
+        if not re.fullmatch(r"[a-z0-9]+(?:[-_][a-z0-9]+)*_?", slug):
+            raise ValueError(f"英題は英小文字・数字・ハイフン・アンダースコアで指定してください: {slug!r}")
     blocks = []
     for index, slug in enumerate(english_titles):
         block = lines[index * 8 : (index + 1) * 8]

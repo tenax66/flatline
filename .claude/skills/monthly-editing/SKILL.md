@@ -42,6 +42,11 @@ EOF
 - **全作者が `generate_tanka_pages.py` の `emoji_map` にいるか** — 無いと `❓` になる。
   新規作者は、その人の短歌の題材から候補を2〜3案出してユーザーに選んでもらい、
   `emoji_map` の末尾に追記する（既存の絵文字と重複しないこと）。
+- **作者を `emoji_map` に登録したら、同じ絵文字・作者名を `members.md` にも追加する。**
+  作者の読み仮名に従って五十音順の位置へ挿入し、既存のプロフィールリンクは保持する。
+- 新たに使った読みは、推定も含め `.agents/skills/monthly-editing/references/author-order.md` と
+  `.claude/skills/monthly-editing/references/author-order.md` の両方へ五十音順で追加する。
+  未確認の読みには「（推定）」を付け、確認済みの読みと区別する。
 
 ## 2. ユーザーに確認する
 
@@ -52,7 +57,7 @@ EOF
 ## 3. タイトルから英題を生成し、各作者ポストを生成する
 
 AIエージェント自身が `chore/input.txt` の各タイトルを読み、意味と短歌の文脈に
-合う英題を生成する。英題はURL用スラッグとして英小文字・数字・ハイフンだけで
+合う英題を生成する。英題はURL用スラッグとして英小文字・数字・ハイフン（ユーザー指定の場合はアンダースコアも可）で
 表記する（例: 「星の記憶」→ `memory-of-stars`）。入力テキストには追記しない。
 入力順に1ブロックにつき1個を用意し、重複しないようにする。
 既存 `_posts/` のスラッグとも照合し、意図せず既存記事と同じURLにしない。
@@ -111,7 +116,10 @@ python3 "$REPO/chore/generate_month_page.py" YYYY-MM-DD '【N月: テーマ】' 
 - 基準は `references/author-order.md`（過去号から起こした掲載順の実績表）。
 - **そこに無い新規作者だけ読みを推定して挿入し、推定した読みは完了報告でユーザーに提示する。**
   漢字名の読みは推測になるため、勝手に確定させない。
-- 濁点は無視して比較する（`なかの` < `ながい`）。
+- 推定した読みは両方の `references/author-order.md` に「（推定）」付きで記録する。
+- 濁点・半濁点は無視して比較する（`ながい` < `なかの`）。
+- この手順を変更したら `.agents/skills/monthly-editing/SKILL.md` と
+  `.claude/skills/monthly-editing/SKILL.md` の両方を更新する。
 
 まとめページの front matter は `date: "YYYY-MM-DD 12:00:00"` 付き（各作者ポストより後に並ぶ）。
 
