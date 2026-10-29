@@ -12,7 +12,7 @@ description: FLATLINE の月刊号（各作者の短歌ポスト＋月まとめ�
 
 | パス | 役割 |
 |---|---|
-| `chore/input.txt` | 入力。9行×N ブロック |
+| `chore/input.txt` | 入力。8行×N ブロック |
 | `chore/input_sample.txt` | 入力フォーマットの正 |
 | `chore/generate_tanka_pages.py` | 各作者ポストを生成。作者→絵文字の対応表を内蔵 |
 | `chore/generate_month_page.py` | 月まとめページを `output.md` に生成 |
@@ -21,27 +21,24 @@ description: FLATLINE の月刊号（各作者の短歌ポスト＋月まとめ�
 
 ## 1. 入力を検証する（生成前に必ず）
 
-1ブロック = 9行（タイトル / スラッグ / 作者 / 短歌×5 / `--`）。空行は無視される。
+1ブロック = 8行（タイトル / 作者 / 短歌×5 / `--`）。空行は無視される。
 
 ```sh
 python3 - <<'EOF'
 lines=[l.strip() for l in open('chore/input.txt',encoding='utf-8') if l.strip()]
-assert len(lines)%9==0, f'行数 {len(lines)} が9の倍数でない'
-for i in range(0,len(lines),9):
-    assert lines[i+8]=='--', f'ブロック{i//9+1} の区切りが不正: {lines[i+8]!r}'
-    print(i//9+1, lines[i], '|', lines[i+1], '|', lines[i+2])
+assert lines, '入力が空です'
+assert len(lines)%8==0, f'行数 {len(lines)} が8の倍数でない'
+for i in range(0,len(lines),8):
+    assert lines[i+7]=='--', f'ブロック{i//8+1} の区切りが不正: {lines[i+7]!r}'
+    print(i//8+1, lines[i], '|', lines[i+1])
 EOF
 ```
 
-行数が9の倍数でない・`--` が合わない場合は、短歌が4首/6首のブロックや区切り忘れが原因。
+行数が8の倍数でない・`--` が合わない場合は、短歌が4首/6首のブロックや区切り忘れが原因。
 **自分で行を足し引きして辻褄を合わせず、該当ブロックを示してユーザーに確認する。**
 
-続けてスラッグと作者をチェックする。
+続けて作者をチェックする。
 
-- **スラッグに半角スペースが入っていないか** — ファイル名・URL が壊れる。前例なし。
-  ユーザーにハイフン区切り案を提示して確認し、`chore/input.txt` を直す。
-- **非ASCII のスラッグは許容** —  `gödel-sphere` など前例あり
-- **スラッグの重複**（既存 `_posts/` を含む）がないか。
 - **全作者が `generate_tanka_pages.py` の `emoji_map` にいるか** — 無いと `❓` になる。
   新規作者は、その人の短歌の題材から候補を2〜3案出してユーザーに選んでもらい、
   `emoji_map` の末尾に追記する（既存の絵文字と重複しないこと）。
@@ -49,18 +46,33 @@ EOF
 ## 2. ユーザーに確認する
 
 1. 未登録作者の絵文字（上記）
-2. 空白入りスラッグの修正案（上記）
-3. 月まとめページのタイトル `【N月: テーマ】` — 全作品に共通するお題から推定し、確認を取る
-4. まとめページのファイル名スラッグ（`september-star` のように `<英語月名>-<テーマ英訳>`）
+2. 月まとめページのタイトル `【N月: テーマ】` — 全作品に共通するお題から推定し、確認を取る
+3. まとめページのファイル名スラッグ（`september-star` のように `<英語月名>-<テーマ英訳>`）
 
-## 3. 各作者ポストを生成する
+## 3. タイトルから英題を生成し、各作者ポストを生成する
+
+AIエージェント自身が `chore/input.txt` の各タイトルを読み、意味と短歌の文脈に
+合う英題を生成する。英題はURL用スラッグとして英小文字・数字・ハイフンだけで
+表記する（例: 「星の記憶」→ `memory-of-stars`）。入力テキストには追記しない。
+入力順に1ブロックにつき1個を用意し、重複しないようにする。
+既存 `_posts/` のスラッグとも照合し、意図せず既存記事と同じURLにしない。
+
+以降のコマンドはリポジトリ直下から同じシェルで実行する。
+`YYYY-MM-DD`、タイトル、英題の例は実際の値に置き換える。
+
+```sh
+REPO="$PWD"
+SCRATCH="$(mktemp -d)"
+# 入力順の英題。生成する記事数に合わせて全件指定する。
+ENGLISH_TITLES=(memory-of-stars distant-light)
+```
 
 スクリプトはカレントディレクトリに出力するので、**必ずスクラッチパッドで実行してから `_posts/` にコピー**する（リポジトリ直下を汚さない）。
 
 ```sh
 mkdir -p "$SCRATCH/gen" && cd "$SCRATCH/gen"
-python3 <repo>/chore/generate_tanka_pages.py <repo>/chore/input.txt YYYY-MM-DD
-grep -l "❓" *.md   # 何も出ないこと
+python3 "$REPO/chore/generate_tanka_pages.py" "$REPO/chore/input.txt" YYYY-MM-DD "${ENGLISH_TITLES[@]}"
+rg -l "❓" *.md   # 何も出ないこと
 ```
 
 中身を1〜2件（ルビや全角記号を含むものを選ぶ）目視して、`<ruby>` タグや全角スペースが
@@ -72,8 +84,12 @@ grep -l "❓" *.md   # 何も出ないこと
 ## 4. 月まとめページを生成する
 
 ```sh
-cd "$SCRATCH" && python3 <repo>/chore/generate_month_page.py YYYY-MM-DD '【N月: テーマ】' <repo>/chore/input.txt
+cd "$SCRATCH"
+python3 "$REPO/chore/generate_month_page.py" YYYY-MM-DD '【N月: テーマ】' "$REPO/chore/input.txt" "${ENGLISH_TITLES[@]}"
 ```
+
+各作者ポストと同じ英題の引数列を渡す。両スクリプトはブロック数・英題の数・
+区切り・スラッグ形式・重複を検証してから出力する。
 
 `output.md` は **input.txt の並び順のまま**出てくる。過去号のまとめページは
 **作者の五十音順**なので、並べ替えてから `_posts/` に保存する。
@@ -90,6 +106,7 @@ cd "$SCRATCH" && python3 <repo>/chore/generate_month_page.py YYYY-MM-DD '【N月
 当月号は未来日付なので `--future` が要る（`publish.yml` の preview ビルドと同じ）。
 
 ```sh
+cd "$REPO"
 bundle exec jekyll build --future
 ```
 
@@ -109,8 +126,8 @@ EOF
 
 ## 6. 完了報告
 
-- 生成ファイル数と配置先
-- `chore/` 側に加えた変更（スラッグ修正・`emoji_map` 追記）
+- 生成ファイル数と配置先、タイトルと生成した英題の対応
+- `chore/` 側に加えた変更（`emoji_map` 追記など）
 - ビルドとリンク検証の結果
 - 五十音順で読みを推定した作者名（ユーザーが直せるように）
 

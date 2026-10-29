@@ -1,20 +1,22 @@
-import sys
-import os
+import argparse
+
+from tanka_input import read_tanka_blocks
 
 
 def main():
-    if len(sys.argv) != 4:
-        print("使い方: python generate_month_page.py YYYY-MM-DD '【月: テーマ】' input.txt")
-        return
-
-    date_arg = sys.argv[1]
-    title_arg = sys.argv[2]
-    input_file = sys.argv[3]
+    parser = argparse.ArgumentParser(description="月まとめページを生成する")
+    parser.add_argument("date", help="YYYY-MM-DD")
+    parser.add_argument("title")
+    parser.add_argument("input_file")
+    parser.add_argument("english_titles", nargs="+", help="入力順の英題（URL用スラッグ）")
+    args = parser.parse_args()
+    try:
+        blocks = read_tanka_blocks(args.input_file, args.english_titles)
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
+    date_arg = args.date
+    title_arg = args.title
     output_file = "output.md"
-
-    if not os.path.isfile(input_file):
-        print(f"エラー: 入力ファイル '{input_file}' が見つかりません。")
-        return
 
     # YAML front matter
     front_matter = f"""---
@@ -30,17 +32,8 @@ category: flatline
 
     entries = []
 
-    with open(input_file, "r", encoding="utf-8") as f:
-        lines = [line.strip() for line in f if line.strip()]
-
-    i = 0
-    while i < len(lines):
-        title = lines[i]
-        slug = lines[i+1]
-        author = lines[i+2]
-        print(f"[{title}]({{ site.baseurl }}/{slug}) - {author}")
+    for title, slug, author, tanka in blocks:
         entries.append(f"[{title}]({{{{ site.baseurl }}}}/{slug}) - {author}\n")
-        i += 9  # 各作品は8行構成（タイトル、slug、作者、短歌×5、--）
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(front_matter)

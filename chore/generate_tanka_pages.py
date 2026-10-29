@@ -1,29 +1,15 @@
 #!/usr/bin/env python3
 
-import sys
+import argparse
+
+from tanka_input import read_tanka_blocks
 
 
-def process_tanka_blocks(lines):
-    output_list = []
-    i = 0
-    count = 1
-    while i < len(lines):
-        title = lines[i].strip()
-        english_title = lines[i + 1].strip()
-        author = lines[i + 2].strip()
-        tanka = "\n".join(lines[i + 3 : i + 8]).strip()
-        output_list.append(
-            (
-                count,
-                title,
-                english_title,
-                author,
-                generate_tanka_html(title, author, tanka),
-            )
-        )
-        count += 1
-        i += 9  # Move to the next block
-    return output_list
+def process_tanka_blocks(blocks):
+    return [
+        (count, title, english_title, author, generate_tanka_html(title, author, tanka))
+        for count, (title, english_title, author, tanka) in enumerate(blocks, 1)
+    ]
 
 
 def generate_tanka_html(title, author, tanka):
@@ -158,17 +144,17 @@ emoji: {emoji}
 
 
 def main():
-    if len(sys.argv) < 3:
-        print("使用方法: {} <入力ファイル> <日付 (YYYY-MM-DD)>".format(sys.argv[0]))
-        sys.exit(1)
-
-    input_file = sys.argv[1]
-    date_str = sys.argv[2]
-
-    with open(input_file, "r", encoding="utf-8") as f:
-        lines = [line.strip() for line in f.readlines() if line.strip()]
-
-    output_list = process_tanka_blocks(lines)
+    parser = argparse.ArgumentParser(description="短歌ページを生成する")
+    parser.add_argument("input_file")
+    parser.add_argument("date", help="YYYY-MM-DD")
+    parser.add_argument("english_titles", nargs="+", help="入力順の英題（URL用スラッグ）")
+    args = parser.parse_args()
+    try:
+        blocks = read_tanka_blocks(args.input_file, args.english_titles)
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
+    date_str = args.date
+    output_list = process_tanka_blocks(blocks)
 
     for count, title, english_title, author, output in output_list:
         output_filename = f"{date_str}-{english_title}.md"
