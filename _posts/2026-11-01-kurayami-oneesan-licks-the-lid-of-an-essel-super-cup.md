@@ -18,22 +18,24 @@ disable_swipe_nav: true
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 12px;
+    width: 28px;
     pointer-events: none;
     z-index: 1;
     opacity: 0;
+    transition: opacity 600ms ease-out;
   }
   .kurayami-scroll-frame::before {
     left: 0;
-    background: linear-gradient(to right, rgba(55, 48, 35, 0.18), transparent);
+    background: linear-gradient(to right, rgba(55, 48, 35, 0.3), transparent);
   }
   .kurayami-scroll-frame::after {
     right: 0;
-    background: linear-gradient(to left, rgba(55, 48, 35, 0.18), transparent);
+    background: linear-gradient(to left, rgba(55, 48, 35, 0.3), transparent);
   }
   .kurayami-scroll-frame.has-more-left::before,
   .kurayami-scroll-frame.has-more-right::after {
     opacity: 1;
+    transition-duration: 200ms;
   }
   .kurayami-scroll-frame .tanka-area {
     overflow-x: auto;
