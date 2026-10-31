@@ -18,7 +18,7 @@ disable_swipe_nav: true
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 28px;
+    width: 20px;
     pointer-events: none;
     z-index: 1;
     opacity: 0;
@@ -26,11 +26,11 @@ disable_swipe_nav: true
   }
   .kurayami-scroll-frame::before {
     left: 0;
-    background: linear-gradient(to right, rgba(55, 48, 35, 0.3), transparent);
+    background: linear-gradient(to right, rgba(55, 48, 35, 0.24), transparent);
   }
   .kurayami-scroll-frame::after {
     right: 0;
-    background: linear-gradient(to left, rgba(55, 48, 35, 0.3), transparent);
+    background: linear-gradient(to left, rgba(55, 48, 35, 0.24), transparent);
   }
   .kurayami-scroll-frame.has-more-left::before,
   .kurayami-scroll-frame.has-more-right::after {
