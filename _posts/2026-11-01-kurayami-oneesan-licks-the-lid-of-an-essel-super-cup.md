@@ -9,10 +9,36 @@ disable_swipe_nav: true
 ---
 
 <style>
-  .tanka-area {
+  .kurayami-scroll-frame {
+    position: relative;
+  }
+  .kurayami-scroll-frame::before,
+  .kurayami-scroll-frame::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+  }
+  .kurayami-scroll-frame::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(55, 48, 35, 0.18), transparent);
+  }
+  .kurayami-scroll-frame::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(55, 48, 35, 0.18), transparent);
+  }
+  .kurayami-scroll-frame.has-more-left::before,
+  .kurayami-scroll-frame.has-more-right::after {
+    opacity: 1;
+  }
+  .kurayami-scroll-frame .tanka-area {
     overflow-x: auto;
   }
-  .tanka-area .tanka {
+  .kurayami-scroll-frame .tanka {
     display: block;
     width: max-content;
     margin-left: auto;
@@ -25,12 +51,14 @@ disable_swipe_nav: true
   }
 </style>
 
-<div class="tanka-area"><div class="tanka">
+<div class="kurayami-scroll-frame" data-kurayami-scroll><div class="tanka-area"><div class="tanka">
 <p>星禽園ぱにっくるーむ・ねっとりふっくす　ＮＯＰＥが味で好き　きみが寿司</p>
 <p>トム＆クルーズ</p>
 <p class="kurayami-multiline">【フリーレン、オモコロ永田説】<br />・ボーダー<br />・<br />・<br />・</p>
 <p class="kurayami-multiline">さあ、終わるザマスよ<br />帰るでガンス！<br />ガンフー<br />異常に終わりなさいよ！</p>
-<p>矩に斬れて二階を建つヘルスクラブで波板の無さへじゃじゃーん、朝です</p></div></div>
+<p>矩に斬れて二階を建つヘルスクラブで波板の無さへじゃじゃーん、朝です</p></div></div></div>
+
+<script src="{{ '/assets/js/kurayami-tanka-scroll.js' | relative_url }}" defer></script>
 
 ---
 
