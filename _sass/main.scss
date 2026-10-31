@@ -593,6 +593,23 @@ html[data-bs-theme="dark"] .theme-img-dark {
   --fl-dialogue-mark: var(--bs-link-color);
 }
 
+/* アイコン由来の差し色: 神乃の服の青、生田泉の芝生や靴の深緑 */
+.dialogue-line-kanno {
+  --fl-dialogue-mark: #4c6b88;
+}
+
+.dialogue-line-ikutaizumi {
+  --fl-dialogue-mark: #46633b;
+}
+
+[data-bs-theme="dark"] .dialogue-line-kanno {
+  --fl-dialogue-mark: #91b0cd;
+}
+
+[data-bs-theme="dark"] .dialogue-line-ikutaizumi {
+  --fl-dialogue-mark: #a0ba87;
+}
+
 @media (max-width: 480px) {
   .dialogue-speaker {
     width: clamp(44px, 16vw, 64px);

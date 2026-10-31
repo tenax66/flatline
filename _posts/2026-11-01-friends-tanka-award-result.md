@@ -9,7 +9,7 @@ author: flatline
 category: flatline
 ---
 
-こんにちは。FLATLINEを管理している青野です。  
+こんにちは。FLATLINEの青野です。  
 [知り合いが審査する短歌賞]({{ site.baseurl }}/event/friends-tanka-award/)の結果を発表します。
 
 ## α賞
@@ -18,8 +18,12 @@ category: flatline
 
 ### 受賞の言葉
 
-はじめまして。神乃です。うれしい賞と評をいただきました。ありがとうございます。  
-皆さんの“知り合い”になります。よろしくお願いします。
+<div class="dialogue">
+<div class="dialogue-line dialogue-line-kanno">
+<span class="dialogue-speaker"><img class="dialogue-icon" src="https://images.tanka.cc/kanno_icon.jpg" alt="神乃"><span class="dialogue-name">神乃</span></span>
+<p class="dialogue-text">はじめまして。神乃です。うれしい賞と評をいただきました。ありがとうございます。<br />皆さんの“知り合い”になります。よろしくお願いします。</p>
+</div>
+</div>
 
 ## ω賞
 
@@ -27,8 +31,12 @@ category: flatline
 
 ### 受賞の言葉
 
-「暗い人生の中にある一幅の光」が自分のテーマの一つなので、選評のお言葉とても嬉しいです。  
-ω賞に選んでいただき、ありがとうございました！
+<div class="dialogue">
+<div class="dialogue-line dialogue-line-ikutaizumi">
+<span class="dialogue-speaker"><img class="dialogue-icon" src="https://images.tanka.cc/ikutaizumi_icon.jpg" alt="生田泉"><span class="dialogue-name">生田泉</span></span>
+<p class="dialogue-text">「暗い人生の中にある一幅の光」が自分のテーマの一つなので、選評のお言葉とても嬉しいです。<br />ω賞に選んでいただき、ありがとうございました！</p>
+</div>
+</div>
 
 ## 佳作
 
