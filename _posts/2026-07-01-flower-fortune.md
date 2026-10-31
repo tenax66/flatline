@@ -4,7 +4,7 @@ title: 花占い
 image: /assets/images/ogp_default.png
 author: 亡命ラニアン
 category: 亡命ラニアン
-emoji: 📮
+emoji: 👊
 ---
 
 <div class="tanka-area"><div class="tanka">

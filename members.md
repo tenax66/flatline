@@ -169,7 +169,7 @@ image: /assets/images/ogp_default.png
 
 🧹 放棄未完
 
-🚰 亡命ラニアン
+👊 亡命ラニアン
 
 🌱 まえり
 
