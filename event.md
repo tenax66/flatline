@@ -18,13 +18,6 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
-    <tr>
-      <td>1</td>
-      <td><a href="/event/flatline-6">短歌への扉</a></td>
-      <td>オフラインで歌会をしたり歓談したりします</td>
-      <td>2026-07-04</td>
-      <td>レンタルスペース</td>
-    </tr>
   </tbody>
 </table>
 
@@ -91,6 +84,14 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>2026-06-25</td>
       <td>-</td>
       <td><a href="{{site.baseurl}}/on-friends-tanka-award/">知り合いが審査する短歌賞　公開にあたって</a></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="/event/flatline-6">短歌への扉</a></td>
+      <td>オフラインで歌会をしたり歓談したりします</td>
+      <td>2026-07-04</td>
+      <td>レンタルスペース</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>

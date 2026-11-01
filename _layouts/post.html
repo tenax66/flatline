@@ -37,4 +37,6 @@ layout: default
   </div>
 </div>
 
+{% unless page.disable_swipe_nav %}
 <script src="{{ '/assets/js/post-swipe-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+{% endunless %}
