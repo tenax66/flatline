@@ -27,7 +27,8 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="flatline-toggler-icon" aria-hidden="true"></span>
     </button>
-    <a id="brandTitleMobile" class="navbar-brand p-0 position-fixed start-50 translate-middle-x d-lg-none flatline-brand-mobile"
+    <a id="brandTitleMobile"
+      class="navbar-brand p-0 position-fixed start-50 translate-middle-x d-lg-none flatline-brand-mobile"
       href="{{ '/' | relative_url }}">{{ site.name | upcase }}</a>
     <a id="brandTitleDesktop" class="navbar-brand p-0 d-none d-lg-block align-self-lg-center"
       href="{{ '/' | relative_url }}">{{ site.name |
@@ -104,14 +105,53 @@
       <div class="modal-body">
         <!-- pagefind -->
         <div id="pagefind-search"></div>
+        <p id="pagefind-status" role="status" hidden></p>
         <script>
-          window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({
-              element: "#pagefind-search",
-              showSubResults: true,
-              showImages: false
+          (() => {
+            const modal = document.getElementById('searchModal');
+            const status = document.getElementById('pagefind-status');
+            let loading = null;
+            let initialized = false;
+
+            const loadAsset = (element) => new Promise((resolve, reject) => {
+              element.onload = resolve;
+              element.onerror = () => {
+                element.remove();
+                reject(new Error('Pagefind asset failed to load'));
+              };
+              document.head.appendChild(element);
             });
-          });
+
+            modal.addEventListener('show.bs.modal', () => {
+              if (initialized || loading) return;
+              status.hidden = false;
+              status.textContent = 'Now Loading...';
+
+              const stylesheet = document.createElement('link');
+              stylesheet.rel = 'stylesheet';
+              stylesheet.href = '{{ "/pagefind/pagefind-ui.css" | relative_url }}';
+              const script = document.createElement('script');
+              script.src = '{{ "/pagefind/pagefind-ui.js" | relative_url }}';
+
+              loading = Promise.all([loadAsset(stylesheet), loadAsset(script)])
+                .then(() => {
+                  new PagefindUI({
+                    element: '#pagefind-search',
+                    showSubResults: true,
+                    showImages: false
+                  });
+                  initialized = true;
+                  status.hidden = true;
+                })
+                .catch(() => {
+                  stylesheet.remove();
+                  script.remove();
+                  document.getElementById('pagefind-search').replaceChildren();
+                  status.textContent = 'Loading Failed';
+                })
+                .finally(() => { loading = null; });
+            });
+          })();
         </script>
       </div>
     </div>
