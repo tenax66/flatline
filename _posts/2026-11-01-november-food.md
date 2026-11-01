@@ -25,6 +25,8 @@ category: flatline
 
 [くらやみお姉さん、エッセルスーパーカップの蓋を舐める]({{ site.baseurl }}/kurayami-oneesan-licks-the-lid-of-an-essel-super-cup) - くらやみお姉さん
 
+[おばけーき]({{ site.baseurl }}/spoocake) - 児玉すだま
+
 [ロールキャベツは頭蓋骨ごと]({{ site.baseurl }}/cabbage-rolls-skull-and-all) - 小西善仁
 
 [だったらいいね]({{ site.baseurl }}/that-would-be-nice) - 再生
