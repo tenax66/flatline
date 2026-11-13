@@ -18,6 +18,13 @@ image: /assets/images/ogp_default.png
     </tr>
   </thead>
   <tbody class="table-group-divider">
+    <tr>
+      <td>8</td>
+      <td><a href="{{ site.baseurl }}/self-disclosure-center/">上坂あゆ美の自己開示センター</a></td>
+      <td>上坂あゆ美さんと小林銅蟲さんによるトークイベント。青野ゆらぎがスタッフとして参加します。</td>
+      <td>2026-11-27（OPEN 19:00 / START 19:30）</td>
+      <td>阿佐ヶ谷ロフト</td>
+    </tr>
   </tbody>
 </table>
 
