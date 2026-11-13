@@ -90,7 +90,7 @@ Join us on <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/WyV
       <td>FLATLINE主催の短歌賞です。</td>
       <td>2026-06-25</td>
       <td>-</td>
-      <td><a href="{{site.baseurl}}/on-friends-tanka-award/">知り合いが審査する短歌賞　公開にあたって</a></td>
+      <td><a href="{{site.baseurl}}/friends-tanka-award-results/">【結果発表】知り合いが審査する短歌賞</a></td>
     </tr>
     <tr>
       <td>7</td>
